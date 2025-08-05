@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.purga,
@@ -37,9 +37,7 @@ const album: TypeAlbum = {
     {
       name: 'Молодая',
     },
-    {
-      name: 'Лютий снiг',
-    },
+    EnumSongs.lyutijSnig,
     {
       name: 'Логово',
     },

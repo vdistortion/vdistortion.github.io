@@ -31,6 +31,8 @@ import trahniNebo from './trahni-nebo';
 import tulovishchej from './tulovishchej';
 import volosy from './volosy';
 import yaNeAngel from './ya-ne-angel';
+import mech from './mech';
+import lyutijSnig from './lyutij-snig';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -45,7 +47,9 @@ export default {
   [intro.id]: intro,
   [kakIzydetSvet.id]: kakIzydetSvet,
   [laboratoriyaAltruizma.id]: laboratoriyaAltruizma,
+  [lyutijSnig.id]: lyutijSnig,
   [maneken.id]: maneken,
+  [mech.id]: mech,
   [naLadoniPlaneta.id]: naLadoniPlaneta,
   [novayaReligiya.id]: novayaReligiya,
   [patologoanatom.id]: patologoanatom,

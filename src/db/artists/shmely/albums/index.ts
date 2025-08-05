@@ -24,12 +24,14 @@ import vethijSbornik from './vethij-sbornik';
 import vosemZhenshchinNaRaduge from './vosem-zhenshchin-na-raduge';
 import pugovica from './pugovica';
 import yaVernusKTebe from './ya-vernus-k-tebe';
+import prishelcyVetotMir from './prishelcy-v-etot-mir';
 import koshkinyObidy from './koshkiny-obidy';
 import karamelnyyeStrahi from './karamelnyye-strahi';
 import moskovskayaYarmarkaUdovolstvij from './moskovskaya-yarmarka-udovolstvij';
 import mekhanicheskayaBalerina from './mekhanicheskaya-balerina';
 import toplivo from './toplivo';
 import cekhPoReabilitaciiParanoikov from './cekh-po-reabilitacii-paranoikov';
+import vosstanoviteChelovechestvo from './vosstanovite-chelovechestvo';
 import teatrUrodov from './teatr-urodov';
 import paraTrupov from './para-trupov';
 import belyjKarandash from './belyj-karandash';
@@ -64,12 +66,14 @@ export default {
   [vosemZhenshchinNaRaduge.id]: vosemZhenshchinNaRaduge,
   [pugovica.id]: pugovica,
   [yaVernusKTebe.id]: yaVernusKTebe,
+  [prishelcyVetotMir.id]: prishelcyVetotMir,
   [koshkinyObidy.id]: koshkinyObidy,
   [karamelnyyeStrahi.id]: karamelnyyeStrahi,
   [moskovskayaYarmarkaUdovolstvij.id]: moskovskayaYarmarkaUdovolstvij,
   [mekhanicheskayaBalerina.id]: mekhanicheskayaBalerina,
   [toplivo.id]: toplivo,
   [cekhPoReabilitaciiParanoikov.id]: cekhPoReabilitaciiParanoikov,
+  [vosstanoviteChelovechestvo.id]: vosstanoviteChelovechestvo,
   [teatrUrodov.id]: teatrUrodov,
   [paraTrupov.id]: paraTrupov,
   [belyjKarandash.id]: belyjKarandash,
