@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.chornyiLis,
@@ -8,18 +8,18 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/2021_chornyiLis.jpg',
   streaming: { spotify: 'https://open.spotify.com/album/1AxIvEvramvGWsppStW84k' },
   songs: [
-    { name: 'Гімн Чорного Лісу' },
-    { name: 'Лише Мене' },
-    { name: 'Мавка' },
-    { name: 'Вовкулака' },
-    { name: 'Водяник' },
-    { name: 'Потерчата' },
-    { name: 'Пісня Мавок' },
-    { name: 'Мисливець' },
-    { name: 'Саме Та' },
-    { name: 'Колискова Чу' },
-    { name: 'БісОв Кут' },
-    { name: 'Чугайстер Йде' },
+    EnumSongs.himnChornohoLisu,
+    EnumSongs.lysheMene,
+    EnumSongs.mavka,
+    EnumSongs.vovkulaka,
+    EnumSongs.vodianyk,
+    EnumSongs.poterchata,
+    EnumSongs.pisniaMavok,
+    EnumSongs.myslyvets,
+    EnumSongs.sameTa,
+    EnumSongs.kolyskovaChu,
+    EnumSongs.bisovKut,
+    EnumSongs.chuhaisterYde,
   ],
 };
 

@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.mizantropiya,
@@ -20,7 +20,7 @@ const album: TypeAlbum = {
     { name: 'Не сумувати' },
     { name: 'Поздно планировать жизнь' },
     { name: 'Металевий свiт' },
-    { name: 'Механики' },
+    EnumSongs.mekhaniki,
     { name: 'Човен Страху' },
     { name: 'Мизантропия' },
     { name: 'Автомобiлизм' },
