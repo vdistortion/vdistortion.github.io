@@ -90,6 +90,14 @@ const artist: TypeArtist = {
     EnumAlbums.zloradostnayaOpuholNew,
     EnumAlbums.chudes16,
     EnumAlbums.mizantropiya,
+    EnumAlbums.byuroVolshebnikhUslug,
+    EnumAlbums.territoriyaNol,
+    EnumAlbums.tvarynoiuPoruch,
+    EnumAlbums.chornyiLis,
+    EnumAlbums.vidma,
+    EnumAlbums.faktor,
+    EnumAlbums.pyiDeKinPie,
+    EnumAlbums.khaosZhelanii,
   ],
 };
 
