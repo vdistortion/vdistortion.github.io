@@ -38,6 +38,14 @@ import belyjKarandash from './belyj-karandash';
 import zloradostnayaOpuholNew from './zloradostnaya-opuhol-new';
 import chudes16 from './16-chudes';
 import mizantropiya from './mizantropiya';
+import byuroVolshebnikhUslug from './byuro-volshebnikh-uslug';
+import territoriyaNol from './territoriya-nol';
+import tvarynoiuPoruch from './tvarynoiu-poruch';
+import chornyiLis from './chornyi-lis';
+import vidma from './vidma';
+import faktor from './faktor';
+import pyiDeKinPie from './pyi-de-kin-pie';
+import khaosZhelanii from './khaos-zhelanii';
 
 export default {
   [trotilovyyeSkazki.id]: trotilovyyeSkazki,
@@ -80,4 +88,12 @@ export default {
   [zloradostnayaOpuholNew.id]: zloradostnayaOpuholNew,
   [chudes16.id]: chudes16,
   [mizantropiya.id]: mizantropiya,
+  [byuroVolshebnikhUslug.id]: byuroVolshebnikhUslug,
+  [territoriyaNol.id]: territoriyaNol,
+  [tvarynoiuPoruch.id]: tvarynoiuPoruch,
+  [chornyiLis.id]: chornyiLis,
+  [vidma.id]: vidma,
+  [faktor.id]: faktor,
+  [pyiDeKinPie.id]: pyiDeKinPie,
+  [khaosZhelanii.id]: khaosZhelanii,
 };

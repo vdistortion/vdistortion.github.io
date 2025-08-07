@@ -44,6 +44,14 @@ export const enum EnumAlbums {
   zloradostnayaOpuholNew = 'zloradostnaya-opuhol-new',
   chudes16 = '16-chudes',
   mizantropiya = 'mizantropiya',
+  byuroVolshebnikhUslug = 'byuro-volshebnikh-uslug',
+  territoriyaNol = 'territoriya-nol',
+  tvarynoiuPoruch = 'tvarynoiu-poruch',
+  chornyiLis = 'chornyi-lis',
+  vidma = 'vidma',
+  faktor = 'faktor',
+  pyiDeKinPie = 'pyi-de-kin-pie',
+  khaosZhelanii = 'khaos-zhelanii',
 }
 
 export const enum EnumSongs {
