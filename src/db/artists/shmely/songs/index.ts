@@ -33,6 +33,19 @@ import volosy from './volosy';
 import yaNeAngel from './ya-ne-angel';
 import mech from './mech';
 import lyutijSnig from './lyutij-snig';
+import himnChornohoLisu from './himn-chornoho-lisu';
+import lysheMene from './lyshe-mene';
+import mavka from './mavka';
+import vovkulaka from './vovkulaka';
+import vodianyk from './vodianyk';
+import poterchata from './poterchata';
+import pisniaMavok from './pisnia-mavok';
+import myslyvets from './myslyvets';
+import sameTa from './same-ta';
+import kolyskovaChu from './kolyskova-chu';
+import bisovKut from './bisov-kut';
+import chuhaisterYde from './chuhaister-yde';
+import mekhaniki from './mekhaniki';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -70,4 +83,17 @@ export default {
   [yaNeAngel.id]: yaNeAngel,
   [yaVselennaya.id]: yaVselennaya,
   [zver.id]: zver,
+  [himnChornohoLisu.id]: himnChornohoLisu,
+  [lysheMene.id]: lysheMene,
+  [mavka.id]: mavka,
+  [vovkulaka.id]: vovkulaka,
+  [vodianyk.id]: vodianyk,
+  [poterchata.id]: poterchata,
+  [pisniaMavok.id]: pisniaMavok,
+  [myslyvets.id]: myslyvets,
+  [sameTa.id]: sameTa,
+  [kolyskovaChu.id]: kolyskovaChu,
+  [bisovKut.id]: bisovKut,
+  [chuhaisterYde.id]: chuhaisterYde,
+  [mekhaniki.id]: mekhaniki
 };
