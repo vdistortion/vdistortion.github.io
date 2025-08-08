@@ -8,11 +8,11 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/1998_skazki.jpg',
   songs: [
     { name: 'Чорна доба' },
-    { name: 'Яблочко-мяучило' },
+    EnumSongs.yablochkoMyauchilo,
     { name: 'Секс, наркотики, самогон' },
     { name: 'Лихомане мене нiч' },
     { name: 'Адская машина' },
-    { name: 'Зима' },
+    EnumSongs.zima,
     { name: 'За тобою' },
     { name: 'Не ходи' },
     { name: 'Цвинтар' },

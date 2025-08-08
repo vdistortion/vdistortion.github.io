@@ -46,6 +46,22 @@ import kolyskovaChu from './kolyskova-chu';
 import bisovKut from './bisov-kut';
 import chuhaisterYde from './chuhaister-yde';
 import mekhaniki from './mekhaniki';
+import yablochkoMyauchilo from './yablochko-myauchilo';
+import zima from './zima';
+import zhratPodano from './zhrat-podano';
+import rezinovieDebri from './rezinovie-debri';
+import duratskieKnizhki from './duratskie-knizhki';
+import neGrustiITakKhuyovo from './ne-grusti-i-tak-khuyovo';
+import dorogaya from './dorogaya';
+import pugovitsa from './pugovitsa';
+import angel13 from './angel-13';
+import striptizIntellekta from './striptiz-intellekta';
+import zhenshchinaDramaturgiya from './zhenshchina-dramaturgiya';
+import megapolis from './megapolis';
+import khoditChyornayaKoroleva from './khodit-chyornaya-koroleva';
+import valsVlyublyonnikhVoln from './vals-vlyublyonnikh-voln';
+import katyonka from './katyonka';
+import mirKomediya from './mir-komediya';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -95,5 +111,21 @@ export default {
   [kolyskovaChu.id]: kolyskovaChu,
   [bisovKut.id]: bisovKut,
   [chuhaisterYde.id]: chuhaisterYde,
-  [mekhaniki.id]: mekhaniki
+  [mekhaniki.id]: mekhaniki,
+  [yablochkoMyauchilo.id]: yablochkoMyauchilo,
+  [zima.id]: zima,
+  [zhratPodano.id]: zhratPodano,
+  [rezinovieDebri.id]: rezinovieDebri,
+  [duratskieKnizhki.id]: duratskieKnizhki,
+  [neGrustiITakKhuyovo.id]: neGrustiITakKhuyovo,
+  [dorogaya.id]: dorogaya,
+  [pugovitsa.id]: pugovitsa,
+  [angel13.id]: angel13,
+  [striptizIntellekta.id]: striptizIntellekta,
+  [zhenshchinaDramaturgiya.id]: zhenshchinaDramaturgiya,
+  [megapolis.id]: megapolis,
+  [khoditChyornayaKoroleva.id]: khoditChyornayaKoroleva,
+  [valsVlyublyonnikhVoln.id]: valsVlyublyonnikhVoln,
+  [katyonka.id]: katyonka,
+  [mirKomediya.id]: mirKomediya,
 };

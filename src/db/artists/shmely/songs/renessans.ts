@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.renessans,
   name: ['Ренессанс'],
   albums: [EnumAlbums.pugovica],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Брёл в пустыне без лика и крови
 С проклятием в чистой душе,

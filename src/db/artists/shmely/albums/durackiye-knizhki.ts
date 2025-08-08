@@ -19,27 +19,19 @@ const album: TypeAlbum = {
       name: 'Могильщик',
     },
     EnumSongs.volosy,
-    {
-      name: 'Жрать подано',
-    },
+    EnumSongs.zhratPodano,
     {
       name: 'Гори, костёр!',
     },
-    {
-      name: 'Резиновые дебри',
-    },
+    EnumSongs.rezinovieDebri,
     {
       name: 'Язва на душе',
     },
-    {
-      name: 'Дурацкие книжки',
-    },
+    EnumSongs.duratskieKnizhki,
     {
       name: 'Говно',
     },
-    {
-      name: 'Не грусти, и так хуёво',
-    },
+    EnumSongs.neGrustiITakKhuyovo,
     {
       name: 'Пьяные облака',
     },
@@ -52,9 +44,7 @@ const album: TypeAlbum = {
     {
       name: 'Мiсяцъ з неба геть',
     },
-    {
-      name: 'Дорогая',
-    },
+    EnumSongs.dorogaya,
     {
       name: 'Руйнется мозок',
     },

@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.poterchata,
   name: ['Потерчата'],
   albums: [EnumAlbums.chornyiLis],
+  clipYouTubeId: 'Y1Sleev7WW0',
   text: `
 В Чорнім Лісі над болотом,
 Чи в ставу за поворотом

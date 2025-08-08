@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.sudorogi,
   name: ['Судороги живых болот'],
   albums: [EnumAlbums.pugovica],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Вернусь я на сто лет,
 Ты скажешь - забери меня!

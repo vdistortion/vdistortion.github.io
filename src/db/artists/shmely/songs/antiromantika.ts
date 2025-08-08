@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.antiromantika,
   name: ['Антиромантика'],
   albums: [EnumAlbums.pugovica],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Для переставших верить в себя
 Есть вера в бога или тьму,

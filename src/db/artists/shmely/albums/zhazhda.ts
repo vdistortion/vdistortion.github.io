@@ -9,7 +9,7 @@ const album: TypeAlbum = {
   streaming: { yandexMusic: 'https://music.yandex.ru/album/79310' },
   songs: [
     { name: 'Жажда' },
-    { name: 'Дорогая (очень ранняя)' },
+    [EnumSongs.dorogaya, { name: ['Дорогая (очень ранняя)'] }],
     { name: 'Сера' },
     { name: 'День рождения (застольная)' },
     { name: 'Трудный ребёнок (школьная)' },

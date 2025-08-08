@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.zver,
   name: ['Зверь'],
   albums: [EnumAlbums.pugovica],
+  authors: 'Шмель, Лёс - Шмель',
   clipYouTubeId: 'GArQ6RYZi9c',
   text: `
 С ветром пришла
