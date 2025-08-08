@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.mavka,
   name: ['Мавка'],
   albums: [EnumAlbums.chornyiLis],
+  clipYouTubeId: '3Oo7qnsYE6g',
   text: `
 Приходила Мавка з чорного лісу
 Стукала в вікна, питала в людей

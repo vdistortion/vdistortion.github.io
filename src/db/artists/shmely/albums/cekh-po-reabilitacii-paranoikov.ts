@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.cekhPoReabilitaciiParanoikov,
@@ -18,7 +18,7 @@ const album: TypeAlbum = {
     { name: 'Отвали, моя черешня' },
     { name: 'Были мы (new version)' },
     { name: 'Я хочу быть роботом' },
-    { name: 'Катёнка (new version)' },
+    [EnumSongs.katyonka, { name: ['Катёнка (new version)'] }],
     { name: 'Цех по реабилитации параноиков' },
     { name: 'Песенка пластилина-2 (продолжение)' },
     { name: 'Лечебница (new version)' },

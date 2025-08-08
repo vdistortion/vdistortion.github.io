@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.intro,
   name: ['Всё будет хорошо (intro)'],
   albums: [EnumAlbums.pugovica],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Загнанный порчей художник смеётся,
 Он кистью щекочет нервы холста
