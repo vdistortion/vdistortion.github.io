@@ -5,11 +5,11 @@ const song: TypeSong = {
   id: EnumSongs.kakNaPlakheSvyatoi,
   name: ['Как на плахе святой'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo, EnumAlbums.vethijSbornik],
-  authors: 'Шмелёвы',
+  authors: 'А.Шмелёв',
   text: `
-Сон, как он, в мёртвом доме,
+Сон в таком мёртвом доме,
 Извращалась любовь за задёрнутыми шторами,
-Дверь скрипела, как менингитный плачь,
+Дверь скрипела, как менингитный плач,
 Воздух дрожал, как сумасшедший палач...
 
 Пьём вино и закусываем душами,

@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.alliluia,
   name: ['Аллилуйа'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo],
-  authors: 'Шмелёвы',
+  authors: 'А.Шмелёв',
   text: `
 Индевели церкви, разрыхлялась почва,
 Сохли чувства, набухали почки,

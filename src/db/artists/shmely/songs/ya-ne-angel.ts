@@ -10,6 +10,7 @@ const song: TypeSong = {
     EnumAlbums.zhazhda,
     EnumAlbums.vosemZhenshchinNaRaduge,
   ],
+  authors: 'Шмель',
   text: `
 На упавшей с неба брошке
 Наступил и стало холодно
