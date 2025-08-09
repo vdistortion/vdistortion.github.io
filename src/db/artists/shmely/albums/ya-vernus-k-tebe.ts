@@ -9,9 +9,9 @@ const album: TypeAlbum = {
   songs: [
     { name: 'Жди меня в полночь' },
     { name: 'Ангелы в дверях' },
-    { name: 'Вьюга' },
+    EnumSongs.vyuga,
     EnumSongs.laboratoriyaAltruizma,
-    { name: 'Гроза' },
+    EnumSongs.groza,
     EnumSongs.biomekhanika,
     { name: 'Клоун умер' },
     EnumSongs.bol,

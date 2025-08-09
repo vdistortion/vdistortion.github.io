@@ -62,6 +62,27 @@ import khoditChyornayaKoroleva from './khodit-chyornaya-koroleva';
 import valsVlyublyonnikhVoln from './vals-vlyublyonnikh-voln';
 import katyonka from './katyonka';
 import mirKomediya from './mir-komediya';
+import vyuga from './vyuga';
+import psikhoz from './psikhoz';
+import solnishkoViidet from './solnishko-viidet';
+import kakNaPlakheSvyatoi from './kak-na-plakhe-svyatoi';
+import alliluia from './alliluia';
+import obessilenniiPrakh from './obessilennii-prakh';
+import groza from './groza';
+import toska from './toska';
+import lakaiOtravu from './lakai-otravu';
+import tenNeizvestnoiZvezdi from './ten-neizvestnoi-zvezdi';
+import zamokIzTuch from './zamok-iz-tuch';
+import neboStikh from './nebo-stikh';
+import laiIllyuzii from './lai-illyuzii';
+import pervayaLyubovStikh from './pervaya-lyubov-stikh';
+import krizhanaVoda from './krizhana-voda';
+import bogi from './bogi';
+import pomolis from './pomolis';
+import ivolga from './ivolga';
+import vMyasnomTsekhuPrazdnikDushi from './v-myasnom-tsekhu-prazdnik-dushi';
+import zavtraNaVipisku from './zavtra-na-vipisku';
+import risunkiNaDushe from './risunki-na-dushe';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -128,4 +149,25 @@ export default {
   [valsVlyublyonnikhVoln.id]: valsVlyublyonnikhVoln,
   [katyonka.id]: katyonka,
   [mirKomediya.id]: mirKomediya,
+  [vyuga.id]: vyuga,
+  [psikhoz.id]: psikhoz,
+  [solnishkoViidet.id]: solnishkoViidet,
+  [kakNaPlakheSvyatoi.id]: kakNaPlakheSvyatoi,
+  [alliluia.id]: alliluia,
+  [obessilenniiPrakh.id]: obessilenniiPrakh,
+  [groza.id]: groza,
+  [toska.id]: toska,
+  [lakaiOtravu.id]: lakaiOtravu,
+  [tenNeizvestnoiZvezdi.id]: tenNeizvestnoiZvezdi,
+  [zamokIzTuch.id]: zamokIzTuch,
+  [neboStikh.id]: neboStikh,
+  [laiIllyuzii.id]: laiIllyuzii,
+  [pervayaLyubovStikh.id]: pervayaLyubovStikh,
+  [krizhanaVoda.id]: krizhanaVoda,
+  [bogi.id]: bogi,
+  [pomolis.id]: pomolis,
+  [ivolga.id]: ivolga,
+  [vMyasnomTsekhuPrazdnikDushi.id]: vMyasnomTsekhuPrazdnikDushi,
+  [zavtraNaVipisku.id]: zavtraNaVipisku,
+  [risunkiNaDushe.id]: risunkiNaDushe,
 };

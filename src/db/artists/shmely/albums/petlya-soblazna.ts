@@ -7,30 +7,18 @@ const album: TypeAlbum = {
   year: 1998,
   folder: '/artist/shmely/albums/1998_ps_.jpg',
   songs: [
-    {
-      name: 'Вьюга',
-    },
-    {
-      name: 'Психоз',
-    },
-    {
-      name: 'Солнышко выйдет',
-    },
+    EnumSongs.vyuga,
+    EnumSongs.psikhoz,
+    EnumSongs.solnishkoViidet,
     {
       name: 'Весна покойница',
     },
-    {
-      name: 'Как на плахе святой',
-    },
+    EnumSongs.kakNaPlakheSvyatoi,
     {
       name: 'Ганьба',
     },
-    {
-      name: 'Аллилуйа',
-    },
-    {
-      name: 'Обессиленный прах',
-    },
+    EnumSongs.alliluia,
+    EnumSongs.obessilenniiPrakh,
     {
       name: 'Бiсов гай',
     },

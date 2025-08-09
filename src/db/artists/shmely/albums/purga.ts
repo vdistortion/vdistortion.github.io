@@ -10,21 +10,13 @@ const album: TypeAlbum = {
     {
       name: 'Ай да!',
     },
-    {
-      name: 'Гроза',
-    },
-    {
-      name: 'Тоска',
-    },
-    {
-      name: 'Лакай отраву',
-    },
+    EnumSongs.groza,
+    EnumSongs.toska,
+    EnumSongs.lakaiOtravu,
     {
       name: 'Искушение',
     },
-    {
-      name: 'Тень неизвестной звезды',
-    },
+    EnumSongs.tenNeizvestnoiZvezdi,
     {
       name: 'Невесёлая сказка',
     },
@@ -44,9 +36,7 @@ const album: TypeAlbum = {
     {
       name: 'Брага',
     },
-    {
-      name: 'Замок из туч',
-    },
+    EnumSongs.zamokIzTuch,
     {
       name: 'Вода',
     },

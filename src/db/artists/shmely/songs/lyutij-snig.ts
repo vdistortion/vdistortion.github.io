@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.lyutijSnig,
   name: ['Лютий сніг'],
   albums: [EnumAlbums.purga, EnumAlbums.tvarynoiuPoruch],
+  authors: 'Шмель',
   text: `
 Коли ти насамоті
 пісню заспівай,

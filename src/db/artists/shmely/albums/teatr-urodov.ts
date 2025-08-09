@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.teatrUrodov,
@@ -20,7 +20,7 @@ const album: TypeAlbum = {
     { name: 'Маэстро ужасов' },
     { name: 'Дорога пуста' },
     { name: 'Зелёный поезд' },
-    { name: 'Фокусник' },
+    EnumSongs.fokusnik,
     { name: 'Поцелуи' },
     { name: 'Ах, у ели' },
     { name: 'Мало' },

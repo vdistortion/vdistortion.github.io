@@ -20,7 +20,7 @@ const album: TypeAlbum = {
     { name: 'Восемь женщин на радуге' },
     { name: 'Мельпомена' },
     EnumSongs.yaNeAngel,
-    { name: 'Иволга' },
+    EnumSongs.ivolga,
     { name: 'Солнце вампира' },
     { name: 'Художник' },
     { name: 'Пластика сна' },

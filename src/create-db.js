@@ -2,10 +2,7 @@ import CyrillicToTranslit from 'cyrillic-to-translit-js';
 
 const artist = 'shmely';
 const list = `
-Твариною поруч
-Чорний Лiс
-Вiдьма
-Пий, де-кiнь п'є
+
 `;
 
 const files = [];
@@ -17,7 +14,12 @@ const enums = [];
 const songs = [];
 
 list.trim().split('\n').forEach((item) => {
-  const file = new CyrillicToTranslit({ preset: 'uk' }).transform(item, '-').replace(',', '').toLowerCase();
+  const file = new CyrillicToTranslit({ preset: 'ru' })
+    .transform(item, '-')
+    .replace(',', '')
+    .replace('(', '')
+    .replace(')', '')
+    .toLowerCase();
   const name = toCamelCase(file);
   files.push(`${file}.ts`);
   types.push(`${name} = '${file}',`);
@@ -38,13 +40,15 @@ const album: TypeAlbum = {
 };
 
 export default album;`);
+  enums.push(`EnumAlbums.${name},`);
   songs.push(`import { TypeSong } from '../../../types';
 import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
   id: EnumSongs.${name},
   name: ['${item}'],
-  albums: [],
+  albums: [EnumAlbums.petlyaSoblazna],
+  authors: '',
   text: \`
 
 \`,
@@ -62,11 +66,11 @@ console.log(index.join('\n'));
 console.log('');
 console.log(imports.join('\n'));
 console.log('');
-console.log(albums.join('\n'));
+// console.log(albums.join('\n'));
 console.log('');
-console.log(enums.join('\n'));
+// console.log(enums.join('\n'));
 console.log('');
-// console.log(songs.join('\n'));
+console.log(songs.join('\n'));
 console.log('');
 
 function toCamelCase(file) {
