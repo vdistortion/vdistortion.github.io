@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.psikhoz,
   name: ['Психоз'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo, EnumAlbums.vethijSbornik],
-  authors: 'Шмелёвы',
+  authors: 'А.Шмелёв',
   text: `
 То ту, то там огонь и срам,
 Да голая мечта,

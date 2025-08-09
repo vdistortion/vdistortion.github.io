@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.vyuga,
   name: ['Вьюга'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo, EnumAlbums.vethijSbornik, EnumAlbums.yaVernusKTebe],
-  authors: 'Шмелёвы',
+  authors: 'А.Шмелёв',
   text: `
 Ветер чужой, пропитанный огнём,
 Свет, заражённый тревогой,
