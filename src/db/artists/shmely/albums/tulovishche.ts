@@ -7,21 +7,15 @@ const album: TypeAlbum = {
   year: 1998,
   folder: '/artist/shmely/albums/1998_tulovishe.jpg',
   songs: [
-    {
-      name: 'Небо (стих)',
-    },
+    EnumSongs.neboStikh,
     {
       name: 'Железный бог',
     },
-    {
-      name: 'Лай иллюзии',
-    },
+    EnumSongs.laiIllyuzii,
     {
       name: 'Травы',
     },
-    {
-      name: 'Первая любовь (стих)',
-    },
+    EnumSongs.pervayaLyubovStikh,
     EnumSongs.tulovishchej,
     {
       name: 'Экзотика',

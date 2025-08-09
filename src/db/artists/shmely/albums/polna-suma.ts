@@ -10,7 +10,7 @@ const album: TypeAlbum = {
   songs: [
     { name: 'Зверь' },
     { name: 'Я обернусь огнём' },
-    { name: 'Тоска' },
+    EnumSongs.toska,
     { name: 'Агония' },
     { name: 'Клякса' },
     EnumSongs.polnaSuma,
@@ -18,7 +18,7 @@ const album: TypeAlbum = {
     { name: 'Вода' },
     { name: 'Садизм' },
     { name: 'Радиактивные отходы' },
-    { name: 'Иволга' },
+    EnumSongs.ivolga,
     { name: 'Виртуальный самолёт' },
     { name: 'Бом лбом' },
     { name: 'Тишина и покой' },

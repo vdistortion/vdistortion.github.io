@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.patologoanatom,
   name: ['Патологоанатом'],
   albums: [EnumAlbums.spazmyRoka, EnumAlbums.risunkiNaDushe, EnumAlbums.poshmelye],
+  authors: 'Шмель',
   duration: 184,
   text: `
 Морфий, бинт и вата, –

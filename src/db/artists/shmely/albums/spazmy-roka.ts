@@ -27,7 +27,7 @@ const album: TypeAlbum = {
     EnumSongs.saprofag,
     { name: 'Спазмы рока' },
     [EnumSongs.volosy, { name: ['На солнце волосы'] }],
-    { name: 'Завтра на выписку в ад (Клочья)' },
+    [EnumSongs.zavtraNaVipisku, { name: ['Завтра на выписку в ад (Клочья)'] }],
     { name: 'Всё во имя человека' },
     { name: 'Бой' },
   ],
