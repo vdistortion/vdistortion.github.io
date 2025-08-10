@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.ostanoviteChelovechestvo,
@@ -8,22 +8,22 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/2003_ostanovite.jpg',
   streaming: { yandexMusic: 'https://music.yandex.ru/album/79308' },
   songs: [
-    { name: 'Аист над инкубатором' },
-    { name: 'Я всё нарушил' },
-    { name: 'В клочья' },
-    { name: 'Чужой' },
-    { name: 'Шанс' },
-    { name: 'Красота' },
-    { name: 'На могиле любви' },
-    { name: 'Био-мотор' },
-    { name: 'Откровения' },
-    { name: 'Нет выбора' },
-    { name: 'Прорвёмся' },
-    { name: 'Голос-палач' },
-    { name: 'Он' },
-    { name: 'Остановите человечество' },
-    { name: 'Мой путь' },
-    { name: 'Взгляд изнутри' },
+    EnumSongs.aistNadInkubatorom,
+    EnumSongs.yaVsyoNarushil,
+    EnumSongs.vKlochya,
+    EnumSongs.chuzhoi,
+    EnumSongs.shans,
+    EnumSongs.krasota,
+    EnumSongs.naMogileLyubvi,
+    EnumSongs.bioMotor,
+    EnumSongs.otkroveniya,
+    EnumSongs.netVibora,
+    EnumSongs.prorvyomsya,
+    EnumSongs.golosPalach,
+    EnumSongs.on,
+    EnumSongs.ostanoviteChelovechestvo,
+    EnumSongs.moiPut,
+    EnumSongs.vzglyadIznutri,
   ],
 };
 
