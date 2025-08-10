@@ -83,6 +83,22 @@ import ivolga from './ivolga';
 import vMyasnomTsekhuPrazdnikDushi from './v-myasnom-tsekhu-prazdnik-dushi';
 import zavtraNaVipisku from './zavtra-na-vipisku';
 import risunkiNaDushe from './risunki-na-dushe';
+import aistNadInkubatorom from './aist-nad-inkubatorom';
+import yaVsyoNarushil from './ya-vsyo-narushil';
+import vKlochya from './v-klochya';
+import chuzhoi from './chuzhoi';
+import shans from './shans';
+import krasota from './krasota';
+import naMogileLyubvi from './na-mogile-lyubvi';
+import bioMotor from './bio-motor';
+import otkroveniya from './otkroveniya';
+import netVibora from './net-vibora';
+import prorvyomsya from './prorvyomsya';
+import golosPalach from './golos-palach';
+import on from './on';
+import ostanoviteChelovechestvo from './ostanovite-chelovechestvo';
+import moiPut from './moi-put';
+import vzglyadIznutri from './vzglyad-iznutri';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -170,4 +186,20 @@ export default {
   [vMyasnomTsekhuPrazdnikDushi.id]: vMyasnomTsekhuPrazdnikDushi,
   [zavtraNaVipisku.id]: zavtraNaVipisku,
   [risunkiNaDushe.id]: risunkiNaDushe,
+  [aistNadInkubatorom.id]: aistNadInkubatorom,
+  [yaVsyoNarushil.id]: yaVsyoNarushil,
+  [vKlochya.id]: vKlochya,
+  [chuzhoi.id]: chuzhoi,
+  [shans.id]: shans,
+  [krasota.id]: krasota,
+  [naMogileLyubvi.id]: naMogileLyubvi,
+  [bioMotor.id]: bioMotor,
+  [otkroveniya.id]: otkroveniya,
+  [netVibora.id]: netVibora,
+  [prorvyomsya.id]: prorvyomsya,
+  [golosPalach.id]: golosPalach,
+  [on.id]: on,
+  [ostanoviteChelovechestvo.id]: ostanoviteChelovechestvo,
+  [moiPut.id]: moiPut,
+  [vzglyadIznutri.id]: vzglyadIznutri,
 };
