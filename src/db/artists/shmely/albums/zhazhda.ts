@@ -10,13 +10,13 @@ const album: TypeAlbum = {
   songs: [
     { name: 'Жажда' },
     [EnumSongs.dorogaya, { name: ['Дорогая (очень ранняя)'] }],
-    { name: 'Сера' },
-    { name: 'День рождения (застольная)' },
-    { name: 'Трудный ребёнок (школьная)' },
+    EnumSongs.sera,
+    EnumSongs.denRozhdeniya,
+    EnumSongs.trudniiRebyonok,
     [EnumSongs.yaNeAngel, { name: ['Я не ангел (другая версия)'] }],
-    { name: 'Дискотека (очень ранняя)' },
+    EnumSongs.diskoteka,
     { name: 'Я обернусь огнём (другая версия)' },
-    { name: 'Коробас' },
+    EnumSongs.korobas,
   ],
   info: `
 Внеплановый альбом (тираж 100 шт.).

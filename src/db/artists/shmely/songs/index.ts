@@ -135,6 +135,11 @@ import pole from './pole';
 import kloun from './kloun';
 import kronos from './kronos';
 import tsveti from './tsveti';
+import sera from './sera';
+import denRozhdeniya from './den-rozhdeniya';
+import trudniiRebyonok from './trudnii-rebyonok';
+import diskoteka from './diskoteka';
+import korobas from './korobas';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -274,4 +279,9 @@ export default {
   [kloun.id]: kloun,
   [kronos.id]: kronos,
   [tsveti.id]: tsveti,
+  [sera.id]: sera,
+  [denRozhdeniya.id]: denRozhdeniya,
+  [trudniiRebyonok.id]: trudniiRebyonok,
+  [diskoteka.id]: diskoteka,
+  [korobas.id]: korobas,
 };
