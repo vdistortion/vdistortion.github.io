@@ -197,6 +197,22 @@ import stonOlitsetvoreniya from './ston-olitsetvoreniya';
 import gdeYestTi from './gde-yest-ti';
 import zhenshchinaBabochka from './zhenshchina-babochka';
 import radugaNadBenzinovoiLuzhei from './raduga-nad-benzinovoi-luzhei';
+import prolog from './prolog';
+import istrebitel from './istrebitel';
+import tolkoVoSne from './tolko-vo-sne';
+import chyornieDiri from './chyornie-diri';
+import naKrayuZemli from './na-krayu-zemli';
+import vremyaUkhodit from './vremya-ukhodit';
+import apm30002043 from './apm-3000-20.43';
+import netNikogo from './net-nikogo';
+import geroi from './geroi';
+import myortvayaZona from './myortvaya-zona';
+import stoi from './stoi';
+import chyorniiLes from './chyornii-les';
+import angeliTsvetaKhaki from './angeli-tsveta-khaki';
+import zavtra from './zavtra';
+import slishkomPozdno from './slishkom-pozdno';
+import prisheltsiVEtotMir from './prisheltsi-v-etot-mir';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -398,4 +414,20 @@ export default {
   [gdeYestTi.id]: gdeYestTi,
   [zhenshchinaBabochka.id]: zhenshchinaBabochka,
   [radugaNadBenzinovoiLuzhei.id]: radugaNadBenzinovoiLuzhei,
+  [prolog.id]: prolog,
+  [istrebitel.id]: istrebitel,
+  [tolkoVoSne.id]: tolkoVoSne,
+  [chyornieDiri.id]: chyornieDiri,
+  [naKrayuZemli.id]: naKrayuZemli,
+  [vremyaUkhodit.id]: vremyaUkhodit,
+  [apm30002043.id]: apm30002043,
+  [netNikogo.id]: netNikogo,
+  [geroi.id]: geroi,
+  [myortvayaZona.id]: myortvayaZona,
+  [stoi.id]: stoi,
+  [chyorniiLes.id]: chyorniiLes,
+  [angeliTsvetaKhaki.id]: angeliTsvetaKhaki,
+  [zavtra.id]: zavtra,
+  [slishkomPozdno.id]: slishkomPozdno,
+  [prisheltsiVEtotMir.id]: prisheltsiVEtotMir,
 };

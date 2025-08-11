@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.prishelcyVetotMir,
@@ -11,22 +11,22 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/11736996',
   },
   songs: [
-    { name: 'Пролог' },
-    { name: 'Истребитель' },
-    { name: 'Только во сне' },
-    { name: 'Чёрные дыры' },
-    { name: 'На краю земли' },
-    { name: 'Время уходит' },
-    { name: 'АПМ-3000 20.43' },
-    { name: 'Нет никого' },
-    { name: 'Герой' },
-    { name: 'Мёртвая зона' },
-    { name: 'Стой' },
-    { name: 'Чёрный лес' },
-    { name: 'Ангелы цвета хаки' },
-    { name: 'Завтра' },
-    { name: 'Слишком поздно' },
-    { name: 'Пришельцы в этот мир' },
+    EnumSongs.prolog,
+    EnumSongs.istrebitel,
+    EnumSongs.tolkoVoSne,
+    EnumSongs.chyornieDiri,
+    EnumSongs.naKrayuZemli,
+    EnumSongs.vremyaUkhodit,
+    EnumSongs.apm30002043,
+    EnumSongs.netNikogo,
+    EnumSongs.geroi,
+    EnumSongs.myortvayaZona,
+    EnumSongs.stoi,
+    EnumSongs.chyorniiLes,
+    EnumSongs.angeliTsvetaKhaki,
+    EnumSongs.zavtra,
+    EnumSongs.slishkomPozdno,
+    EnumSongs.prisheltsiVEtotMir,
   ],
   info: `
 Alan Waters & Шмели - «Пришельцы в этот мир» CD

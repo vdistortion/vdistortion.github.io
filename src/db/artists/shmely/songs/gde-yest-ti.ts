@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.gdeYestTi,
   name: ['Где есть ты'],
   albums: [EnumAlbums.vosemZhenshchinNaRaduge],
-  authors: 'A.Waters - Эрика Кеслер',
+  authors: 'Alan Waters - Эрика Кеслер',
   text: `
 Я так хотела красоты
 Ярких пятен пролить на густые листы
