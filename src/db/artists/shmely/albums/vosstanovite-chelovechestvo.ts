@@ -13,7 +13,7 @@ const album: TypeAlbum = {
     EnumSongs.bioMotor,
     { name: 'Бог-телевизор' },
     EnumSongs.krasota,
-    { name: 'Хворь' },
+    EnumSongs.khvor,
     EnumSongs.otkroveniya,
     { name: 'Без души и страсти' },
     EnumSongs.naMogileLyubvi,
