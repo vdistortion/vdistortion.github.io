@@ -204,4 +204,10 @@ export const enum EnumSongs {
   sadizm = 'sadizm',
   trupniePyatna = 'trupnie-pyatna',
   zastolnaya = 'zastolnaya',
+  maketMiraSchastya = 'maket-mira-schastya',
+  chyornayaVoda = 'chyornaya-voda',
+  zhdat = 'zhdat',
+  moyaLyubimaya = 'moya-lyubimaya',
+  spazmiRoka = 'spazmi-roka',
+  vsyoVoImyaCheloveka = 'vsyo-vo-imya-cheloveka',
 }

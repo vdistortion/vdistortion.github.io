@@ -147,6 +147,12 @@ import tulyaremiya from './tulyaremiya';
 import sadizm from './sadizm';
 import trupniePyatna from './trupnie-pyatna';
 import zastolnaya from './zastolnaya';
+import maketMiraSchastya from './maket-mira-schastya';
+import chyornayaVoda from './chyornaya-voda';
+import zhdat from './zhdat';
+import moyaLyubimaya from './moya-lyubimaya';
+import spazmiRoka from './spazmi-roka';
+import vsyoVoImyaCheloveka from './vsyo-vo-imya-cheloveka';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -298,4 +304,10 @@ export default {
   [sadizm.id]: sadizm,
   [trupniePyatna.id]: trupniePyatna,
   [zastolnaya.id]: zastolnaya,
+  [maketMiraSchastya.id]: maketMiraSchastya,
+  [chyornayaVoda.id]: chyornayaVoda,
+  [zhdat.id]: zhdat,
+  [moyaLyubimaya.id]: moyaLyubimaya,
+  [spazmiRoka.id]: spazmiRoka,
+  [vsyoVoImyaCheloveka.id]: vsyoVoImyaCheloveka,
 };
