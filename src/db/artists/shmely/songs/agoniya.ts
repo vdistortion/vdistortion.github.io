@@ -4,8 +4,13 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.agoniya,
   name: ['Агония'],
-  albums: [EnumAlbums.bombaVUbezhishche, EnumAlbums.organizm, EnumAlbums.polnaSuma, EnumAlbums.byuroVolshebnikhUslug],
-  authors: 'Шмель',
+  albums: [
+    EnumAlbums.bombaVUbezhishche,
+    EnumAlbums.organizm,
+    EnumAlbums.polnaSuma,
+    EnumAlbums.byuroVolshebnikhUslug,
+  ],
+  authors: 'Шмель', // Музыка и слова Шмеля и Лёли
   text: `
 Агония! Агония! Агония!
 Глубоко...

@@ -7,9 +7,7 @@ const album: TypeAlbum = {
   year: 2021,
   folder: '/artist/shmely/albums/2021_vidma.jpg',
   streaming: { spotify: 'https://open.spotify.com/album/04BYic7HwDIZ0S7YzbvzHe' },
-  songs: [
-    { name: 'Вiдьма' },
-  ],
+  songs: [{ name: 'Вiдьма' }],
 };
 
 export default album;

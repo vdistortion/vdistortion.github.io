@@ -4,7 +4,12 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.vyuga,
   name: ['Вьюга'],
-  albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo, EnumAlbums.vethijSbornik, EnumAlbums.yaVernusKTebe],
+  albums: [
+    EnumAlbums.petlyaSoblazna,
+    EnumAlbums.trahniNebo,
+    EnumAlbums.vethijSbornik,
+    EnumAlbums.yaVernusKTebe,
+  ],
   authors: 'А.Шмелёв',
   text: `
 Ветер чужой, пропитанный огнём,

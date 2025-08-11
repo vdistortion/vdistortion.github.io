@@ -4,7 +4,13 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.ivolga,
   name: ['Иволга'],
-  albums: [EnumAlbums.moshchi, EnumAlbums.organizm, EnumAlbums.polnaSuma, EnumAlbums.vosemZhenshchinNaRaduge, EnumAlbums.byuroVolshebnikhUslug],
+  albums: [
+    EnumAlbums.moshchi,
+    EnumAlbums.organizm,
+    EnumAlbums.polnaSuma,
+    EnumAlbums.vosemZhenshchinNaRaduge,
+    EnumAlbums.byuroVolshebnikhUslug,
+  ],
   authors: 'Шмель',
   text: `
 Бродил по кочкам, искал он невесту

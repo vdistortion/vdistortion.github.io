@@ -33,4 +33,4 @@ const song: TypeSong = {
 `,
 };
 
-export default song
+export default song;

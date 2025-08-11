@@ -7,9 +7,7 @@ const album: TypeAlbum = {
   year: 2022,
   folder: '/artist/shmely/albums/2022_faktor.jpg',
   streaming: { spotify: 'https://open.spotify.com/album/5EzM2ff6kmfEdNixIuhFJe' },
-  songs: [
-    { name: 'Фактор' },
-  ],
+  songs: [{ name: 'Фактор' }],
 };
 
 export default album;
