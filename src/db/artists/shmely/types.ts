@@ -270,4 +270,9 @@ export const enum EnumSongs {
   zavtra = 'zavtra',
   slishkomPozdno = 'slishkom-pozdno',
   prisheltsiVEtotMir = 'prisheltsi-v-etot-mir',
+  pryotTakPri = 'pryot-tak-pri',
+  koteikaNaTryokhNozhkakh = 'koteika-na-tryokh-nozhkakh',
+  tsvetochniiMedved = 'tsvetochnii-medved',
+  snovaProLyubov = 'snova-pro-lyubov',
+  lisayaGora = 'lisaya-gora',
 }

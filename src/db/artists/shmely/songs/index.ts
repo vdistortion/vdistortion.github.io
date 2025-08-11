@@ -213,6 +213,11 @@ import angeliTsvetaKhaki from './angeli-tsveta-khaki';
 import zavtra from './zavtra';
 import slishkomPozdno from './slishkom-pozdno';
 import prisheltsiVEtotMir from './prisheltsi-v-etot-mir';
+import pryotTakPri from './pryot-tak-pri';
+import koteikaNaTryokhNozhkakh from './koteika-na-tryokh-nozhkakh';
+import tsvetochniiMedved from './tsvetochnii-medved';
+import snovaProLyubov from './snova-pro-lyubov';
+import lisayaGora from './lisaya-gora';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -430,4 +435,9 @@ export default {
   [zavtra.id]: zavtra,
   [slishkomPozdno.id]: slishkomPozdno,
   [prisheltsiVEtotMir.id]: prisheltsiVEtotMir,
+  [pryotTakPri.id]: pryotTakPri,
+  [koteikaNaTryokhNozhkakh.id]: koteikaNaTryokhNozhkakh,
+  [tsvetochniiMedved.id]: tsvetochniiMedved,
+  [snovaProLyubov.id]: snovaProLyubov,
+  [lisayaGora.id]: lisayaGora,
 };

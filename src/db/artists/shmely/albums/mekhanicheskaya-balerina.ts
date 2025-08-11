@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.mekhanicheskayaBalerina,
@@ -18,13 +18,13 @@ const album: TypeAlbum = {
     { name: 'Люди' },
     { name: 'Какофония сердец' },
     { name: 'Вещий сон' },
-    { name: 'Прёт? Так при!' },
+    EnumSongs.pryotTakPri,
     { name: 'Жги' },
-    { name: 'Лысая гора' },
+    EnumSongs.lisayaGora,
     { name: 'Небо против' },
-    { name: 'Котейка на трёх ножках' },
-    { name: 'Снова про любовь, блин' },
-    { name: 'Цветочный медведь' },
+    EnumSongs.koteikaNaTryokhNozhkakh,
+    EnumSongs.snovaProLyubov,
+    EnumSongs.tsvetochniiMedved,
     { name: 'Колыбельная++' },
     { name: 'Аель-Ауа' },
     { name: 'Женщина-игра (bonus track)' },
