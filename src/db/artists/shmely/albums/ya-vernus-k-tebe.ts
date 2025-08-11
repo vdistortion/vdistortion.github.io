@@ -7,7 +7,7 @@ const album: TypeAlbum = {
   year: 2006,
   folder: '/artist/shmely/albums/2006_vernus.jpg',
   songs: [
-    { name: 'Жди меня в полночь' },
+    EnumSongs.zhdiMenyaVPolnoch,
     { name: 'Ангелы в дверях' },
     EnumSongs.vyuga,
     EnumSongs.laboratoriyaAltruizma,
@@ -16,10 +16,10 @@ const album: TypeAlbum = {
     { name: 'Клоун умер' },
     EnumSongs.bol,
     EnumSongs.pokidayaMir,
-    { name: 'Все мечты сбываются' },
-    { name: 'Драма' },
-    { name: 'Эвакуатор' },
-    { name: 'Драматургия' },
+    EnumSongs.vseMechtiSbivayutsya,
+    EnumSongs.drama,
+    EnumSongs.evakuator,
+    EnumSongs.dramaturgiya,
   ],
   info: `
 В отличие от многочисленных предыдущих альбомов и сборников, здесь музыканты решили использовать при записи живые ударные, что, конечно же, отразилось на общем звучании команды. Во многом благодаря новому второму гитаристу Голландцу саунд значительно утяжелился, гитары просто ревут и раздавливают мощью на протяжении всего альбома. Такого мощного звука не было со времен альбома Тень сердца.
