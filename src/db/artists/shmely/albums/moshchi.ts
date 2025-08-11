@@ -22,7 +22,7 @@ const album: TypeAlbum = {
     { name: 'Проститутка-вампир' },
     EnumSongs.vMyasnomTsekhuPrazdnikDushi,
     { name: 'Клякса' },
-    { name: 'Фабрика фекалий' },
+    EnumSongs.fabrikaFekalii,
     { name: 'Лукавый суицид' },
     { name: 'Падаль' },
     { name: 'Атеист' },

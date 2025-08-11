@@ -123,6 +123,12 @@ import vseMechtiSbivayutsya from './vse-mechti-sbivayutsya';
 import drama from './drama';
 import evakuator from './evakuator';
 import dramaturgiya from './dramaturgiya';
+import organizm from './organizm';
+import pogadai from './pogadai';
+import putK from './put-k';
+import iskushenie from './iskushenie';
+import fabrikaFekalii from './fabrika-fekalii';
+import agoniya from './agoniya';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -250,4 +256,10 @@ export default {
   [drama.id]: drama,
   [evakuator.id]: evakuator,
   [dramaturgiya.id]: dramaturgiya,
+  [organizm.id]: organizm,
+  [pogadai.id]: pogadai,
+  [putK.id]: putK,
+  [iskushenie.id]: iskushenie,
+  [fabrikaFekalii.id]: fabrikaFekalii,
+  [agoniya.id]: agoniya,
 };

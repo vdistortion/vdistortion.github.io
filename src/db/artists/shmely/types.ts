@@ -180,4 +180,10 @@ export const enum EnumSongs {
   drama = 'drama',
   evakuator = 'evakuator',
   dramaturgiya = 'dramaturgiya',
+  organizm = 'organizm',
+  pogadai = 'pogadai',
+  putK = 'put-k',
+  iskushenie = 'iskushenie',
+  fabrikaFekalii = 'fabrika-fekalii',
+  agoniya = 'agoniya',
 }

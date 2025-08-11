@@ -7,7 +7,7 @@ const album: TypeAlbum = {
   year: 2000,
   folder: '/artist/shmely/albums/2000_bomba.jpg',
   songs: [
-    { name: 'Агония' },
+    EnumSongs.agoniya,
     { name: 'Тишина и покой' },
     { name: 'Бом лбом' },
     [EnumSongs.polnaSuma, { name: ['Безлюдный остров'] }],
