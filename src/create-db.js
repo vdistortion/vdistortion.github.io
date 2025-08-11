@@ -1,7 +1,7 @@
 import CyrillicToTranslit from 'cyrillic-to-translit-js';
 
 const artist = 'shmely';
-const album = 'bombaVUbezhishche';
+const album = 'spazmyRoka';
 const names = {
   ru: `
 
