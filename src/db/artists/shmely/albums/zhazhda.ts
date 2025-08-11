@@ -15,7 +15,7 @@ const album: TypeAlbum = {
     [EnumSongs.trudniiRebyonok, { name: ['Трудный ребёнок (школьная)'] }],
     [EnumSongs.yaNeAngel, { name: ['Я не ангел (другая версия)'] }],
     [EnumSongs.diskoteka, { name: ['Дискотека (очень ранняя)'] }],
-    { name: 'Я обернусь огнём (другая версия)' },
+    [EnumSongs.yaObernusOgnyom, { name: ['Я обернусь огнём (другая версия)'] }],
     EnumSongs.korobas,
   ],
   info: `

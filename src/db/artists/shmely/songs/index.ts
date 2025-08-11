@@ -153,6 +153,20 @@ import zhdat from './zhdat';
 import moyaLyubimaya from './moya-lyubimaya';
 import spazmiRoka from './spazmi-roka';
 import vsyoVoImyaCheloveka from './vsyo-vo-imya-cheloveka';
+import printsessaBezTrusov from './printsessa-bez-trusov';
+import izvrashchenieIRazvrat from './izvrashchenie-i-razvrat';
+import ivaStishok from './iva-stishok';
+import yaObernusOgnyom from './ya-obernus-ognyom';
+import rzhaviiKiborg from './rzhavii-kiborg';
+import poebenTrava from './poeben-trava';
+import yeshchyoStishok from './yeshchyo-stishok';
+import poMaslu from './po-maslu';
+import molodilniiSok from './molodilnii-sok';
+import stishochek from './stishochek';
+import zarevo from './zarevo';
+import pankDiktatura from './pank-diktatura';
+import krakhIGibel from './krakh-i-gibel';
+import gruzovikUbiitsa from './gruzovik-ubiitsa';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -310,4 +324,18 @@ export default {
   [moyaLyubimaya.id]: moyaLyubimaya,
   [spazmiRoka.id]: spazmiRoka,
   [vsyoVoImyaCheloveka.id]: vsyoVoImyaCheloveka,
+  [printsessaBezTrusov.id]: printsessaBezTrusov,
+  [izvrashchenieIRazvrat.id]: izvrashchenieIRazvrat,
+  [ivaStishok.id]: ivaStishok,
+  [yaObernusOgnyom.id]: yaObernusOgnyom,
+  [rzhaviiKiborg.id]: rzhaviiKiborg,
+  [poebenTrava.id]: poebenTrava,
+  [yeshchyoStishok.id]: yeshchyoStishok,
+  [poMaslu.id]: poMaslu,
+  [molodilniiSok.id]: molodilniiSok,
+  [stishochek.id]: stishochek,
+  [zarevo.id]: zarevo,
+  [pankDiktatura.id]: pankDiktatura,
+  [krakhIGibel.id]: krakhIGibel,
+  [gruzovikUbiitsa.id]: gruzovikUbiitsa,
 };

@@ -9,7 +9,7 @@ const album: TypeAlbum = {
   streaming: { yandexMusic: 'https://music.yandex.ru/album/79309' },
   songs: [
     { name: 'Зверь' },
-    { name: 'Я обернусь огнём' },
+    EnumSongs.yaObernusOgnyom,
     EnumSongs.toska,
     EnumSongs.agoniya,
     { name: 'Клякса' },
