@@ -20,7 +20,7 @@ const album: TypeAlbum = {
     EnumSongs.alliluia,
     EnumSongs.obessilenniiPrakh,
     {
-      name: 'Бiсов гай',
+      name: 'Бісов гай',
     },
     EnumSongs.trahniNebo,
     EnumSongs.divchinaKulya,

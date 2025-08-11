@@ -1,7 +1,7 @@
 import CyrillicToTranslit from 'cyrillic-to-translit-js';
 
 const artist = 'shmely';
-const album = 'zhazhda';
+const album = 'bombaVUbezhishche';
 const names = {
   ru: `
 
@@ -17,19 +17,22 @@ const enums = [];
 const songs = [];
 
 Object.entries(names).forEach(([preset, list]) => {
-  list.trim().split('\n').forEach((item) => {
-    const file = new CyrillicToTranslit({ preset })
-      .transform(item, '-')
-      .replace(',', '')
-      .replace('(', '')
-      .replace(')', '')
-      .toLowerCase();
-    const name = toCamelCase(file);
-    files.push(`${file}.ts`);
-    types.push(`${name} = '${file}',`);
-    index.push(`[${name}.id]: ${name},`);
-    imports.push(`import ${name} from './${file}';`);
-    albums.push(`import { TypeAlbum } from '../../../types';
+  list
+    .trim()
+    .split('\n')
+    .forEach((item) => {
+      const file = new CyrillicToTranslit({ preset })
+        .transform(item, '-')
+        .replace(',', '')
+        .replace('(', '')
+        .replace(')', '')
+        .toLowerCase();
+      const name = toCamelCase(file);
+      files.push(`${file}.ts`);
+      types.push(`${name} = '${file}',`);
+      index.push(`[${name}.id]: ${name},`);
+      imports.push(`import ${name} from './${file}';`);
+      albums.push(`import { TypeAlbum } from '../../../types';
 import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
@@ -44,8 +47,8 @@ const album: TypeAlbum = {
 };
 
 export default album;`);
-    enums.push(`EnumAlbums.${name},`);
-    songs.push(`import { TypeSong } from '../../../types';
+      enums.push(`EnumAlbums.${name},`);
+      songs.push(`import { TypeSong } from '../../../types';
 import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
@@ -59,7 +62,7 @@ const song: TypeSong = {
 };
 
 export default song;`);
-  });
+    });
 });
 
 console.log('');
@@ -81,8 +84,6 @@ console.log('');
 function toCamelCase(file) {
   return file
     .split('-')
-    .map((word, index) =>
-      index === 0 ? word : word[0].toUpperCase() + word.slice(1)
-    )
+    .map((word, index) => (index === 0 ? word : word[0].toUpperCase() + word.slice(1)))
     .join('');
 }

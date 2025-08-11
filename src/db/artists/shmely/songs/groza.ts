@@ -4,7 +4,14 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.groza,
   name: ['Гроза'],
-  albums: [EnumAlbums.purga, EnumAlbums.organizm, EnumAlbums.risunkiNaDushe, EnumAlbums.poshmelye, EnumAlbums.agressivnyjPokoj, EnumAlbums.yaVernusKTebe],
+  albums: [
+    EnumAlbums.purga,
+    EnumAlbums.organizm,
+    EnumAlbums.risunkiNaDushe,
+    EnumAlbums.poshmelye,
+    EnumAlbums.agressivnyjPokoj,
+    EnumAlbums.yaVernusKTebe,
+  ],
   authors: 'Шмель',
   text: `
 Как полопаются вмиг мудры головы

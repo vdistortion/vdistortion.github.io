@@ -140,6 +140,8 @@ import denRozhdeniya from './den-rozhdeniya';
 import trudniiRebyonok from './trudnii-rebyonok';
 import diskoteka from './diskoteka';
 import korobas from './korobas';
+import umryomZhivimi from './umryom-zhivimi';
+import smertObida from './smert-obida';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -284,4 +286,6 @@ export default {
   [trudniiRebyonok.id]: trudniiRebyonok,
   [diskoteka.id]: diskoteka,
   [korobas.id]: korobas,
+  [umryomZhivimi.id]: umryomZhivimi,
+  [smertObida.id]: smertObida,
 };

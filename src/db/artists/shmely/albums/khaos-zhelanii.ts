@@ -8,7 +8,8 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/2022_khaosZhelanii.jpg',
   streaming: {
     spotify: 'https://open.spotify.com/album/6BcUVkuIqoQh5j2ePVjJjo',
-    youtubeMusic: 'https://music.youtube.com/playlist?list=OLAK5uy_lBZybdvlbfe7TC3-tkDwXvyeA6ROeVolw',
+    youtubeMusic:
+      'https://music.youtube.com/playlist?list=OLAK5uy_lBZybdvlbfe7TC3-tkDwXvyeA6ROeVolw',
     youtube: 'https://www.youtube.com/playlist?list=OLAK5uy_ml0RigGkUkB_1O5Xe83UEile14iNOlz7M',
     yandexMusic: 'https://music.yandex.ru/album/21757370',
   },

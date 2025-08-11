@@ -197,4 +197,6 @@ export const enum EnumSongs {
   trudniiRebyonok = 'trudnii-rebyonok',
   diskoteka = 'diskoteka',
   korobas = 'korobas',
+  umryomZhivimi = 'umryom-zhivimi',
+  smertObida = 'smert-obida',
 }
