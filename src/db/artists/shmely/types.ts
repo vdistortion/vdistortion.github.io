@@ -237,4 +237,7 @@ export const enum EnumSongs {
   cherezKrai = 'cherez-krai',
   braga = 'braga',
   vsyo = 'vsyo',
+  tiSnegVMoeiPreispodnei = 'ti-sneg-v-moei-preispodnei',
+  agressivniiPokoi = 'agressivnii-pokoi',
+  denSvyatogoValentina = 'den-svyatogo-valentina',
 }

@@ -180,6 +180,9 @@ import proshchai from './proshchai';
 import cherezKrai from './cherez-krai';
 import braga from './braga';
 import vsyo from './vsyo';
+import tiSnegVMoeiPreispodnei from './ti-sneg-v-moei-preispodnei';
+import agressivniiPokoi from './agressivnii-pokoi';
+import denSvyatogoValentina from './den-svyatogo-valentina';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -364,4 +367,7 @@ export default {
   [cherezKrai.id]: cherezKrai,
   [braga.id]: braga,
   [vsyo.id]: vsyo,
+  [tiSnegVMoeiPreispodnei.id]: tiSnegVMoeiPreispodnei,
+  [agressivniiPokoi.id]: agressivniiPokoi,
+  [denSvyatogoValentina.id]: denSvyatogoValentina,
 };
