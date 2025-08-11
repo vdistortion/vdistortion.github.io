@@ -21,7 +21,7 @@ const album: TypeAlbum = {
     { name: 'День Святого Валентина' },
     [EnumSongs.bogi, { name: ['Отравленные боги'] }],
     [EnumSongs.slyoznaya, { name: ['Слёзная (remix)'] }],
-    { name: 'Либо (remix)' },
+    [EnumSongs.cherezKrai, { name: ['Либо (remix)'] }],
     [EnumSongs.groza, { name: ['Гроза (remix)'] }],
     [EnumSongs.zamokIzTuch, { name: ['Волшебный замок (live 1999)'] }],
     [EnumSongs.lakaiOtravu, { name: ['Лакай отраву (live 1999)'] }],

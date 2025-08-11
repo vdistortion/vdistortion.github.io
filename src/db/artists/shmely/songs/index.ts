@@ -167,6 +167,19 @@ import zarevo from './zarevo';
 import pankDiktatura from './pank-diktatura';
 import krakhIGibel from './krakh-i-gibel';
 import gruzovikUbiitsa from './gruzovik-ubiitsa';
+import reanimator from './reanimator';
+import veraILyubov from './vera-i-lyubov';
+import volchitsa from './volchitsa';
+import nezhnost from './nezhnost';
+import pervorodniiGrekh from './pervorodnii-grekh';
+import likhoraditMenyaNoch from './likhoradit-menya-noch';
+import negativProstranstva from './negativ-prostranstva';
+import posledniiReis from './poslednii-reis';
+import visota from './visota';
+import proshchai from './proshchai';
+import cherezKrai from './cherez-krai';
+import braga from './braga';
+import vsyo from './vsyo';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -338,4 +351,17 @@ export default {
   [pankDiktatura.id]: pankDiktatura,
   [krakhIGibel.id]: krakhIGibel,
   [gruzovikUbiitsa.id]: gruzovikUbiitsa,
+  [reanimator.id]: reanimator,
+  [veraILyubov.id]: veraILyubov,
+  [volchitsa.id]: volchitsa,
+  [nezhnost.id]: nezhnost,
+  [pervorodniiGrekh.id]: pervorodniiGrekh,
+  [likhoraditMenyaNoch.id]: likhoraditMenyaNoch,
+  [negativProstranstva.id]: negativProstranstva,
+  [posledniiReis.id]: posledniiReis,
+  [visota.id]: visota,
+  [proshchai.id]: proshchai,
+  [cherezKrai.id]: cherezKrai,
+  [braga.id]: braga,
+  [vsyo.id]: vsyo,
 };
