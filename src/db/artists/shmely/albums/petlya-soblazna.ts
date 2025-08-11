@@ -24,15 +24,11 @@ const album: TypeAlbum = {
     },
     EnumSongs.trahniNebo,
     EnumSongs.divchinaKulya,
-    {
-      name: 'Завiтай',
-    },
+    EnumSongs.zavitai,
     {
       name: 'Чёрная исповедь',
     },
-    {
-      name: 'Фашистский мотоцикл',
-    },
+    EnumSongs.fashistskiiMototsikl,
     {
       name: 'Понедельник',
     },

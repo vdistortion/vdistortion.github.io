@@ -115,6 +115,9 @@ import khorovod from './khorovod';
 import plyushevieZombi from './plyushevie-zombi';
 import trunaNaKolyosakh from './truna-na-kolyosakh';
 import bogLyubitSebya from './bog-lyubit-sebya';
+import zavitai from './zavitai';
+import fashistskiiMototsikl from './fashistskii-mototsikl';
+import travi from './travi';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -234,4 +237,7 @@ export default {
   [plyushevieZombi.id]: plyushevieZombi,
   [trunaNaKolyosakh.id]: trunaNaKolyosakh,
   [bogLyubitSebya.id]: bogLyubitSebya,
+  [zavitai.id]: zavitai,
+  [fashistskiiMototsikl.id]: fashistskiiMototsikl,
+  [travi.id]: travi,
 };
