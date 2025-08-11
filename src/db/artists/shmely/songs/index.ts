@@ -183,6 +183,20 @@ import vsyo from './vsyo';
 import tiSnegVMoeiPreispodnei from './ti-sneg-v-moei-preispodnei';
 import agressivniiPokoi from './agressivnii-pokoi';
 import denSvyatogoValentina from './den-svyatogo-valentina';
+import vperedi from './vperedi';
+import pokhoroniLyubvi from './pokhoroni-lyubvi';
+import polnolunie from './polnolunie';
+import vosemZhenshchinNaRaduge from './vosem-zhenshchin-na-raduge';
+import melpomena from './melpomena';
+import solntseVampira from './solntse-vampira';
+import khudozhnik from './khudozhnik';
+import plastikaSna from './plastika-sna';
+import ritualSozhzheniyaKukol from './ritual-sozhzheniya-kukol';
+import glotok from './glotok';
+import stonOlitsetvoreniya from './ston-olitsetvoreniya';
+import gdeYestTi from './gde-yest-ti';
+import zhenshchinaBabochka from './zhenshchina-babochka';
+import radugaNadBenzinovoiLuzhei from './raduga-nad-benzinovoi-luzhei';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -370,4 +384,18 @@ export default {
   [tiSnegVMoeiPreispodnei.id]: tiSnegVMoeiPreispodnei,
   [agressivniiPokoi.id]: agressivniiPokoi,
   [denSvyatogoValentina.id]: denSvyatogoValentina,
+  [vperedi.id]: vperedi,
+  [pokhoroniLyubvi.id]: pokhoroniLyubvi,
+  [polnolunie.id]: polnolunie,
+  [vosemZhenshchinNaRaduge.id]: vosemZhenshchinNaRaduge,
+  [melpomena.id]: melpomena,
+  [solntseVampira.id]: solntseVampira,
+  [khudozhnik.id]: khudozhnik,
+  [plastikaSna.id]: plastikaSna,
+  [ritualSozhzheniyaKukol.id]: ritualSozhzheniyaKukol,
+  [glotok.id]: glotok,
+  [stonOlitsetvoreniya.id]: stonOlitsetvoreniya,
+  [gdeYestTi.id]: gdeYestTi,
+  [zhenshchinaBabochka.id]: zhenshchinaBabochka,
+  [radugaNadBenzinovoiLuzhei.id]: radugaNadBenzinovoiLuzhei,
 };
