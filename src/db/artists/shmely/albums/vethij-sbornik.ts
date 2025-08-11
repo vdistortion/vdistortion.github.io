@@ -22,7 +22,7 @@ const album: TypeAlbum = {
     { name: 'Шуловье' },
     EnumSongs.psikhoz,
     { name: 'Спазмы рока' },
-    { name: 'Завiтай' },
+    EnumSongs.zavitai,
     EnumSongs.obessilenniiPrakh,
     EnumSongs.saprofag,
   ],

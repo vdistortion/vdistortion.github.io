@@ -18,9 +18,9 @@ const album: TypeAlbum = {
     EnumSongs.raspyatie,
     EnumSongs.trahniNebo,
     EnumSongs.divchinaKulya,
-    { name: 'Завiтай зачiкай' },
-    { name: 'Фашистский мотоцикл' },
-    { name: 'Травы' },
+    [EnumSongs.zavitai, { name: ['Завiтай зачiкай'] }],
+    EnumSongs.fashistskiiMototsikl,
+    EnumSongs.travi,
   ],
 };
 

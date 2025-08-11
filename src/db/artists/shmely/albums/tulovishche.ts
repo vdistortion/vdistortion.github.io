@@ -12,9 +12,7 @@ const album: TypeAlbum = {
       name: 'Железный бог',
     },
     EnumSongs.laiIllyuzii,
-    {
-      name: 'Травы',
-    },
+    EnumSongs.travi,
     EnumSongs.pervayaLyubovStikh,
     EnumSongs.tulovishchej,
     {
