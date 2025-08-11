@@ -10,11 +10,11 @@ const album: TypeAlbum = {
   songs: [
     { name: 'Intro' },
     EnumSongs.skelety,
-    { name: 'Путь к...' },
+    EnumSongs.putK,
     EnumSongs.groza,
     EnumSongs.patologoanatom,
     { name: 'Пляшущий карлик' },
-    { name: 'Погадай' },
+    EnumSongs.pogadai,
     EnumSongs.zavtraNaVipisku,
     EnumSongs.tulovishchej,
     { name: 'Клюквенный сок' },

@@ -13,7 +13,7 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/4090273',
   },
   songs: [
-    { name: 'Агония' },
+    EnumSongs.agoniya,
     { name: 'Бом лбом' },
     { name: 'Всё' },
     EnumSongs.ivolga,

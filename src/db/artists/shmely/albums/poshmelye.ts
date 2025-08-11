@@ -16,7 +16,7 @@ const album: TypeAlbum = {
     { name: 'Поле' },
     EnumSongs.poshmelye,
     { name: 'Клоун' },
-    { name: 'Путь к...' },
+    EnumSongs.putK,
     EnumSongs.volosy,
     { name: 'Кронос' },
     EnumSongs.tenNeizvestnoiZvezdi,
