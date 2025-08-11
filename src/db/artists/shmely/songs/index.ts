@@ -142,6 +142,11 @@ import diskoteka from './diskoteka';
 import korobas from './korobas';
 import umryomZhivimi from './umryom-zhivimi';
 import smertObida from './smert-obida';
+import bomLbom from './bom-lbom';
+import tulyaremiya from './tulyaremiya';
+import sadizm from './sadizm';
+import trupniePyatna from './trupnie-pyatna';
+import zastolnaya from './zastolnaya';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -288,4 +293,9 @@ export default {
   [korobas.id]: korobas,
   [umryomZhivimi.id]: umryomZhivimi,
   [smertObida.id]: smertObida,
+  [bomLbom.id]: bomLbom,
+  [tulyaremiya.id]: tulyaremiya,
+  [sadizm.id]: sadizm,
+  [trupniePyatna.id]: trupniePyatna,
+  [zastolnaya.id]: zastolnaya,
 };
