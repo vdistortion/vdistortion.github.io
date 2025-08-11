@@ -118,6 +118,11 @@ import bogLyubitSebya from './bog-lyubit-sebya';
 import zavitai from './zavitai';
 import fashistskiiMototsikl from './fashistskii-mototsikl';
 import travi from './travi';
+import zhdiMenyaVPolnoch from './zhdi-menya-v-polnoch';
+import vseMechtiSbivayutsya from './vse-mechti-sbivayutsya';
+import drama from './drama';
+import evakuator from './evakuator';
+import dramaturgiya from './dramaturgiya';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -240,4 +245,9 @@ export default {
   [zavitai.id]: zavitai,
   [fashistskiiMototsikl.id]: fashistskiiMototsikl,
   [travi.id]: travi,
+  [zhdiMenyaVPolnoch.id]: zhdiMenyaVPolnoch,
+  [vseMechtiSbivayutsya.id]: vseMechtiSbivayutsya,
+  [drama.id]: drama,
+  [evakuator.id]: evakuator,
+  [dramaturgiya.id]: dramaturgiya,
 };

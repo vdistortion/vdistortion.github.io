@@ -175,4 +175,9 @@ export const enum EnumSongs {
   zavitai = 'zavitai',
   fashistskiiMototsikl = 'fashistskii-mototsikl',
   travi = 'travi',
+  zhdiMenyaVPolnoch = 'zhdi-menya-v-polnoch',
+  vseMechtiSbivayutsya = 'vse-mechti-sbivayutsya',
+  drama = 'drama',
+  evakuator = 'evakuator',
+  dramaturgiya = 'dramaturgiya',
 }
