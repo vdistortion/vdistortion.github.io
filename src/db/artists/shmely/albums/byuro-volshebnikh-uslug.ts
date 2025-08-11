@@ -16,7 +16,7 @@ const album: TypeAlbum = {
   songs: [
     EnumSongs.agoniya,
     EnumSongs.bomLbom,
-    { name: 'Всё' },
+    EnumSongs.vsyo,
     EnumSongs.ivolga,
     { name: 'Иди' },
     EnumSongs.kronos,

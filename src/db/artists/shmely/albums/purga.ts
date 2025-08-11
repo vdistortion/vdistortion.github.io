@@ -31,9 +31,7 @@ const album: TypeAlbum = {
     {
       name: 'Логово',
     },
-    {
-      name: 'Брага',
-    },
+    EnumSongs.braga,
     EnumSongs.zamokIzTuch,
     {
       name: 'Вода',
