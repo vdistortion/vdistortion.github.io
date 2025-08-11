@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.princessaBezTrusov,
@@ -9,7 +9,7 @@ const album: TypeAlbum = {
   songs: [
     { name: 'Принцесса без трусов' },
     { name: 'Извращение и разврат' },
-    { name: 'Кронос' },
+    EnumSongs.kronos,
     { name: 'Ива (стишок)' },
     { name: 'Я обернусь огнём' },
     { name: 'Ржавый киборг' },
@@ -19,7 +19,7 @@ const album: TypeAlbum = {
     { name: 'Зомби-буги' },
     { name: 'По маслу' },
     { name: 'Молодильный сок' },
-    { name: 'Цветы' },
+    EnumSongs.tsveti,
     { name: 'Стишочек' },
     { name: 'Патология' },
     { name: 'Зарево' },

@@ -186,4 +186,10 @@ export const enum EnumSongs {
   iskushenie = 'iskushenie',
   fabrikaFekalii = 'fabrika-fekalii',
   agoniya = 'agoniya',
+  angeliVDveryakh = 'angeli-v-dveryakh',
+  ogonNashSvet = 'ogon-nash-svet',
+  pole = 'pole',
+  kloun = 'kloun',
+  kronos = 'kronos',
+  tsveti = 'tsveti',
 }

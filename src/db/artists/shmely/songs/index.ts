@@ -129,6 +129,12 @@ import putK from './put-k';
 import iskushenie from './iskushenie';
 import fabrikaFekalii from './fabrika-fekalii';
 import agoniya from './agoniya';
+import angeliVDveryakh from './angeli-v-dveryakh';
+import ogonNashSvet from './ogon-nash-svet';
+import pole from './pole';
+import kloun from './kloun';
+import kronos from './kronos';
+import tsveti from './tsveti';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -262,4 +268,10 @@ export default {
   [iskushenie.id]: iskushenie,
   [fabrikaFekalii.id]: fabrikaFekalii,
   [agoniya.id]: agoniya,
+  [angeliVDveryakh.id]: angeliVDveryakh,
+  [ogonNashSvet.id]: ogonNashSvet,
+  [pole.id]: pole,
+  [kloun.id]: kloun,
+  [kronos.id]: kronos,
+  [tsveti.id]: tsveti,
 };

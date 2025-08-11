@@ -17,7 +17,7 @@ const album: TypeAlbum = {
     EnumSongs.yaVselennaya,
     { name: 'Макет Мира Счастья' },
     EnumSongs.naLadoniPlaneta,
-    { name: 'Огонь - наш свет, огонь - наш след' },
+    EnumSongs.ogonNashSvet,
     { name: 'Чёрная вода' },
     [EnumSongs.patologoanatom, { name: ['Патологоанатом (Клочья)'] }],
     EnumSongs.novayaReligiya,

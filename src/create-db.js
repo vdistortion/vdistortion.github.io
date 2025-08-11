@@ -1,15 +1,10 @@
 import CyrillicToTranslit from 'cyrillic-to-translit-js';
 
 const artist = 'shmely';
-const album = 'organizm';
+const album = 'poshmelye';
 const names = {
   ru: `
-Организм
-Погадай
-Путь к
-Искушение
-Фабрика фекалий
-Агония
+
 `,
 };
 

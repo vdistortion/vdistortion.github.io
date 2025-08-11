@@ -18,7 +18,7 @@ const album: TypeAlbum = {
     { name: 'Всё' },
     EnumSongs.ivolga,
     { name: 'Иди' },
-    { name: 'Кронос' },
+    EnumSongs.kronos,
     EnumSongs.lakaiOtravu,
     { name: 'Лёд' },
     { name: 'Молодая' },
