@@ -99,6 +99,22 @@ import on from './on';
 import ostanoviteChelovechestvo from './ostanovite-chelovechestvo';
 import moiPut from './moi-put';
 import vzglyadIznutri from './vzglyad-iznutri';
+import toplivoZhizn from './toplivo-zhizn';
+import avtomobilITi from './avtomobil-i-ti';
+import parusa from './parusa';
+import zhenshchinaZaRulyom from './zhenshchina-za-rulyom';
+import cheryomukha from './cheryomukha';
+import melankholiya from './melankholiya';
+import laskoviiUrodets from './laskovii-urodets';
+import naidi from './naidi';
+import generatorMechti from './generator-mechti';
+import khvor from './khvor';
+import doktorMotorfil from './doktor-motorfil';
+import neftAlliluiya from './neft-alliluiya';
+import khorovod from './khorovod';
+import plyushevieZombi from './plyushevie-zombi';
+import trunaNaKolyosakh from './truna-na-kolyosakh';
+import bogLyubitSebya from './bog-lyubit-sebya';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -202,4 +218,20 @@ export default {
   [ostanoviteChelovechestvo.id]: ostanoviteChelovechestvo,
   [moiPut.id]: moiPut,
   [vzglyadIznutri.id]: vzglyadIznutri,
+  [toplivoZhizn.id]: toplivoZhizn,
+  [avtomobilITi.id]: avtomobilITi,
+  [parusa.id]: parusa,
+  [zhenshchinaZaRulyom.id]: zhenshchinaZaRulyom,
+  [cheryomukha.id]: cheryomukha,
+  [melankholiya.id]: melankholiya,
+  [laskoviiUrodets.id]: laskoviiUrodets,
+  [naidi.id]: naidi,
+  [generatorMechti.id]: generatorMechti,
+  [khvor.id]: khvor,
+  [doktorMotorfil.id]: doktorMotorfil,
+  [neftAlliluiya.id]: neftAlliluiya,
+  [khorovod.id]: khorovod,
+  [plyushevieZombi.id]: plyushevieZombi,
+  [trunaNaKolyosakh.id]: trunaNaKolyosakh,
+  [bogLyubitSebya.id]: bogLyubitSebya,
 };

@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.toplivo,
@@ -14,22 +14,22 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/3444135',
   },
   songs: [
-    { name: 'Топливо-жизнь' },
-    { name: 'Автомобиль и ты' },
-    { name: 'Паруса' },
-    { name: 'Женщина за рулём' },
-    { name: 'Черёмуха' },
-    { name: 'Меланхолия' },
-    { name: 'Ласковый уродец' },
-    { name: 'Найди...' },
-    { name: 'Генератор мечты' },
-    { name: 'Хворь' },
-    { name: 'Доктор Моторфил' },
-    { name: 'Нефть Аллилуйя' },
-    { name: 'Хоровод' },
-    { name: 'Плюшевые зомби' },
-    { name: 'Труна на колёсах' },
-    { name: 'Бог любит себя' },
+    EnumSongs.toplivoZhizn,
+    EnumSongs.avtomobilITi,
+    EnumSongs.parusa,
+    EnumSongs.zhenshchinaZaRulyom,
+    EnumSongs.cheryomukha,
+    EnumSongs.melankholiya,
+    EnumSongs.laskoviiUrodets,
+    EnumSongs.naidi,
+    EnumSongs.generatorMechti,
+    EnumSongs.khvor,
+    EnumSongs.doktorMotorfil,
+    EnumSongs.neftAlliluiya,
+    EnumSongs.khorovod,
+    EnumSongs.plyushevieZombi,
+    EnumSongs.trunaNaKolyosakh,
+    EnumSongs.bogLyubitSebya,
   ],
 };
 
