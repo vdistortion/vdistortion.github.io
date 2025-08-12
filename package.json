@@ -20,6 +20,7 @@
     "@angular/router": "^20.0.0",
     "@angular/youtube-player": "^20.0.2",
     "@twogate/ngx-photo-gallery": "^1.8.1",
+    "copy-text-to-clipboard": "^3.2.0",
     "cyrillic-to-translit-js": "^3.2.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
