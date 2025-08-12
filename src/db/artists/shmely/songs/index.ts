@@ -218,6 +218,19 @@ import koteikaNaTryokhNozhkakh from './koteika-na-tryokh-nozhkakh';
 import tsvetochniiMedved from './tsvetochnii-medved';
 import snovaProLyubov from './snova-pro-lyubov';
 import lisayaGora from './lisaya-gora';
+import dlyaNeyoOdnoi from './dlya-neyo-odnoi';
+import beiKolokol from './bei-kolokol';
+import naprolom from './naprolom';
+import volchyaYagoda from './volchya-yagoda';
+import tenSerdtsa from './ten-serdtsa';
+import livenSlyoz from './liven-slyoz';
+import vulkanizatsiyaDush from './vulkanizatsiya-dush';
+import karusel from './karusel';
+import tma from './tma';
+import kormDlyaDushi from './korm-dlya-dushi';
+import vmesteUmeret from './vmeste-umeret';
+import svoboda from './svoboda';
+import spidvei from './spidvei';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -440,4 +453,17 @@ export default {
   [tsvetochniiMedved.id]: tsvetochniiMedved,
   [snovaProLyubov.id]: snovaProLyubov,
   [lisayaGora.id]: lisayaGora,
+  [dlyaNeyoOdnoi.id]: dlyaNeyoOdnoi,
+  [beiKolokol.id]: beiKolokol,
+  [naprolom.id]: naprolom,
+  [volchyaYagoda.id]: volchyaYagoda,
+  [tenSerdtsa.id]: tenSerdtsa,
+  [livenSlyoz.id]: livenSlyoz,
+  [vulkanizatsiyaDush.id]: vulkanizatsiyaDush,
+  [karusel.id]: karusel,
+  [tma.id]: tma,
+  [kormDlyaDushi.id]: kormDlyaDushi,
+  [vmesteUmeret.id]: vmesteUmeret,
+  [svoboda.id]: svoboda,
+  [spidvei.id]: spidvei,
 };

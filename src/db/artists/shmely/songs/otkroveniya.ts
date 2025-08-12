@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.otkroveniya,
   name: ['Откровения'],
-  albums: [EnumAlbums.ostanoviteChelovechestvo, EnumAlbums.vosstanoviteChelovechestvo],
+  albums: [EnumAlbums.durackiyeKnizhki, EnumAlbums.ostanoviteChelovechestvo, EnumAlbums.vosstanoviteChelovechestvo],
   text: `
 Выйди, Лихо сватать зиму,
 Выведи воссватать ночь.
