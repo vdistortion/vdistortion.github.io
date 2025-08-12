@@ -8,6 +8,7 @@ import { OtherSongsPageComponent } from './pages/other-songs-page/other-songs-pa
 import { VideoPageComponent } from './pages/video-page/video-page.component';
 import { ImagesPageComponent } from './pages/images-page/images-page.component';
 import { GalleryPageComponent } from './pages/gallery-page/gallery-page.component';
+import { CreateDbPage } from './pages/create-db-page/create-db-page';
 
 export const routes: Routes = [
   {
@@ -45,6 +46,10 @@ export const routes: Routes = [
   {
     path: 'artist/:artist/album/:album',
     component: AlbumPageComponent,
+  },
+  {
+    path: 'create-db',
+    component: CreateDbPage,
   },
   {
     path: '**',
