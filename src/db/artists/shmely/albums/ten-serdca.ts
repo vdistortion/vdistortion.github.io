@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.tenSerdca,
@@ -14,21 +14,21 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/79311',
   },
   songs: [
-    { name: 'Для неё одной' },
-    { name: 'Бей, колокол!' },
-    { name: 'Напролом' },
-    { name: 'Волчья ягода' },
-    { name: 'Тень сердца' },
-    { name: 'Ливень слёз' },
-    { name: 'Вулканизация душ' },
-    { name: 'Карусель' },
-    { name: 'Тьма' },
-    { name: 'Корм для души' },
-    { name: 'Вместе умереть' },
-    { name: 'Свобода' },
-    { name: 'Спидвей' },
-    { name: 'Волчья ягода (remix)' },
-    { name: 'Тень сердца (remix)' },
+    EnumSongs.dlyaNeyoOdnoi,
+    EnumSongs.beiKolokol,
+    EnumSongs.naprolom,
+    EnumSongs.volchyaYagoda,
+    EnumSongs.tenSerdtsa,
+    EnumSongs.livenSlyoz,
+    EnumSongs.vulkanizatsiyaDush,
+    EnumSongs.karusel,
+    EnumSongs.tma,
+    EnumSongs.kormDlyaDushi,
+    EnumSongs.vmesteUmeret,
+    EnumSongs.svoboda,
+    EnumSongs.spidvei,
+    [EnumSongs.volchyaYagoda, { name: ['Волчья ягода (remix)'] }],
+    [EnumSongs.tenSerdtsa, { name: ['Тень сердца (remix)'] }],
   ],
   info: `
 Лёс (Лёля) - вокал, музыка; Шмель (Александр) - вокал, бас, музыка, тексты; Росс (Ростислав) - клавиши, синтезаторы, бэк-вокал; Базилио (Игорь) - гитара, бэк-вокал; Ларс (Юра) - барабаны.

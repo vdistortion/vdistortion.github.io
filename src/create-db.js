@@ -1,7 +1,8 @@
 import CyrillicToTranslit from 'cyrillic-to-translit-js';
 
 const artist = 'shmely';
-const album = 'mekhanicheskayaBalerina';
+const album = 'tenSerdca';
+const authors = 'Шмель, Лёс - Шмель';
 const names = {
   ru: `
 
@@ -55,7 +56,7 @@ const song: TypeSong = {
   id: EnumSongs.${name},
   name: ['${item}'],
   albums: [EnumAlbums.${album}],
-  authors: '',
+  authors: '${authors}',
   text: \`
 
 \`,
