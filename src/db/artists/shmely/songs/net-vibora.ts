@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.netVibora,
   name: ['Нет выбора'],
-  albums: [EnumAlbums.ostanoviteChelovechestvo, EnumAlbums.vosstanoviteChelovechestvo],
+  albums: [EnumAlbums.ostanoviteChelovechestvo, EnumAlbums.vosstanoviteChelovechestvo, EnumAlbums.belyjKarandash],
   authors: 'Шмель',
   text: `
 Сколько не дарил добра я злости своей,
@@ -16,7 +16,7 @@ const song: TypeSong = {
 За причуды настенных ушей
 
 В забитых комнатах гниют свободою звуки так мило
-В иконах слезятся памятью муки и сила
+В иконах старых слезятся памятью муки и сила
 У бесконечности предел закрыт с часу ночи - могила
 Кто между космосом, а кто всегда между прочим,
 Впрочем нет выбора...
