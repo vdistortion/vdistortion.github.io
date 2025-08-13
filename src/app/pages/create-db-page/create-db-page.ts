@@ -21,27 +21,13 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['lyod', Validators.required],
+    id: ['koshkinyObidy', Validators.required],
     authors: ['Шмель, Лёс - Шмель'],
     languages: this.formBuilder.group({
       ru: [`
-Осиновый кол
-Женщина-птица
-Солнце моё
-Любовь
-Повелительница снов
-Иди
-Полынь
-Лёд
-Шутка
-Чёрная волга
-На том свете мы встретимся вновь
-Огненные слёзы гиены
-Давит небо
+
     `],
       uk: [''],
-      de: [''],
-      en: [''],
     })
   });
   files: string[] = [];
@@ -95,12 +81,12 @@ export class CreateDbPage {
           const item = itemRaw.trim();
           const file = preset === 'ru' || preset === 'uk' ? CyrillicToTranslit({ preset }).transform(item, '-') : item;
           const fileName = file
-            .replace(',', '')
-            .replace('.', '')
-            .replace('(', '')
-            .replace(')', '')
-            .replace('?', '')
-            .replace('!', '')
+            .replaceAll(',', '')
+            .replaceAll('.', '')
+            .replaceAll('(', '')
+            .replaceAll(')', '')
+            .replaceAll('?', '')
+            .replaceAll('!', '')
             .toLowerCase();
           const name = this.toCamelCase(fileName);
           this.files.push(`${fileName}.ts`);
