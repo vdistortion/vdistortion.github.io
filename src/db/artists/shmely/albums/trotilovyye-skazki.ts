@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const album: TypeAlbum = {
   id: EnumAlbums.trotilovyyeSkazki,
   name: 'Тротиловые сказки',
-  year: 1998,
+  year: 1999,
   folder: '/artist/shmely/albums/1998_skazki.jpg',
   songs: [
     { name: 'Чорна доба' },

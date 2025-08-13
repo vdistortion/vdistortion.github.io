@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.vsyoVoImyaCheloveka,
   name: ['Всё во имя человека'],
   albums: [EnumAlbums.spazmyRoka],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Реклама и песни,
 Оружье, дороги,

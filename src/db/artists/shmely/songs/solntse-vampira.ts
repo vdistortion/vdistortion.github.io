@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.solntseVampira,
   name: ['Солнце вампира'],
-  albums: [EnumAlbums.vosemZhenshchinNaRaduge],
+  albums: [EnumAlbums.vosemZhenshchinNaRaduge, EnumAlbums.sbornik],
   authors: 'Шмель',
   text: `
 Град не помилует в пути

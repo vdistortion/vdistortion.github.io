@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.denSvyatogoValentina,
   name: ['День Святого Валентина'],
   albums: [EnumAlbums.agressivnyjPokoj],
-  authors: 'Шмель',
+  authors: 'Макс Экс',
   text: `
 Раз, два, три...
 Школа дымится.

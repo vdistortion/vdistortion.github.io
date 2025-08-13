@@ -17,6 +17,8 @@ const album: TypeAlbum = {
     [EnumSongs.diskoteka, { name: ['Дискотека (очень ранняя)'] }],
     [EnumSongs.yaObernusOgnyom, { name: ['Я обернусь огнём (другая версия)'] }],
     EnumSongs.korobas,
+    EnumSongs.megapolis,
+    EnumSongs.valsVlyublyonnikhVoln,
   ],
   info: `
 Внеплановый альбом (тираж 100 шт.).

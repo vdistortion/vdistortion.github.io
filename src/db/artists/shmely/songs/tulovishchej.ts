@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.tulovishchej,
   name: ['Туловищей'],
   albums: [EnumAlbums.tulovishche, EnumAlbums.trahniNebo, EnumAlbums.risunkiNaDushe],
+  authors: 'Шмель',
   text: `
 Что за песня без баяна?
 Что за счастье без стакана?

@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.maneken,
   name: ['Манекен'],
   albums: [EnumAlbums.agressivnyjPokoj],
+  authors: 'Шмель - О.Гастелло',
   clipYouTubeId: 'exkzYZohXRg',
   text: `
 Пешеходов пещер усталых

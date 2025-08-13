@@ -46,6 +46,8 @@ import vidma from './vidma';
 import faktor from './faktor';
 import pyiDeKinPie from './pyi-de-kin-pie';
 import khaosZhelanii from './khaos-zhelanii';
+import sbornik from './sbornik';
+import neboProtiv from './nebo-protiv';
 
 export default {
   [trotilovyyeSkazki.id]: trotilovyyeSkazki,
@@ -96,4 +98,6 @@ export default {
   [faktor.id]: faktor,
   [pyiDeKinPie.id]: pyiDeKinPie,
   [khaosZhelanii.id]: khaosZhelanii,
+  [sbornik.id]: sbornik,
+  [neboProtiv.id]: neboProtiv,
 };

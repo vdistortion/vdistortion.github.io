@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.bomLbom,
   name: ['Бом лбом'],
   albums: [EnumAlbums.bombaVUbezhishche, EnumAlbums.polnaSuma, EnumAlbums.byuroVolshebnikhUslug],
-  authors: 'Музыка и слова Шмеля и Лёли',
+  authors: 'Шмель, Лёс',
   text: `
 Загора... загора... загорайся пламя
 Вылезайте из дыр твари, твари.

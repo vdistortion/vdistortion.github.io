@@ -10,6 +10,7 @@ const song: TypeSong = {
     EnumAlbums.spazmyRoka,
     EnumAlbums.poshmelye,
   ],
+  authors: 'Шмель, Лёс - Шмель',
   duration: 198,
   text: `
 Руки, что тянулись вон, туго связаны

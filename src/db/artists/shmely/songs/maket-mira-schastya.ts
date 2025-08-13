@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.maketMiraSchastya,
   name: ['Макет Мира Счастья'],
   albums: [EnumAlbums.spazmyRoka],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Все тропинки по весне станут лужами,
 Все мыслишки в голове станут ужасом,

@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.yaVselennaya,
   name: ['Я – Вселенная'],
   albums: [EnumAlbums.spazmyRoka, EnumAlbums.poshmelye],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   duration: 196,
   text: `
 Когда умирает свет,

@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.zhenshchinaDramaturgiya,
   name: ['Женщина-драматургия'],
-  albums: [EnumAlbums.pugovica],
+  albums: [EnumAlbums.pugovica, EnumAlbums.sbornik],
   authors: 'Шмель, Лёс - Шмель',
   text: `
 Женщина-драматургия по городу ночью идёт,

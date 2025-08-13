@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.dramaturgiya,
   name: ['Драматургия'],
-  albums: [EnumAlbums.yaVernusKTebe],
+  albums: [EnumAlbums.yaVernusKTebe, EnumAlbums.sbornik],
   authors: 'Лёс - Шмель',
   text: `
 Осенней порою улетая к теплу,

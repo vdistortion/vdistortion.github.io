@@ -4,7 +4,11 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.netVibora,
   name: ['Нет выбора'],
-  albums: [EnumAlbums.ostanoviteChelovechestvo, EnumAlbums.vosstanoviteChelovechestvo, EnumAlbums.belyjKarandash],
+  albums: [
+    EnumAlbums.ostanoviteChelovechestvo,
+    EnumAlbums.belyjKarandash,
+    EnumAlbums.vosstanoviteChelovechestvo,
+  ],
   authors: 'Шмель',
   text: `
 Сколько не дарил добра я злости своей,

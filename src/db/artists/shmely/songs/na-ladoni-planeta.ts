@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.naLadoniPlaneta,
   name: ['На ладони планета'],
   albums: [EnumAlbums.spazmyRoka, EnumAlbums.poshmelye],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   duration: 187,
   text: `
 Мне поля красивые,

@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.polnolunie,
   name: ['Полнолуние'],
-  albums: [EnumAlbums.vosemZhenshchinNaRaduge],
+  albums: [EnumAlbums.vosemZhenshchinNaRaduge, EnumAlbums.sbornik],
   authors: 'Шмель',
   text: `
 Вот обмен на жизнь без толка

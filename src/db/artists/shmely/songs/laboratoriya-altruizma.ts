@@ -12,6 +12,7 @@ const song: TypeSong = {
     EnumAlbums.polnaSuma,
     EnumAlbums.yaVernusKTebe,
   ],
+  authors: 'Шмель',
   text: `
 На слащавом лице учёного
 Электрошок застыл навеки,

@@ -10,7 +10,7 @@ const song: TypeSong = {
     EnumAlbums.polnaSuma,
     EnumAlbums.byuroVolshebnikhUslug,
   ],
-  authors: 'Шмель', // Музыка и слова Шмеля и Лёли
+  authors: 'Шмель, Лёс',
   text: `
 Агония! Агония! Агония!
 Глубоко...

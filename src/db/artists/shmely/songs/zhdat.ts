@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.zhdat,
   name: ['Ждать'],
   albums: [EnumAlbums.spazmyRoka],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Когда я узнаю напротив сон забытый,
 В трамвае, взлетая, ты пропадёшь из виду

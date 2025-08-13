@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.sadizm,
   name: ['Садизм'],
   albums: [EnumAlbums.bombaVUbezhishche, EnumAlbums.polnaSuma, EnumAlbums.byuroVolshebnikhUslug],
-  authors: 'Музыка и слова Шмеля и Лёли',
+  authors: 'Шмель, Лёс',
   text: `
 Там где небо слилось с зорькою грудастой
 Где пророк пузатый созывал люд свистом

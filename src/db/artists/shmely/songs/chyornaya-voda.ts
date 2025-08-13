@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.chyornayaVoda,
   name: ['Чёрная вода'],
   albums: [EnumAlbums.spazmyRoka],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Сплетался сам венок,
 Танцевала злая волюшка,

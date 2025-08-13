@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.drama,
   name: ['Драма'],
-  albums: [EnumAlbums.yaVernusKTebe],
+  albums: [EnumAlbums.yaVernusKTebe, EnumAlbums.sbornik],
   authors: 'Шмель',
   text: `
 Высоко в облаках летают сны измученных аур.

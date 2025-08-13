@@ -52,6 +52,8 @@ export const enum EnumAlbums {
   faktor = 'faktor',
   pyiDeKinPie = 'pyi-de-kin-pie',
   khaosZhelanii = 'khaos-zhelanii',
+  sbornik = 'sbornik',
+  neboProtiv = 'nebo-protiv',
 }
 
 export const enum EnumSongs {

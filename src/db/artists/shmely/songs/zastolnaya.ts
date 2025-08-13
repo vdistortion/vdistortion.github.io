@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.zastolnaya,
   name: ['Zастольная', 'Далеко от себя'],
   albums: [EnumAlbums.bombaVUbezhishche],
-  authors: 'Музыка и слова Шмеля и Лёли',
+  authors: 'Шмель, Лёс',
   text: `
 По теплой коже от любви
 Проходился наждачный холод

@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.zavtraNaVipisku,
   name: ['Завтра на выписку'],
   albums: [EnumAlbums.risunkiNaDushe, EnumAlbums.spazmyRoka],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Свернулось клубком горе-горюшко
 Будто радость желание видит

@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.ogonNashSvet,
   name: ['Огонь — наш свет, огонь — наш след'],
   albums: [EnumAlbums.spazmyRoka, EnumAlbums.poshmelye],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Нас же за нос водила любовь.
 Нас враги уничтожить пытались.

@@ -9,8 +9,9 @@ const song: TypeSong = {
     EnumAlbums.organizm,
     EnumAlbums.negativProstranstva,
     EnumAlbums.agressivnyjPokoj,
+    EnumAlbums.sbornik,
   ],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс',
   text: `
 Ах ты, слёзная ночею жданною,
 Пробежалася волчицею по лесам глухим,

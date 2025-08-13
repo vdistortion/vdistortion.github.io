@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const album: TypeAlbum = {
   id: EnumAlbums.petlyaSoblazna,
   name: 'Петля соблазна',
-  year: 1998,
+  year: 1999,
   folder: '/artist/shmely/albums/1998_ps_.jpg',
   songs: [
     EnumSongs.vyuga,
