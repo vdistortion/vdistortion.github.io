@@ -293,6 +293,16 @@ import teatrUrodov from './teatr-urodov';
 import kraz255 from './kraz-255';
 import sudba from './sudba';
 import muMuZhiva from './mu-mu-zhiva';
+import svetOstanovilsya from './svet-ostanovilsya';
+import otvaliMoyaChereshnya from './otvali-moya-chereshnya';
+import biliMi from './bili-mi';
+import yaKhochuBitRobotom from './ya-khochu-bit-robotom';
+import tsekhPoReabilitatsiiParanoikov from './tsekh-po-reabilitatsii-paranoikov';
+import pesenkaPlastilina2 from './pesenka-plastilina-2';
+import lechebnitsa from './lechebnitsa';
+import zagovorka from './zagovorka';
+import pochta from './pochta';
+import khalyava from './khalyava';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -590,4 +600,14 @@ export default {
   [kraz255.id]: kraz255,
   [sudba.id]: sudba,
   [muMuZhiva.id]: muMuZhiva,
+  [svetOstanovilsya.id]: svetOstanovilsya,
+  [otvaliMoyaChereshnya.id]: otvaliMoyaChereshnya,
+  [biliMi.id]: biliMi,
+  [yaKhochuBitRobotom.id]: yaKhochuBitRobotom,
+  [tsekhPoReabilitatsiiParanoikov.id]: tsekhPoReabilitatsiiParanoikov,
+  [pesenkaPlastilina2.id]: pesenkaPlastilina2,
+  [lechebnitsa.id]: lechebnitsa,
+  [zagovorka.id]: zagovorka,
+  [pochta.id]: pochta,
+  [khalyava.id]: khalyava,
 };
