@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.solnishkoViidet,
   name: ['Солнышко выйдет'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   clipYouTubeId: 'MDNmopAk_g8',
   text: `
 Заверни в платочек увиденное, пережитое

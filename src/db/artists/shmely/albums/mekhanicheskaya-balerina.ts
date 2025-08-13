@@ -17,7 +17,7 @@ const album: TypeAlbum = {
     { name: 'Механическая балерина' },
     { name: 'Люди' },
     { name: 'Какофония сердец' },
-    { name: 'Вещий сон' },
+    { name: 'Сон' },
     EnumSongs.pryotTakPri,
     { name: 'Жги' },
     EnumSongs.lisayaGora,

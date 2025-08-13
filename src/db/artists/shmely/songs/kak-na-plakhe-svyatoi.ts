@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.kakNaPlakheSvyatoi,
   name: ['Как на плахе святой'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo, EnumAlbums.vethijSbornik],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Сон в таком мёртвом доме,
 Извращалась любовь за задёрнутыми шторами,

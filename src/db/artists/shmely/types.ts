@@ -136,7 +136,7 @@ export const enum EnumSongs {
   laiIllyuzii = 'lai-illyuzii',
   pervayaLyubovStikh = 'pervaya-lyubov-stikh',
   krizhanaVoda = 'krizhana-voda',
-  bogi = 'bogi',
+  otravlennieBogi = 'otravlennie-bogi',
   pomolis = 'pomolis',
   ivolga = 'ivolga',
   vMyasnomTsekhuPrazdnikDushi = 'v-myasnom-tsekhu-prazdnik-dushi',

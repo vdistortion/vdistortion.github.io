@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.zima,
   name: ['Зима'],
   albums: [EnumAlbums.trotilovyyeSkazki],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Лучшее время года - зима,
 Заморозь мой бред, заморозь мой сон.

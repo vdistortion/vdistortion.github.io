@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.laiIllyuzii,
   name: ['Лай иллюзии'],
   albums: [EnumAlbums.tulovishche, EnumAlbums.trahniNebo],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Глянь на небо - на небе смерть...
 

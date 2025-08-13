@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.neboStikh,
   name: ['Небо (стих)'],
   albums: [EnumAlbums.tulovishche],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Спросим небо мы: "Как нам жизнь прожить?
 Да где волосы, чтоб во сне гулять?"

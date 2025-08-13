@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.neGrustiITakKhuyovo,
   name: ['Не грусти, и так хуёво'],
   albums: [EnumAlbums.durackiyeKnizhki],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Что грустишь, повесив веки
 На забитый в стенку гвоздь

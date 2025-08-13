@@ -3,7 +3,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
   id: EnumSongs.yaVselennaya,
-  name: ['Я – Вселенная'],
+  name: ['Я — вселенная'],
   albums: [EnumAlbums.spazmyRoka, EnumAlbums.poshmelye],
   authors: 'Шмель, Лёс - Шмель',
   duration: 196,
@@ -17,7 +17,7 @@ const song: TypeSong = {
 Пульс вздувается на висках -
 Это я поселилась у всех в голове
 
-Я - Вселенная
+Я — вселенная
 
 Когда умирает свет,
 Ликует атом как новый бог,
@@ -28,7 +28,7 @@ const song: TypeSong = {
 Путь для тех, кому любить,
 Путь для всех, но не для меня
 
-Я - Вселенная
+Я — вселенная
 `,
 };
 

@@ -14,6 +14,956 @@
     ]
   },
   {
+    "name": "logo",
+    "type": "folder",
+    "children": [
+      {
+        "type": "file",
+        "name": "mainlogo.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Лого (Лёд).gif"
+      },
+      {
+        "type": "file",
+        "name": "Лого-3.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Логотип.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Пошмелье рельеф.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Пошмелье.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Фон (Лого).gif"
+      },
+      {
+        "type": "file",
+        "name": "Форум.jpg"
+      },
+      {
+        "type": "file",
+        "name": "ШМ.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Я вселенная.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Книга",
+    "type": "folder",
+    "children": [
+      {
+        "type": "file",
+        "name": "ch.jpg"
+      },
+      {
+        "type": "file",
+        "name": "anp7.jpg"
+      },
+      {
+        "type": "file",
+        "name": "cvet1.jpg"
+      },
+      {
+        "type": "file",
+        "name": "cvet2.jpg"
+      },
+      {
+        "type": "file",
+        "name": "cvet3.jpg"
+      },
+      {
+        "type": "file",
+        "name": "cvet4.jpg"
+      },
+      {
+        "type": "file",
+        "name": "cvet5.jpg"
+      },
+      {
+        "type": "file",
+        "name": "cvet6.jpg"
+      },
+      {
+        "type": "file",
+        "name": "cvet7.jpg"
+      },
+      {
+        "type": "file",
+        "name": "griz.jpg"
+      },
+      {
+        "type": "file",
+        "name": "group33.jpg"
+      },
+      {
+        "type": "file",
+        "name": "grsh.jpg"
+      },
+      {
+        "type": "file",
+        "name": "kir.jpg"
+      },
+      {
+        "type": "file",
+        "name": "kirill.jpg"
+      },
+      {
+        "type": "file",
+        "name": "kirril.jpg"
+      },
+      {
+        "type": "file",
+        "name": "kooo.jpg"
+      },
+      {
+        "type": "file",
+        "name": "ksir.jpg"
+      },
+      {
+        "type": "file",
+        "name": "lkshm.jpg"
+      },
+      {
+        "type": "file",
+        "name": "logoV.jpg"
+      },
+      {
+        "type": "file",
+        "name": "lyos.jpg"
+      },
+      {
+        "type": "file",
+        "name": "lyos111.jpg"
+      },
+      {
+        "type": "file",
+        "name": "lyospoi.jpg"
+      },
+      {
+        "type": "file",
+        "name": "lyosrecl.jpg"
+      },
+      {
+        "type": "file",
+        "name": "obl1t.jpg"
+      },
+      {
+        "type": "file",
+        "name": "oboi1.jpg"
+      },
+      {
+        "type": "file",
+        "name": "pervaya.jpg"
+      },
+      {
+        "type": "file",
+        "name": "saha.jpg"
+      },
+      {
+        "type": "file",
+        "name": "sh01.jpg"
+      },
+      {
+        "type": "file",
+        "name": "sh02.jpg"
+      },
+      {
+        "type": "file",
+        "name": "sh0end.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shGol.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shGol2.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shgivm.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shm.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shm1n.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shm2010.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shm2n.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmG.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmGr.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmM.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmN1.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmelyS.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmfest.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmfest1.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmfest2.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmg1.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmgi.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmmnj.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmrchr1.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmsostaff.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmsp.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmy.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shsk.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shtexts.jpg"
+      },
+      {
+        "type": "file",
+        "name": "skshm.jpg"
+      },
+      {
+        "type": "file",
+        "name": "sol06.jpg"
+      },
+      {
+        "type": "file",
+        "name": "t.jpg"
+      },
+      {
+        "type": "file",
+        "name": "tucks.jpg"
+      },
+      {
+        "type": "file",
+        "name": "zad.jpg"
+      },
+      {
+        "type": "file",
+        "name": "zmish1.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Разное",
+    "type": "folder",
+    "children": [
+      {
+        "type": "file",
+        "name": "14 апр 1995.jpg"
+      },
+      {
+        "type": "file",
+        "name": "2013.jpg"
+      },
+      {
+        "type": "file",
+        "name": "8 марта закончилось.jpg"
+      },
+      {
+        "type": "file",
+        "name": "8 марта.jpg"
+      },
+      {
+        "type": "file",
+        "name": "AW.gif"
+      },
+      {
+        "type": "file",
+        "name": "Alan Waters.gif"
+      },
+      {
+        "type": "file",
+        "name": "AntiVirus.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Shado News.jpg"
+      },
+      {
+        "type": "file",
+        "name": "XXX.jpg"
+      },
+      {
+        "type": "file",
+        "name": "fon01[1].jpg"
+      },
+      {
+        "type": "file",
+        "name": "fon02[1].jpg"
+      },
+      {
+        "type": "file",
+        "name": "fon03[1].jpg"
+      },
+      {
+        "type": "file",
+        "name": "index.jpg"
+      },
+      {
+        "type": "file",
+        "name": "mp3.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmel.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Александр Громцев.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Базилио.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Драматургия.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Зима (Крест).jpg"
+      },
+      {
+        "type": "file",
+        "name": "Зима (Лёс).jpg"
+      },
+      {
+        "type": "file",
+        "name": "Зима (Шмель).jpg"
+      },
+      {
+        "type": "file",
+        "name": "Карамельные страхи.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Классический состав.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Клуб Монреаль.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Клуб Ольстер.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Л.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Лёля.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Лёс-1.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Лёс-2.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Лёс.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Маэстро ужасов.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Р-Клуб.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Фон (Клоун).jpg"
+      },
+      {
+        "type": "file",
+        "name": "Ш.jpg"
+      },
+      {
+        "type": "file",
+        "name": "ШМ (live).jpg"
+      },
+      {
+        "type": "file",
+        "name": "ШМ (live1).jpg"
+      },
+      {
+        "type": "file",
+        "name": "ШМ (live2).jpg"
+      },
+      {
+        "type": "file",
+        "name": "ШМ - live.jpg"
+      },
+      {
+        "type": "file",
+        "name": "ШМ-2.jpg"
+      },
+      {
+        "type": "file",
+        "name": "ШМ-3.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шадо Ньюс.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмели mp3.png"
+      },
+      {
+        "type": "file",
+        "name": "Шмели-1.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмели-2.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмели-3.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмели-4.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмели-6.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмели-7.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмели-8.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмели.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмель.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмелёвы (1).jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмелёвы (2).jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмелёвы (3).jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмелёвы (4).jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмелёвы (5).jpg"
+      },
+      {
+        "type": "file",
+        "name": "Шмелёвы (6).jpg"
+      }
+    ]
+  },
+  {
+    "name": "ВТОРОЙ ОФИЦИАЛЬНЫЙ MP-3 СБОРНИК (2006)",
+    "type": "folder",
+    "children": [
+      {
+        "type": "file",
+        "name": "01-Shmel i Lyos - Pugovitsa.jpg"
+      },
+      {
+        "type": "file",
+        "name": "02-Shmeli i Alan Waters - Vosem zhenshin na raduge.jpg"
+      },
+      {
+        "type": "file",
+        "name": "03-AntiVirus - Ostanovite tchelovetchestvo.jpg"
+      },
+      {
+        "type": "file",
+        "name": "04-Klotchya - Risunki na dushe.jpg"
+      },
+      {
+        "type": "file",
+        "name": "05-Shmeli - Zhazhda.jpg"
+      },
+      {
+        "type": "file",
+        "name": "06-Shmeli - Polna suma (sbornik, 1998-1999).jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely01.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely02.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely03.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely04.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely05.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely06.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely07.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely08.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely09.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely10.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely11.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely12.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely13.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely14.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely15.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely16.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely17.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely18.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely19.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely20.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely21.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely22.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely23.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely24.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely25.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely26.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely27.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely28.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely29.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely30.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely31.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely32.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely33.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely34.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely35.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely36.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely37.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely38.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely39.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely40.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely41.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely42.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely43.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely44.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely45.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely46.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely47.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely48.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely49.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmely50.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmwallpaper1.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmwallpaper2.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmwallpaper3.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmwallpaper4.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmwallpaper5.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmwallpaper6.jpg"
+      },
+      {
+        "type": "file",
+        "name": "shmwallpaper7.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Я - ВСЕЛЕННАЯ (2005)",
+    "type": "folder",
+    "children": [
+      {
+        "type": "file",
+        "name": "pic (1).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (10).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (11).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (12).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (13).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (14).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (15).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (16).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (17).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (18).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (19).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (2).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (20).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (21).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (22).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (23).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (24).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (25).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (26).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (27).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (28).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (29).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (3).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (30).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (31).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (32).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (33).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (34).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (35).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (36).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (37).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (38).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (39).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (4).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (40).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (5).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (6).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (7).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (8).jpg"
+      },
+      {
+        "type": "file",
+        "name": "pic (9).jpg"
+      }
+    ]
+  },
+  {
     "name": "site",
     "type": "folder",
     "children": [

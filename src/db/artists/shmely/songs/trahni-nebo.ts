@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.trahniNebo,
   name: ['Трахни небо'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo],
+  authors: 'Шмель',
   text: `
 Катит, катит, катит, катит
 С горы блядская телега,

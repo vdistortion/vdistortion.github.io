@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.pomolis,
   name: ['Помолись'],
   albums: [EnumAlbums.vulkanizaciyaDushi, EnumAlbums.vethijSbornik],
-  authors: 'Шмелёвы',
+  authors: 'Шмель, Лёс',
   text: `
 У-у
 Крапав дощик
