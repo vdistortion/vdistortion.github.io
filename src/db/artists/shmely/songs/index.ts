@@ -303,6 +303,18 @@ import lechebnitsa from './lechebnitsa';
 import zagovorka from './zagovorka';
 import pochta from './pochta';
 import khalyava from './khalyava';
+import zvyozdiSvetyatYarche from './zvyozdi-svetyat-yarche';
+import belieChulochki from './belie-chulochki';
+import paraTrupov from './para-trupov';
+import naKonechnomGorizonte from './na-konechnom-gorizonte';
+import novayaRadost from './novaya-radost';
+import kuklaGerda from './kukla-gerda';
+import prostitutkiMoskvi from './prostitutki-moskvi';
+import dizain from './dizain';
+import poslednyayaLyubov from './poslednyaya-lyubov';
+import ekskursiyaPoAdu from './ekskursiya-po-adu';
+import ansambl from './ansambl';
+import grobovshchik from './grobovshchik';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -610,4 +622,16 @@ export default {
   [zagovorka.id]: zagovorka,
   [pochta.id]: pochta,
   [khalyava.id]: khalyava,
+  [zvyozdiSvetyatYarche.id]: zvyozdiSvetyatYarche,
+  [belieChulochki.id]: belieChulochki,
+  [paraTrupov.id]: paraTrupov,
+  [naKonechnomGorizonte.id]: naKonechnomGorizonte,
+  [novayaRadost.id]: novayaRadost,
+  [kuklaGerda.id]: kuklaGerda,
+  [prostitutkiMoskvi.id]: prostitutkiMoskvi,
+  [dizain.id]: dizain,
+  [poslednyayaLyubov.id]: poslednyayaLyubov,
+  [ekskursiyaPoAdu.id]: ekskursiyaPoAdu,
+  [ansambl.id]: ansambl,
+  [grobovshchik.id]: grobovshchik,
 };

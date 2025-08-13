@@ -19,7 +19,7 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['cekhPoReabilitaciiParanoikov', Validators.required],
+    id: ['paraTrupov', Validators.required],
     authors: [''],
     languages: this.formBuilder.group({
       ru: [
