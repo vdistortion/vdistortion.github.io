@@ -2,10 +2,10 @@ import { TypeSong } from '../../../types';
 import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
-  id: EnumSongs.bogi,
-  name: ['Боги'],
-  albums: [EnumAlbums.vulkanizaciyaDushi, EnumAlbums.agressivnyjPokoj],
-  authors: 'А.Шмелёв',
+  id: EnumSongs.otravlennieBogi,
+  name: ['Отравленные боги'],
+  albums: [EnumAlbums.agressivnyjPokoj],
+  authors: 'Шмель',
   text: `
 Древний праздник вызываем,
 Черная осень приходи.

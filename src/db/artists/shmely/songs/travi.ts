@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.travi,
   name: ['Травы'],
   albums: [EnumAlbums.tulovishche, EnumAlbums.trahniNebo],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Таємний світ зірок
 Райдугою кине

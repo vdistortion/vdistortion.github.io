@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.dajGarri,
   name: ['Дай Гарри'],
   albums: [EnumAlbums.trotilovyyeSkazki],
+  authors: 'Шмель',
   text: `
 Дорога без ветра, как любовь без огня,
 Случайный инспектор, тротуарная пыль,

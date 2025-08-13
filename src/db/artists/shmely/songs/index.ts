@@ -77,7 +77,7 @@ import neboStikh from './nebo-stikh';
 import laiIllyuzii from './lai-illyuzii';
 import pervayaLyubovStikh from './pervaya-lyubov-stikh';
 import krizhanaVoda from './krizhana-voda';
-import bogi from './bogi';
+import otravlennieBogi from './otravlennie-bogi';
 import pomolis from './pomolis';
 import ivolga from './ivolga';
 import vMyasnomTsekhuPrazdnikDushi from './v-myasnom-tsekhu-prazdnik-dushi';
@@ -410,7 +410,7 @@ export default {
   [laiIllyuzii.id]: laiIllyuzii,
   [pervayaLyubovStikh.id]: pervayaLyubovStikh,
   [krizhanaVoda.id]: krizhanaVoda,
-  [bogi.id]: bogi,
+  [otravlennieBogi.id]: otravlennieBogi,
   [pomolis.id]: pomolis,
   [ivolga.id]: ivolga,
   [vMyasnomTsekhuPrazdnikDushi.id]: vMyasnomTsekhuPrazdnikDushi,

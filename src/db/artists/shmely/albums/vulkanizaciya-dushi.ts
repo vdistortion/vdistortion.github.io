@@ -10,7 +10,7 @@ const album: TypeAlbum = {
     EnumSongs.krizhanaVoda,
     { name: 'Веснянка' },
     { name: 'У Гаю' },
-    EnumSongs.bogi,
+    { name: 'Боги' },
     EnumSongs.pomolis,
     { name: 'О-О-О' },
     { name: 'Диво' },

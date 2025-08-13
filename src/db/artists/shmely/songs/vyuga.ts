@@ -10,7 +10,7 @@ const song: TypeSong = {
     EnumAlbums.vethijSbornik,
     EnumAlbums.yaVernusKTebe,
   ],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Ветер чужой, пропитанный огнём,
 Свет, заражённый тревогой,

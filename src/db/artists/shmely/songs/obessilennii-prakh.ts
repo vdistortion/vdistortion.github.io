@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.obessilenniiPrakh,
   name: ['Обессиленный прах'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.vethijSbornik],
-  authors: 'Шмелёвы',
+  authors: 'Шмель',
   text: `
 Для кого-то этот мир без цветов
 Для кого-то этот мир без удач

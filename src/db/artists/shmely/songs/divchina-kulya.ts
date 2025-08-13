@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.divchinaKulya,
   name: ['Дiвчина-куля'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo],
+  authors: 'Шмель',
   clipYouTubeId: 'd7O9aDr7las',
   text: `
 Дівчина-куля, не кохай мене
