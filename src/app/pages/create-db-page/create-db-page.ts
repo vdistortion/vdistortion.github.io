@@ -21,21 +21,11 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['moskovskayaYarmarkaUdovolstvij', Validators.required],
-    authors: ['Шмель, Лёс - Шмель'],
+    id: ['teatrUrodov', Validators.required],
+    authors: [''],
     languages: this.formBuilder.group({
       ru: [`
-Все деньги кончились
-Девочка с чёрными бантиками
-Женщина-тень
-Ласка
-Кризис
-Московская ярмарка удовольствий
-Пир
-Зоя
-Где?
-С Новым годом
-Млечная депрессия
+
     `],
       uk: [''],
     })
