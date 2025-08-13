@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.paraTrupov,
@@ -14,18 +14,18 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/3444132',
   },
   songs: [
-    { name: 'Звёзды светят ярче' },
-    { name: 'Белые чулочки' },
-    { name: 'Пара трупов' },
-    { name: 'На конечном горизонте' },
-    { name: 'Новая радость' },
-    { name: 'Кукла Герда' },
-    { name: 'Проститутки Москвы' },
-    { name: 'Дизайн' },
-    { name: 'Последняя любовь' },
-    { name: 'Экскурсия по Аду' },
-    { name: 'Ансамбль' },
-    { name: 'Гробовщик' },
+    EnumSongs.zvyozdiSvetyatYarche,
+    EnumSongs.belieChulochki,
+    EnumSongs.paraTrupov,
+    EnumSongs.naKonechnomGorizonte,
+    EnumSongs.novayaRadost,
+    EnumSongs.kuklaGerda,
+    EnumSongs.prostitutkiMoskvi,
+    EnumSongs.dizain,
+    EnumSongs.poslednyayaLyubov,
+    EnumSongs.ekskursiyaPoAdu,
+    EnumSongs.ansambl,
+    EnumSongs.grobovshchik,
   ],
 };
 
