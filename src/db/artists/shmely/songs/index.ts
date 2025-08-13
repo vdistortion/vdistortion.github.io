@@ -231,6 +231,19 @@ import kormDlyaDushi from './korm-dlya-dushi';
 import vmesteUmeret from './vmeste-umeret';
 import svoboda from './svoboda';
 import spidvei from './spidvei';
+import osinoviiKol from './osinovii-kol';
+import zhenshchinaPtitsa from './zhenshchina-ptitsa';
+import solntseMoyo from './solntse-moyo';
+import lyubov from './lyubov';
+import povelitelnitsaSnov from './povelitelnitsa-snov';
+import idi from './idi';
+import polin from './polin';
+import lyod from './lyod';
+import shutka from './shutka';
+import chyornayaVolga from './chyornaya-volga';
+import naTomSveteMiVstretimsyaVnov from './na-tom-svete-mi-vstretimsya-vnov';
+import ognennieSlyoziGieni from './ognennie-slyozi-gieni';
+import davitNebo from './davit-nebo';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -466,4 +479,17 @@ export default {
   [vmesteUmeret.id]: vmesteUmeret,
   [svoboda.id]: svoboda,
   [spidvei.id]: spidvei,
+  [osinoviiKol.id]: osinoviiKol,
+  [zhenshchinaPtitsa.id]: zhenshchinaPtitsa,
+  [solntseMoyo.id]: solntseMoyo,
+  [lyubov.id]: lyubov,
+  [povelitelnitsaSnov.id]: povelitelnitsaSnov,
+  [idi.id]: idi,
+  [polin.id]: polin,
+  [lyod.id]: lyod,
+  [shutka.id]: shutka,
+  [chyornayaVolga.id]: chyornayaVolga,
+  [naTomSveteMiVstretimsyaVnov.id]: naTomSveteMiVstretimsyaVnov,
+  [ognennieSlyoziGieni.id]: ognennieSlyoziGieni,
+  [davitNebo.id]: davitNebo,
 };

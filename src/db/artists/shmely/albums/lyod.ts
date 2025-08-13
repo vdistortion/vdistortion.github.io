@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.lyod,
@@ -14,19 +14,19 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/79313',
   },
   songs: [
-    { name: 'Осиновый кол' },
-    { name: 'Женщина-птица' },
-    { name: 'Солнце моё' },
-    { name: 'Любовь' },
-    { name: 'Повелительница снов' },
-    { name: 'Иди' },
-    { name: 'Полынь' },
-    { name: 'Лёд' },
-    { name: 'Шутка' },
-    { name: 'Чёрная волга' },
-    { name: 'На том свете мы встретимся вновь' },
-    { name: 'Огненные слёзы гиены' },
-    { name: 'Давит небо' },
+    EnumSongs.osinoviiKol,
+    EnumSongs.zhenshchinaPtitsa,
+    EnumSongs.solntseMoyo,
+    EnumSongs.lyubov,
+    EnumSongs.povelitelnitsaSnov,
+    EnumSongs.idi,
+    EnumSongs.polin,
+    EnumSongs.lyod,
+    EnumSongs.shutka,
+    EnumSongs.chyornayaVolga,
+    EnumSongs.naTomSveteMiVstretimsyaVnov,
+    EnumSongs.ognennieSlyoziGieni,
+    EnumSongs.davitNebo,
   ],
   info: `
 Лёс (Лёля) - вокал, музыка; Шмель (Александр) - вокал, бас, музыка, тексты; Росс (Ростислав) - клавиши, синтезаторы, бэк-вокал; Базилио (Игорь) - гитара, бэк-вокал; Мартын (Андрей) - барабаны.
