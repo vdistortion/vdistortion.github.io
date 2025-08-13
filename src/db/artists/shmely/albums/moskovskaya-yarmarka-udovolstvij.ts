@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.moskovskayaYarmarkaUdovolstvij,
@@ -14,21 +14,21 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/3444131',
   },
   songs: [
-    { name: 'Все деньги кончились' },
-    { name: 'Девочка с чёрными бантиками' },
-    { name: 'Женщина-тень' },
+    EnumSongs.vseDengiKonchilis,
+    EnumSongs.devochkaSChyornimiBantikami,
+    EnumSongs.zhenshchinaTen,
     { name: 'Жёлуди' },
     { name: 'Любовь из стекла' },
-    { name: 'Ласка' },
-    { name: 'Кризис' },
-    { name: 'Московская ярмарка удовольствий' },
-    { name: 'Пир' },
+    EnumSongs.laska,
+    EnumSongs.krizis,
+    EnumSongs.moskovskayaYarmarkaUdovolstvii,
+    EnumSongs.pir,
     { name: 'Две столицы' },
     { name: 'Брюхо' },
-    { name: 'Зоя' },
-    { name: 'Где? (bonus track)' },
-    { name: 'С Новым годом (bonus track)' },
-    { name: 'Млечная депрессия (bonus track)' },
+    EnumSongs.zoya,
+    [EnumSongs.gde, { name: ['Где? (bonus track)'] }],
+    [EnumSongs.sNovimGodom, { name: ['С Новым годом (bonus track)'] }],
+    [EnumSongs.mlechnayaDepressiya, { name: ['Млечная депрессия (bonus track)'] }],
   ],
 };
 

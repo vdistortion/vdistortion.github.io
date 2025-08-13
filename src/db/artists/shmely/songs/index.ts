@@ -269,6 +269,17 @@ import zmeyaEiforiya from './zmeya-eiforiya';
 import yaBuduZhit from './ya-budu-zhit';
 import nervi from './nervi';
 import vZhivikhIgrayutMertvetsi from './v-zhivikh-igrayut-mertvetsi';
+import vseDengiKonchilis from './vse-dengi-konchilis';
+import devochkaSChyornimiBantikami from './devochka-s-chyornimi-bantikami';
+import zhenshchinaTen from './zhenshchina-ten';
+import laska from './laska';
+import krizis from './krizis';
+import moskovskayaYarmarkaUdovolstvii from './moskovskaya-yarmarka-udovolstvii';
+import pir from './pir';
+import zoya from './zoya';
+import gde from './gde';
+import sNovimGodom from './s-novim-godom';
+import mlechnayaDepressiya from './mlechnaya-depressiya';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -542,4 +553,15 @@ export default {
   [yaBuduZhit.id]: yaBuduZhit,
   [nervi.id]: nervi,
   [vZhivikhIgrayutMertvetsi.id]: vZhivikhIgrayutMertvetsi,
+  [vseDengiKonchilis.id]: vseDengiKonchilis,
+  [devochkaSChyornimiBantikami.id]: devochkaSChyornimiBantikami,
+  [zhenshchinaTen.id]: zhenshchinaTen,
+  [laska.id]: laska,
+  [krizis.id]: krizis,
+  [moskovskayaYarmarkaUdovolstvii.id]: moskovskayaYarmarkaUdovolstvii,
+  [pir.id]: pir,
+  [zoya.id]: zoya,
+  [gde.id]: gde,
+  [sNovimGodom.id]: sNovimGodom,
+  [mlechnayaDepressiya.id]: mlechnayaDepressiya,
 };

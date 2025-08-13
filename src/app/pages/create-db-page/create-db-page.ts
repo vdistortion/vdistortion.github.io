@@ -21,22 +21,21 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['karamelnyyeStrahi', Validators.required],
-    authors: ['Шмель'],
+    id: ['moskovskayaYarmarkaUdovolstvij', Validators.required],
+    authors: ['Шмель, Лёс - Шмель'],
     languages: this.formBuilder.group({
       ru: [`
-Женщина в сером
-Свадьбы не будет
-Мама
-Неспокойные сны (стих)
-Колыбельная+
-Карамельные страхи
-Раны
-Я тебя люблю
-Змея эйфория
-Я буду жить
-Нервы
-В живых играют мертвецы
+Все деньги кончились
+Девочка с чёрными бантиками
+Женщина-тень
+Ласка
+Кризис
+Московская ярмарка удовольствий
+Пир
+Зоя
+Где?
+С Новым годом
+Млечная депрессия
     `],
       uk: [''],
     })
