@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.duratskieKnizhki,
   name: ['Дурацкие книжки'],
   albums: [EnumAlbums.durackiyeKnizhki],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Глупые мухи погибают в глазах,
 Заставляя всех плакать.

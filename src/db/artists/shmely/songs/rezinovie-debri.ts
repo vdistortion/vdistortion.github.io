@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.rezinovieDebri,
   name: ['Резиновые дебри'],
   albums: [EnumAlbums.durackiyeKnizhki],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Святая жидкость меня не разбудит,
 Ты медсестру позови!!!

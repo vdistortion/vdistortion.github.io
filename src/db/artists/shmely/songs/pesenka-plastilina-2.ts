@@ -3,7 +3,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
   id: EnumSongs.pesenkaPlastilina2,
-  name: ['Песенка пластилина-2 (продолжение)'],
+  name: ['Песенка пластилина 2 (продолжение)'],
   albums: [EnumAlbums.cekhPoReabilitaciiParanoikov],
   authors: '',
   text: `

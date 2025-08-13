@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.fashistskiiMototsikl,
   name: ['Фашистский мотоцикл'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Я угнал фашистский мотоцикл
 Я угнал фашистский мотоцикл

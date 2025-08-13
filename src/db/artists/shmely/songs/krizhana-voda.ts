@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.krizhanaVoda,
   name: ['Крижана вода'],
   albums: [EnumAlbums.vulkanizaciyaDushi, EnumAlbums.vethijSbornik],
-  authors: 'Шмелёвы',
+  authors: 'Шмель, Лёс',
   clipYouTubeId: 'oOpbBIwgXRg',
   text: `
 На білом рушникові
