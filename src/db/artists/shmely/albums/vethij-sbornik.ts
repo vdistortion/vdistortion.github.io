@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const album: TypeAlbum = {
   id: EnumAlbums.vethijSbornik,
   name: 'Ветхий сборник',
-  year: 2005,
+  year: 2001,
   folder: '/artist/shmely/albums/2005_vs.jpg',
   streaming: { yandexMusic: 'https://music.yandex.ru/album/79303' },
   songs: [

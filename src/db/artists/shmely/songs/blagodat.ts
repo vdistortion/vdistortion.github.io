@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.blagodat,
   name: ['Благодать'],
   albums: [EnumAlbums.agressivnyjPokoj],
+  authors: 'Шмель',
   text: `
 Жизнь – работа, судьба – как пение птиц
 У меня есть экспериментальных сто лиц

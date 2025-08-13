@@ -4,8 +4,8 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.lisayaGora,
   name: ['Лысая гора'],
-  albums: [EnumAlbums.mekhanicheskayaBalerina],
-  authors: '',
+  albums: [EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Кто по сюжету - игрок?
 Что по приметам - беда?

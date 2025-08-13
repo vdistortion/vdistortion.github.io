@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.novayaReligiya,
   name: ['Новая религия'],
   albums: [EnumAlbums.spazmyRoka, EnumAlbums.poshmelye],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   duration: 183,
   text: `
 Человеческое тесто,

@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.trupniePyatna,
   name: ['Трупные пятна'],
   albums: [EnumAlbums.bombaVUbezhishche, EnumAlbums.polnaSuma, EnumAlbums.byuroVolshebnikhUslug],
-  authors: 'Музыка и слова Шмеля и Лёли',
+  authors: 'Шмель, Лёс',
   text: `
 Вкусивши душу святых медов,
 Вдохнув необъятность невинных природ,

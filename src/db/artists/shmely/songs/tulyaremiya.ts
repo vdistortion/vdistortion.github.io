@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.tulyaremiya,
   name: ['Туляремия'],
   albums: [EnumAlbums.bombaVUbezhishche],
-  authors: 'Музыка и слова Шмеля и Лёли',
+  authors: 'Шмель, Лёс',
   text: `
 Переломалась струйка крови
 Из толстых легочных дыр,

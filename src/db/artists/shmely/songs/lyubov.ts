@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.lyubov,
   name: ['Любовь'],
-  albums: [EnumAlbums.lyod],
+  albums: [EnumAlbums.lyod, EnumAlbums.sbornik],
   authors: 'Шмель, Лёс - Шмель',
   text: `
 Душу в обмен за малиновый сон, в цветах и страсти,

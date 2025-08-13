@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.khvor,
   name: ['Хворь'],
-  albums: [EnumAlbums.vosstanoviteChelovechestvo, EnumAlbums.toplivo],
+  albums: [EnumAlbums.toplivo, EnumAlbums.vosstanoviteChelovechestvo],
   authors: '',
   text: `
 Непослушные пуговки хрустальные мушки в глазах,

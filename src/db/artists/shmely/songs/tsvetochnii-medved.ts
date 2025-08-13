@@ -4,8 +4,8 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.tsvetochniiMedved,
   name: ['Цветочный медведь'],
-  albums: [EnumAlbums.mekhanicheskayaBalerina],
-  authors: '',
+  albums: [EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Мне встретился в поле цветочный медведь,
 И начал мне песни грустные петь.

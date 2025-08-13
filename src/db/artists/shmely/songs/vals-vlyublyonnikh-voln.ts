@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.valsVlyublyonnikhVoln,
   name: ['Вальс влюблённых волн'],
-  albums: [EnumAlbums.pugovica],
+  albums: [EnumAlbums.zhazhda, EnumAlbums.pugovica],
   authors: 'Шмель, Лёс - Шмель',
   text: `
 Цветы не вянут в воде,

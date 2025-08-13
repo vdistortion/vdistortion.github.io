@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.moyaLyubimaya,
   name: ['Моя любимая'],
   albums: [EnumAlbums.spazmyRoka],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Бог мёртв когда ты рядом
 День, ночь за твоим взглядом

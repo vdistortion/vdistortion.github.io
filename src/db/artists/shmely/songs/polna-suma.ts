@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.polnaSuma,
   name: ['Полна сума', 'Безлюдный остров'],
   albums: [EnumAlbums.bombaVUbezhishche, EnumAlbums.organizm, EnumAlbums.polnaSuma],
+  authors: 'Шмель, Лёс',
   text: `
 Полна сума лиха и пряников,
 Полон карман скорби по прошлому

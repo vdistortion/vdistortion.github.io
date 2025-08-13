@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.saprofag,
   name: ['Сапрофаг'],
   albums: [EnumAlbums.spazmyRoka, EnumAlbums.vethijSbornik],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Побежит, покатится, в складках спрячется,
 Тень опять воротится, прямо как вчера

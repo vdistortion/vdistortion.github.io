@@ -4,8 +4,8 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.koteikaNaTryokhNozhkakh,
   name: ['Котейка на трёх ножках'],
-  albums: [EnumAlbums.mekhanicheskayaBalerina],
-  authors: '',
+  albums: [EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 По просёлочной дорожке,
 Брёл котейка на трёх ножках,

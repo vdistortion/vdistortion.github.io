@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.vosemZhenshchinNaRaduge,
   name: ['Восемь женщин на радуге'],
-  albums: [EnumAlbums.vosemZhenshchinNaRaduge],
+  albums: [EnumAlbums.vosemZhenshchinNaRaduge, EnumAlbums.sbornik],
   authors: 'Шмель',
   text: `
 Одна тропа вела с небес,

@@ -4,8 +4,8 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.snovaProLyubov,
   name: ['Снова про любовь, блин'],
-  albums: [EnumAlbums.mekhanicheskayaBalerina],
-  authors: '',
+  albums: [EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Я давно твоя тень
 Параллельная жизнь

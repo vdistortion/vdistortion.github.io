@@ -1,10 +1,10 @@
 import { TypeSong } from '../../../types';
-import { EnumSongs } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
   id: EnumSongs.smertObida,
   name: ['Смерть, обида'],
-  albums: [],
+  albums: [EnumAlbums.sbornik],
   authors: '',
   text: `
 Линия солнца, за ней манит зло

@@ -4,8 +4,8 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.kolibelnaya,
   name: ['Колыбельная+'],
-  albums: [EnumAlbums.karamelnyyeStrahi, EnumAlbums.mekhanicheskayaBalerina],
-  authors: 'Шмель',
+  albums: [EnumAlbums.karamelnyyeStrahi, EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Утоплю тебя в постель, закую в кровать,
 Несмотря, что ты метель - придется спать.

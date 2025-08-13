@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.spazmiRoka,
   name: ['Спазмы рока'],
   albums: [EnumAlbums.spazmyRoka, EnumAlbums.vethijSbornik],
-  authors: 'Шмель',
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Что-то сладкое светится, что-то рыхлое сбудется
 Эта любовь гневом ревности - обнажает потребности

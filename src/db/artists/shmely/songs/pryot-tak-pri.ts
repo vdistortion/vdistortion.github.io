@@ -4,8 +4,8 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.pryotTakPri,
   name: ['Прёт? Так при!'],
-  albums: [EnumAlbums.mekhanicheskayaBalerina],
-  authors: '',
+  albums: [EnumAlbums.sbornik, EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
+  authors: 'Шмель, Лёс - Шмель',
   text: `
 Прет? так при!
 Прет? так при!

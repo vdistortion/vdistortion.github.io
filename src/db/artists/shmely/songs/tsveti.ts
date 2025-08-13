@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.tsveti,
   name: ['Цветы'],
   albums: [EnumAlbums.princessaBezTrusov, EnumAlbums.poshmelye],
-  authors: 'Лёс - Шмель',
+  authors: 'Шмель',
   text: `
 Втянула земля душеньку
 Последнюю хорошую

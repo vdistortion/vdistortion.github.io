@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.volchyaYagoda,
   name: ['Волчья ягода'],
-  albums: [EnumAlbums.tenSerdca],
+  albums: [EnumAlbums.tenSerdca, EnumAlbums.sbornik],
   authors: 'Шмель, Лёс - Шмель',
   text: `
 Как звала меня речка-ночка,

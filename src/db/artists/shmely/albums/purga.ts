@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const album: TypeAlbum = {
   id: EnumAlbums.purga,
   name: 'Пурга',
-  year: 1998,
+  year: 1999,
   folder: '/artist/shmely/albums/1998_purga.jpg',
   songs: [
     {

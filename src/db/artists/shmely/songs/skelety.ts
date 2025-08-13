@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.skelety,
   name: ['Скелеты'],
   albums: [EnumAlbums.risunkiNaDushe, EnumAlbums.poshmelye],
+  authors: 'Alan Waters - О.Гастелло',
   clipYouTubeId: 'sm_W3X9wYo0',
   duration: 237,
   text: `
