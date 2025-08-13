@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.belyjKarandash,
@@ -14,21 +14,21 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/3444125',
   },
   songs: [
-    { name: 'Сердце Бога' },
-    { name: 'Белый карандаш' },
-    { name: 'Сей час' },
-    { name: 'Под асфальт' },
-    { name: 'Безответная любовь' },
-    { name: 'Вселенский оргазм' },
-    { name: 'Кабаре' },
-    { name: 'Потеха' },
-    { name: 'Напои нас' },
-    { name: 'Попутчица' },
-    { name: 'Другой смех' },
-    { name: 'Океаномагия' },
-    { name: 'Пылающий ангел' },
-    { name: 'Нет выбора' },
-    { name: 'Андромеда' },
+    EnumSongs.serdtseBoga,
+    EnumSongs.beliiKarandash,
+    EnumSongs.seiChas,
+    EnumSongs.podAsfalt,
+    EnumSongs.bezotvetnayaLyubov,
+    EnumSongs.vselenskiiOrgazm,
+    EnumSongs.kabare,
+    EnumSongs.potekha,
+    EnumSongs.napoiNas,
+    EnumSongs.poputchitsa,
+    EnumSongs.drugoiSmekh,
+    EnumSongs.okeanomagiya,
+    EnumSongs.pilayushchiiAngel,
+    EnumSongs.netVibora,
+    EnumSongs.andromeda,
   ],
 };
 

@@ -315,6 +315,20 @@ import poslednyayaLyubov from './poslednyaya-lyubov';
 import ekskursiyaPoAdu from './ekskursiya-po-adu';
 import ansambl from './ansambl';
 import grobovshchik from './grobovshchik';
+import serdtseBoga from './serdtse-boga';
+import beliiKarandash from './belii-karandash';
+import seiChas from './sei-chas';
+import podAsfalt from './pod-asfalt';
+import bezotvetnayaLyubov from './bezotvetnaya-lyubov';
+import vselenskiiOrgazm from './vselenskii-orgazm';
+import kabare from './kabare';
+import potekha from './potekha';
+import napoiNas from './napoi-nas';
+import poputchitsa from './poputchitsa';
+import drugoiSmekh from './drugoi-smekh';
+import okeanomagiya from './okeanomagiya';
+import pilayushchiiAngel from './pilayushchii-angel';
+import andromeda from './andromeda';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -634,4 +648,18 @@ export default {
   [ekskursiyaPoAdu.id]: ekskursiyaPoAdu,
   [ansambl.id]: ansambl,
   [grobovshchik.id]: grobovshchik,
+  [serdtseBoga.id]: serdtseBoga,
+  [beliiKarandash.id]: beliiKarandash,
+  [seiChas.id]: seiChas,
+  [podAsfalt.id]: podAsfalt,
+  [bezotvetnayaLyubov.id]: bezotvetnayaLyubov,
+  [vselenskiiOrgazm.id]: vselenskiiOrgazm,
+  [kabare.id]: kabare,
+  [potekha.id]: potekha,
+  [napoiNas.id]: napoiNas,
+  [poputchitsa.id]: poputchitsa,
+  [drugoiSmekh.id]: drugoiSmekh,
+  [okeanomagiya.id]: okeanomagiya,
+  [pilayushchiiAngel.id]: pilayushchiiAngel,
+  [andromeda.id]: andromeda,
 };
