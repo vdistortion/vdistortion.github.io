@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.zloradostnayaOpuholNew,
@@ -14,13 +14,13 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/3444126',
   },
   songs: [
-    { name: 'Были мы' },
+    EnumSongs.biliMi,
     { name: 'Лезвие' },
     { name: 'Песенка пластилина' },
     { name: 'Злорадостная опухоль' },
     { name: 'Глисты' },
     { name: 'Шейк шейк ча ча ча' },
-    { name: 'Лечебница' },
+    EnumSongs.lechebnitsa,
     { name: 'Смирительная рубаха' },
     { name: 'Мутанты' },
     { name: 'Джаги мертвее всех мёртвых' },

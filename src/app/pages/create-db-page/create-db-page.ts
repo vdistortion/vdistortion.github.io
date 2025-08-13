@@ -5,12 +5,10 @@ import copy from 'copy-text-to-clipboard';
 
 @Component({
   selector: 'app-create-db-page',
-  imports: [
-    ReactiveFormsModule
-  ],
+  imports: [ReactiveFormsModule],
   templateUrl: './create-db-page.html',
   styleUrl: './create-db-page.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CreateDbPage {
   private formBuilder = inject(FormBuilder);
@@ -21,14 +19,16 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['teatrUrodov', Validators.required],
+    id: ['cekhPoReabilitaciiParanoikov', Validators.required],
     authors: [''],
     languages: this.formBuilder.group({
-      ru: [`
+      ru: [
+        `
 
-    `],
+    `,
+      ],
       uk: [''],
-    })
+    }),
   });
   files: string[] = [];
   types: string[] = [];
@@ -79,7 +79,10 @@ export class CreateDbPage {
         .filter((item) => item.trim())
         .forEach((itemRaw) => {
           const item = itemRaw.trim();
-          const file = preset === 'ru' || preset === 'uk' ? CyrillicToTranslit({ preset }).transform(item, '-') : item;
+          const file =
+            preset === 'ru' || preset === 'uk'
+              ? CyrillicToTranslit({ preset }).transform(item, '-')
+              : item;
           const fileName = file
             .replaceAll(',', '')
             .replaceAll('.', '')
