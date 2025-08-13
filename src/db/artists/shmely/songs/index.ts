@@ -280,6 +280,19 @@ import zoya from './zoya';
 import gde from './gde';
 import sNovimGodom from './s-novim-godom';
 import mlechnayaDepressiya from './mlechnaya-depressiya';
+import ulyot from './ulyot';
+import sanitarka from './sanitarka';
+import tatuNaPope from './tatu-na-pope';
+import maestroUzhasov from './maestro-uzhasov';
+import dorogaPusta from './doroga-pusta';
+import zelyoniiPoezd from './zelyonii-poezd';
+import potselui from './potselui';
+import akhUYeli from './akh-u-yeli';
+import malo from './malo';
+import teatrUrodov from './teatr-urodov';
+import kraz255 from './kraz-255';
+import sudba from './sudba';
+import muMuZhiva from './mu-mu-zhiva';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -564,4 +577,17 @@ export default {
   [gde.id]: gde,
   [sNovimGodom.id]: sNovimGodom,
   [mlechnayaDepressiya.id]: mlechnayaDepressiya,
+  [ulyot.id]: ulyot,
+  [sanitarka.id]: sanitarka,
+  [tatuNaPope.id]: tatuNaPope,
+  [maestroUzhasov.id]: maestroUzhasov,
+  [dorogaPusta.id]: dorogaPusta,
+  [zelyoniiPoezd.id]: zelyoniiPoezd,
+  [potselui.id]: potselui,
+  [akhUYeli.id]: akhUYeli,
+  [malo.id]: malo,
+  [teatrUrodov.id]: teatrUrodov,
+  [kraz255.id]: kraz255,
+  [sudba.id]: sudba,
+  [muMuZhiva.id]: muMuZhiva,
 };
