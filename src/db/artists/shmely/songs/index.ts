@@ -257,6 +257,18 @@ import dorogaKMoryu from './doroga-k-moryu';
 import zhenshchinaLetuchayaMish from './zhenshchina-letuchaya-mish';
 import zaPredelom from './za-predelom';
 import laRencontre from './la-rencontre';
+import zhenshchinaVSerom from './zhenshchina-v-serom';
+import svadbiNeBudet from './svadbi-ne-budet';
+import mama from './mama';
+import nespokoinieSniStikh from './nespokoinie-sni-stikh';
+import kolibelnaya from './kolibelnaya';
+import karamelnieStrakhi from './karamelnie-strakhi';
+import rani from './rani';
+import yaTebyaLyublyu from './ya-tebya-lyublyu';
+import zmeyaEiforiya from './zmeya-eiforiya';
+import yaBuduZhit from './ya-budu-zhit';
+import nervi from './nervi';
+import vZhivikhIgrayutMertvetsi from './v-zhivikh-igrayut-mertvetsi';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -518,4 +530,16 @@ export default {
   [zhenshchinaLetuchayaMish.id]: zhenshchinaLetuchayaMish,
   [zaPredelom.id]: zaPredelom,
   [laRencontre.id]: laRencontre,
+  [zhenshchinaVSerom.id]: zhenshchinaVSerom,
+  [svadbiNeBudet.id]: svadbiNeBudet,
+  [mama.id]: mama,
+  [nespokoinieSniStikh.id]: nespokoinieSniStikh,
+  [kolibelnaya.id]: kolibelnaya,
+  [karamelnieStrakhi.id]: karamelnieStrakhi,
+  [rani.id]: rani,
+  [yaTebyaLyublyu.id]: yaTebyaLyublyu,
+  [zmeyaEiforiya.id]: zmeyaEiforiya,
+  [yaBuduZhit.id]: yaBuduZhit,
+  [nervi.id]: nervi,
+  [vZhivikhIgrayutMertvetsi.id]: vZhivikhIgrayutMertvetsi,
 };

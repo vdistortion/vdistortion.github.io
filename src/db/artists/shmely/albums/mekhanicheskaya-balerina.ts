@@ -25,7 +25,7 @@ const album: TypeAlbum = {
     EnumSongs.koteikaNaTryokhNozhkakh,
     EnumSongs.snovaProLyubov,
     EnumSongs.tsvetochniiMedved,
-    { name: 'Колыбельная++' },
+    [EnumSongs.kolibelnaya, { name: ['Колыбельная++'] }],
     { name: 'Аель-Ауа' },
     { name: 'Женщина-игра (bonus track)' },
   ],

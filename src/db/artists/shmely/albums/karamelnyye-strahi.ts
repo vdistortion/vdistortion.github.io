@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.karamelnyyeStrahi,
@@ -14,20 +14,20 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/3444127',
   },
   songs: [
-    { name: 'Женщина в сером' },
-    { name: 'Свадьбы не будет' },
-    { name: 'Мама' },
-    { name: 'Неспокойные сны (стих)' },
-    { name: 'Колыбельная+' },
-    { name: 'Карамельные страхи' },
-    { name: 'Раны' },
-    { name: 'Я тебя люблю' },
-    { name: 'Змея эйфория' },
-    { name: 'Я буду жить' },
-    { name: 'Нервы' },
+    EnumSongs.zhenshchinaVSerom,
+    EnumSongs.svadbiNeBudet,
+    EnumSongs.mama,
+    EnumSongs.nespokoinieSniStikh,
+    EnumSongs.kolibelnaya,
+    EnumSongs.karamelnieStrakhi,
+    EnumSongs.rani,
+    EnumSongs.yaTebyaLyublyu,
+    EnumSongs.zmeyaEiforiya,
+    EnumSongs.yaBuduZhit,
+    EnumSongs.nervi,
     { name: 'Лирика' },
     { name: 'Цвет дождя (bonus track)' },
-    { name: 'В живых играют мертвецы (bonus track)' },
+    [EnumSongs.vZhivikhIgrayutMertvetsi, { name: ['В живых играют мертвецы (bonus track)'] }],
   ],
 };
 
