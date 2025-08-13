@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.zhratPodano,
   name: ['Жрать подано'],
   albums: [EnumAlbums.durackiyeKnizhki],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Мимо тела, мимо небес
 Душа полетела стрелою в лес.

@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.raspyatie,
   name: ['Звёздное распятие'],
   albums: [EnumAlbums.tulovishche, EnumAlbums.trahniNebo],
+  authors: 'Шмель',
   text: `
 Не ищите меня в зверинце -
 Я давно убежал из клетки

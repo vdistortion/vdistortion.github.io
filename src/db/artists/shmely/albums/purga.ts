@@ -37,7 +37,7 @@ const album: TypeAlbum = {
       name: 'Вода',
     },
     {
-      name: 'Губы - яд',
+      name: 'Губы — яд',
     },
     {
       name: 'Будто сказка',

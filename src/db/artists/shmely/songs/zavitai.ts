@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.zavitai,
   name: ['Завiтай'],
   albums: [EnumAlbums.petlyaSoblazna, EnumAlbums.trahniNebo, EnumAlbums.vethijSbornik],
-  authors: 'Шмелёвы',
+  authors: 'Шмель',
   text: `
 Миттєвий погляд смугастої кішкі
 Горящий дотик холодного ліжка

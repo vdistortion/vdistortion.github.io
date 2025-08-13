@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.yablochkoMyauchilo,
   name: ['Яблочко-мяучило'],
   albums: [EnumAlbums.trotilovyyeSkazki],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Я стал бы губами твоими, чтобы прочувствовать смог,
 И вкус умирающей пищи, и ласку помады губной,

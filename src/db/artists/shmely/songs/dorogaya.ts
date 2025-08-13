@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.dorogaya,
   name: ['Дорогая'],
   albums: [EnumAlbums.durackiyeKnizhki, EnumAlbums.zhazhda],
-  authors: 'А.Шмелёв',
+  authors: 'Шмель',
   text: `
 Я умираю, сегодня праздник мой
 Я умираю, мне хорошо, но..

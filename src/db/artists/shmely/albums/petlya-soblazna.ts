@@ -32,6 +32,9 @@ const album: TypeAlbum = {
     {
       name: 'Понедельник',
     },
+    {
+      name: 'Могилагила',
+    },
   ],
 };
 
