@@ -329,6 +329,18 @@ import drugoiSmekh from './drugoi-smekh';
 import okeanomagiya from './okeanomagiya';
 import pilayushchiiAngel from './pilayushchii-angel';
 import andromeda from './andromeda';
+import adskayaMashina from './adskaya-mashina';
+import metalevyiSvit from './metalevyi-svit';
+import pyiDeKinPie from './pyi-de-kin-pie';
+import zhyoludi from './zhyoludi';
+import lyubovIzStekla from './lyubov-iz-stekla';
+import ikona from './ikona';
+import mekhanicheskayaBalerina from './mekhanicheskaya-balerina';
+import lyudi from './lyudi';
+import kakofoniyaSerdets from './kakofoniya-serdets';
+import zhgi from './zhgi';
+import aelAua from './ael-aua';
+import zhenshchinaIgra from './zhenshchina-igra';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -662,4 +674,16 @@ export default {
   [okeanomagiya.id]: okeanomagiya,
   [pilayushchiiAngel.id]: pilayushchiiAngel,
   [andromeda.id]: andromeda,
+  [adskayaMashina.id]: adskayaMashina,
+  [metalevyiSvit.id]: metalevyiSvit,
+  [pyiDeKinPie.id]: pyiDeKinPie,
+  [zhyoludi.id]: zhyoludi,
+  [lyubovIzStekla.id]: lyubovIzStekla,
+  [ikona.id]: ikona,
+  [mekhanicheskayaBalerina.id]: mekhanicheskayaBalerina,
+  [lyudi.id]: lyudi,
+  [kakofoniyaSerdets.id]: kakofoniyaSerdets,
+  [zhgi.id]: zhgi,
+  [aelAua.id]: aelAua,
+  [zhenshchinaIgra.id]: zhenshchinaIgra,
 };

@@ -35,9 +35,7 @@ const album: TypeAlbum = {
     {
       name: 'Пьяные облака',
     },
-    {
-      name: 'Икона',
-    },
+    EnumSongs.ikona,
     EnumSongs.otkroveniya,
     {
       name: 'Мiсяцъ з неба геть',

@@ -7,7 +7,7 @@ const album: TypeAlbum = {
   year: 2009,
   folder: '/artist/shmely/albums/2009_nebo-protiv.jpg',
   songs: [
-    { name: 'Жги' },
+    EnumSongs.zhgi,
     EnumSongs.pryotTakPri,
     EnumSongs.koteikaNaTryokhNozhkakh,
     EnumSongs.snovaProLyubov,
@@ -15,10 +15,10 @@ const album: TypeAlbum = {
     EnumSongs.tsvetochniiMedved,
     EnumSongs.lisayaGora,
     [EnumSongs.kolibelnaya, { name: ['Колыбельная++'] }],
-    { name: 'Аель-Ауа' },
+    EnumSongs.aelAua,
     { name: 'В 2009 году!' },
     EnumSongs.bisovKut,
-    { name: 'Доители изнурённых жаб (кавер на песню А.Лаэртского' },
+    { name: 'Доители изнурённых жаб (кавер на песню А.Лаэртского)' },
   ],
 };
 

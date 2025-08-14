@@ -7,7 +7,7 @@ const song: TypeSong = {
   albums: [EnumAlbums.tulovishche, EnumAlbums.trahniNebo],
   authors: 'Шмель',
   text: `
-Глянь на небо - на небе смерть...
+Глянь на небо – на небе смерть...
 
 Глянь на небо – на небе смерть
 Ласкает нежной суетой,

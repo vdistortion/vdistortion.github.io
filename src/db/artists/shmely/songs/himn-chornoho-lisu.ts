@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.himnChornohoLisu,
   name: ['Гімн Чорного Лісу'],
   albums: [EnumAlbums.chornyiLis],
+  authors: 'Шмель',
   text: `
 Чорніє аж за небокрай
 Могутній хижий Ліс чорніє, чорніє.
