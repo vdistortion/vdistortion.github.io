@@ -3,7 +3,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.sbornik,
-  name: 'Сборник',
+  name: 'Сборник 2002-2008',
   year: 2008,
   folder: '/artist/shmely/albums/2008_sbornik.jpg',
   songs: [

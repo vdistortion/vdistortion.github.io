@@ -11,7 +11,7 @@ const album: TypeAlbum = {
     EnumSongs.yablochkoMyauchilo,
     { name: 'Секс, наркотики, самогон' },
     { name: 'Лихомане мене нiч' },
-    { name: 'Адская машина' },
+    EnumSongs.adskayaMashina,
     EnumSongs.zima,
     { name: 'За тобою' },
     { name: 'Не ходи' },
