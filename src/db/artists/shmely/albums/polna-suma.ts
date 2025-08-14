@@ -30,7 +30,7 @@ const album: TypeAlbum = {
     EnumSongs.trupniePyatna,
     { name: 'Сизоблюдов' },
     { name: 'Хули пули праху' },
-    { name: 'Уа-у-уа' },
+    [EnumSongs.neputyoviiAvtobus, { name: ['Уа-у-уа'] }],
   ],
   info: `"ПОЛНА СУМА" - сборник (1998-1999)
 

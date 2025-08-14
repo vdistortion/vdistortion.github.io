@@ -23,7 +23,7 @@ const album: TypeAlbum = {
     { name: 'Искусственный ад' },
     EnumSongs.yaVsyoNarushil,
     EnumSongs.golosPalach,
-    { name: 'Дом строй' },
+    EnumSongs.domStroi,
     { name: 'Фон' },
     EnumSongs.chuzhoi,
     EnumSongs.shans,

@@ -8,7 +8,7 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/2004_zh.jpg',
   streaming: { yandexMusic: 'https://music.yandex.ru/album/79310' },
   songs: [
-    { name: 'Жажда' },
+    EnumSongs.zhazhda,
     [EnumSongs.dorogaya, { name: ['Дорогая (очень ранняя)'] }],
     EnumSongs.sera,
     [EnumSongs.denRozhdeniya, { name: ['День рождения (застольная)'] }],
