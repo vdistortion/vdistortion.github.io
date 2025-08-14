@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.khaosZhelanii,
@@ -15,7 +15,7 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/21757370',
   },
   songs: [
-    { name: 'Птицегадание' },
+    EnumSongs.ptitsegadanie,
     { name: 'Одноокий синий заяц' },
     { name: 'Найкраща сила' },
     { name: 'Ева Франки' },
@@ -26,8 +26,8 @@ const album: TypeAlbum = {
     { name: 'Сон из меня вон' },
     { name: 'Хаос желаний' },
     { name: 'На Веселцi' },
-    { name: 'С Днём рождения, Вова Иванов' },
-    { name: 'Alcohol Is Part of Me' },
+    { name: 'С Днём рождения, Вова Иванов (bonus track)' },
+    { name: 'Alcohol Is Part of Me (bonus track)' },
   ],
 };
 

@@ -15,9 +15,7 @@ const album: TypeAlbum = {
   },
   songs: [
     EnumSongs.yaNeAngel,
-    {
-      name: 'Могильщик',
-    },
+    EnumSongs.mogilshchik,
     EnumSongs.volosy,
     EnumSongs.zhratPodano,
     {

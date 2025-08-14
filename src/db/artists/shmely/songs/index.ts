@@ -341,6 +341,16 @@ import kakofoniyaSerdets from './kakofoniya-serdets';
 import zhgi from './zhgi';
 import aelAua from './ael-aua';
 import zhenshchinaIgra from './zhenshchina-igra';
+import neputyoviiAvtobus from './neputyovii-avtobus';
+import zhazhda from './zhazhda';
+import mogilshchik from './mogilshchik';
+import zautrenya from './zautrenya';
+import neboProtiv from './nebo-protiv';
+import domStroi from './dom-stroi';
+import vMoreNaMeli from './v-more-na-meli';
+import rasprodazha from './rasprodazha';
+import ptitsegadanie from './ptitsegadanie';
+import avtomobilyzm from './avtomobilyzm';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -686,4 +696,14 @@ export default {
   [zhgi.id]: zhgi,
   [aelAua.id]: aelAua,
   [zhenshchinaIgra.id]: zhenshchinaIgra,
+  [neputyoviiAvtobus.id]: neputyoviiAvtobus,
+  [zhazhda.id]: zhazhda,
+  [mogilshchik.id]: mogilshchik,
+  [zautrenya.id]: zautrenya,
+  [neboProtiv.id]: neboProtiv,
+  [domStroi.id]: domStroi,
+  [vMoreNaMeli.id]: vMoreNaMeli,
+  [rasprodazha.id]: rasprodazha,
+  [ptitsegadanie.id]: ptitsegadanie,
+  [avtomobilyzm.id]: avtomobilyzm,
 };

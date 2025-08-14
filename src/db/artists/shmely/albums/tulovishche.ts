@@ -34,9 +34,7 @@ const album: TypeAlbum = {
     {
       name: 'Ветер и гром',
     },
-    {
-      name: 'Непутёвый автобус',
-    },
+    EnumSongs.neputyoviiAvtobus,
     {
       name: 'Мясной вопрос',
     },

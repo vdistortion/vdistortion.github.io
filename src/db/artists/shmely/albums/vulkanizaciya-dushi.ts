@@ -19,6 +19,9 @@ const album: TypeAlbum = {
     { name: 'Мiсяцъ' },
     { name: 'Дуня' },
     { name: 'Смерть' },
+    { name: 'Вогняна рiка' },
+    [EnumSongs.zima, { name: ['Играй'] }],
+    { name: 'Чорна доба' },
   ],
 };
 

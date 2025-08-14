@@ -3,8 +3,8 @@ import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
   id: EnumSongs.zima,
-  name: ['Зима'],
-  albums: [EnumAlbums.trotilovyyeSkazki],
+  name: ['Зима', 'Играй'],
+  albums: [EnumAlbums.trotilovyyeSkazki, EnumAlbums.vulkanizaciyaDushi],
   authors: 'Шмель',
   text: `
 Лучшее время года - зима,

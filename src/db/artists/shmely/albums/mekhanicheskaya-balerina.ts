@@ -21,7 +21,7 @@ const album: TypeAlbum = {
     EnumSongs.pryotTakPri,
     EnumSongs.zhgi,
     EnumSongs.lisayaGora,
-    { name: 'Небо против' },
+    EnumSongs.neboProtiv,
     EnumSongs.koteikaNaTryokhNozhkakh,
     EnumSongs.snovaProLyubov,
     EnumSongs.tsvetochniiMedved,
