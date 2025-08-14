@@ -48,6 +48,7 @@ const artist: TypeArtist = {
     soundcloud: 'https://soundcloud.com/shmieli/',
     amazonMusic: 'https://music.amazon.com/artists/B072TNGV9J/',
     youtubeMusic: 'https://music.youtube.com/channel/UCZkpG0pk3z1LondQYU_11Iw',
+    bandcamp: 'https://shmely.bandcamp.com/',
     yandexMusic: 'https://music.yandex.ru/artist/213256',
   },
   albums: [
