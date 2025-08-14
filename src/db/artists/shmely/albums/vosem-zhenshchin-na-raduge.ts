@@ -8,7 +8,7 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/2005_8.jpg',
   streaming: {
     spotify: 'https://open.spotify.com/album/3XCE0DFw3NkkTXcIXQUBUG',
-    youtube: 'https://www.youtube.com/playlist?list=OLAK5uy_n5v0d9QAPVVjafh936OD9bKmlrdjXaJG0',
+    soundcloud: 'https://soundcloud.com/shmieli/sets/7x2jwwurdsw7',
     youtubeMusic:
       'https://music.youtube.com/playlist?list=OLAK5uy_k78_d1RVxFP6B04ZnTvobzmfJMMYLNN7o',
     yandexMusic: 'https://music.yandex.ru/album/79312',

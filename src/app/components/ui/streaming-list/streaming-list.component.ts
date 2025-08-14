@@ -29,9 +29,13 @@ export class StreamingListComponent {
       name: 'YouTube Music',
       image: 'YouTubeMusic.svg',
     },
-    youtube: {
-      name: 'YouTube',
-      image: 'YouTube.svg',
+    soundcloud: {
+      name: 'SoundCloud',
+      image: 'soundcloud.svg',
+    },
+    amazonMusic: {
+      name: 'Amazon Music',
+      image: 'amazonMusic.svg',
     },
     bandcamp: {
       name: 'Bandcamp',

@@ -10,7 +10,8 @@ const album: TypeAlbum = {
     spotify: 'https://open.spotify.com/album/6BcUVkuIqoQh5j2ePVjJjo',
     youtubeMusic:
       'https://music.youtube.com/playlist?list=OLAK5uy_lBZybdvlbfe7TC3-tkDwXvyeA6ROeVolw',
-    youtube: 'https://www.youtube.com/playlist?list=OLAK5uy_ml0RigGkUkB_1O5Xe83UEile14iNOlz7M',
+    amazonMusic: 'https://music.amazon.com/albums/B09V9M9KW7',
+    soundcloud: 'https://soundcloud.com/shmieli/sets/xaos-zhelanij',
     yandexMusic: 'https://music.yandex.ru/album/21757370',
   },
   songs: [

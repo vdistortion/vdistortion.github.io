@@ -9,7 +9,8 @@ export const enum Countries {
 export type TypeStreamingList =
   | 'spotify'
   | 'bandcamp'
-  | 'youtube'
+  | 'soundcloud'
+  | 'amazonMusic'
   | 'youtubeMusic'
   | 'appleMusic'
   | 'yandexMusic';

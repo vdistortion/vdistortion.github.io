@@ -8,7 +8,7 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/2007_obidy.jpg',
   streaming: {
     spotify: 'https://open.spotify.com/album/4GUxH5Jfgjt8as9HOTgert',
-    youtube: 'https://www.youtube.com/playlist?list=OLAK5uy_lR7Pe58N1QAhRwvosJkNnfAnnm1vtxoS0',
+    soundcloud: 'https://soundcloud.com/shmieli/sets/inmwrtq5jw3m',
     youtubeMusic:
       'https://music.youtube.com/playlist?list=OLAK5uy_lDcR1z3lQhYexnJx3XtUCozmhSDzgbLuw',
     yandexMusic: 'https://music.yandex.ru/album/3444128',

@@ -13,7 +13,6 @@ const artist: TypeArtist = {
     spotify: 'https://open.spotify.com/artist/5j0IiA5tIUU6g08gmPJR7F',
     appleMusic: 'https://music.apple.com/us/artist/гевал/1112261994',
     youtubeMusic: 'https://music.youtube.com/channel/UCuRqoCtriIcKkgiBiCMdo8g',
-    youtube: 'https://www.youtube.com/channel/UCuRqoCtriIcKkgiBiCMdo8g',
   },
   albums: [
     EnumAlbums.geval,

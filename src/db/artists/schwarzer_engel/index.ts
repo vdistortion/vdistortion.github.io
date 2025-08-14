@@ -13,7 +13,6 @@ const artist: TypeArtist = {
     spotify: 'https://open.spotify.com/artist/15g7I4KWNHNSPdcCtm6dpk',
     appleMusic: 'https://music.apple.com/ru/artist/schwarzer-engel/368426508',
     youtubeMusic: 'https://music.youtube.com/channel/UCxOOlzavKjwWTVIm5S5fXrA',
-    youtube: 'https://youtube.com/channel/UCxOOlzavKjwWTVIm5S5fXrA',
     bandcamp: 'https://schwarzerengelofficial.bandcamp.com/',
     yandexMusic: 'https://music.yandex.ru/artist/556109',
   },
