@@ -11,6 +11,7 @@ const artist: TypeArtist = {
   country: [Countries.de],
   streaming: {
     spotify: 'https://open.spotify.com/artist/15g7I4KWNHNSPdcCtm6dpk',
+    amazonMusic: 'https://music.amazon.com/artists/B003INWJ3M/',
     appleMusic: 'https://music.apple.com/ru/artist/schwarzer-engel/368426508',
     youtubeMusic: 'https://music.youtube.com/channel/UCxOOlzavKjwWTVIm5S5fXrA',
     bandcamp: 'https://schwarzerengelofficial.bandcamp.com/',

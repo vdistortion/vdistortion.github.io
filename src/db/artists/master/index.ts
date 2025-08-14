@@ -12,6 +12,7 @@ const artist: TypeArtist = {
   streaming: {
     spotify: 'https://open.spotify.com/artist/3Gocx0waYCfV2wx0d5nKzs',
     youtubeMusic: 'https://music.youtube.com/channel/UC8n4KOpcZlbnWJ1DHa96k9Q',
+    amazonMusic: 'https://music.amazon.com/artists/B00FMZUEIQ/',
     yandexMusic: 'https://music.yandex.ru/artist/359599',
   },
   albums: [
