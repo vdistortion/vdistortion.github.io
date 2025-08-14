@@ -10,7 +10,8 @@ const album: TypeAlbum = {
     spotify: 'https://open.spotify.com/album/7yfioAU7ZaF5AmeOgSHOM9',
     youtubeMusic:
       'https://music.youtube.com/playlist?list=OLAK5uy_nOT3PW8Sy9YftLRTCFVQX24HFo0lNVTKk',
-    youtube: 'https://www.youtube.com/playlist?list=OLAK5uy_mZWtf9dzLwjMI-Zon4IpmdZhc47TtOQuY',
+    amazonMusic: 'https://music.amazon.com/albums/B06XFYPG4K',
+    soundcloud: 'https://soundcloud.com/shmieli/sets/bx2hfgjcverc',
     yandexMusic: 'https://music.yandex.ru/album/4090273',
   },
   songs: [

@@ -11,7 +11,6 @@ const artist: TypeArtist = {
   country: [Countries.ru],
   streaming: {
     spotify: 'https://open.spotify.com/artist/3Gocx0waYCfV2wx0d5nKzs',
-    youtube: 'https://www.youtube.com/channel/UC8n4KOpcZlbnWJ1DHa96k9Q',
     youtubeMusic: 'https://music.youtube.com/channel/UC8n4KOpcZlbnWJ1DHa96k9Q',
     yandexMusic: 'https://music.yandex.ru/artist/359599',
   },

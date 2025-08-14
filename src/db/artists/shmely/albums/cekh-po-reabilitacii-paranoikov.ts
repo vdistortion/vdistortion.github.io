@@ -8,7 +8,7 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/2010_crp.jpg',
   streaming: {
     spotify: 'https://open.spotify.com/album/74KcaQJrAjhzeHvW6rZUIQ',
-    youtube: 'https://www.youtube.com/playlist?list=OLAK5uy_nvSuftR3G7q_K8Vs-fiCNpZl3ElyIU9aI',
+    soundcloud: 'https://soundcloud.com/shmieli/sets/hig64yogvrqd',
     youtubeMusic:
       'https://music.youtube.com/playlist?list=OLAK5uy_mPPAXZrdGJIx_q2kUTz6POPoJdG26koUc',
     yandexMusic: 'https://music.yandex.ru/album/3444136',

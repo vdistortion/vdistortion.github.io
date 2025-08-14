@@ -8,7 +8,8 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/2004_ten.jpg',
   streaming: {
     spotify: 'https://open.spotify.com/album/7fsVsr0pCmCEpyQ9o2jMXW',
-    youtube: 'https://www.youtube.com/playlist?list=OLAK5uy_k_3MQ5DeK39QrTGigpDgrsyMK04F16W-c',
+    amazonMusic: 'https://music.amazon.com/albums/B0949QV8LX',
+    soundcloud: 'https://soundcloud.com/shmieli/sets/cz7tdcw36dkp',
     youtubeMusic:
       'https://music.youtube.com/playlist?list=OLAK5uy_l8lFy44LN0_BS2JYDee8CyKtCkd3xmfL0',
     yandexMusic: 'https://music.yandex.ru/album/79311',
