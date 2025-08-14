@@ -11,6 +11,7 @@ const artist: TypeArtist = {
   country: [Countries.ru],
   streaming: {
     spotify: 'https://open.spotify.com/artist/12ZMAQkYyLSuNLvjbySISC',
+    amazonMusic: 'https://music.amazon.com/artists/B07MPZSDSB/',
     appleMusic: 'https://music.apple.com/ru/artist/tardigrade-inferno/1448941163',
     youtubeMusic: 'https://music.youtube.com/channel/UCEuTnjeJchT6Xv03VRktLbA',
     bandcamp: 'https://tardigradeinferno.bandcamp.com/',
