@@ -6,8 +6,12 @@ const album: TypeAlbum = {
   name: "Пий, де-кiнь п'є",
   year: 2022,
   folder: '/artist/shmely/albums/2022_pyiDeKinPie.jpg',
-  streaming: { spotify: 'https://open.spotify.com/album/2gWRH9oJlyhAhcqQhERU27' },
+  streaming: {
+    spotify: 'https://open.spotify.com/album/2gWRH9oJlyhAhcqQhERU27',
+    bandcamp: 'https://shmely.bandcamp.com/track/i-drink-where-horses-drink',
+  },
   songs: [{ name: "Пий, де-кiнь п'є" }],
+  info: `released February 1, 2022`,
 };
 
 export default album;
