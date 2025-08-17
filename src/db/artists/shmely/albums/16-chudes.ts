@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.chudes16,
@@ -14,13 +14,13 @@ const album: TypeAlbum = {
     yandexMusic: 'https://music.yandex.ru/album/4090274',
   },
   songs: [
-    { name: 'Шукай' },
+    EnumSongs.shukai,
     { name: 'Душа не ладит с сердцем' },
     { name: 'Светится мгла' },
-    { name: 'Кличе на озера' },
+    EnumSongs.klycheNaOzera,
     { name: 'Аниматоры' },
     { name: 'Хаос чорноти' },
-    { name: 'Я хочу бачити тебе' },
+    EnumSongs.yaKhochuBachytyTebe,
     { name: 'Барды Чернобыля' },
     { name: 'Бойся себя когда пьян' },
     { name: 'Зомби родстер' },

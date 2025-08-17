@@ -17,7 +17,7 @@ const album: TypeAlbum = {
     EnumSongs.mekhanicheskayaBalerina,
     EnumSongs.lyudi,
     EnumSongs.kakofoniyaSerdets,
-    { name: 'Сон' },
+    EnumSongs.son,
     EnumSongs.pryotTakPri,
     EnumSongs.zhgi,
     EnumSongs.lisayaGora,

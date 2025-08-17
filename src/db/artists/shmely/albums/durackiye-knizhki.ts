@@ -18,9 +18,7 @@ const album: TypeAlbum = {
     EnumSongs.mogilshchik,
     EnumSongs.volosy,
     EnumSongs.zhratPodano,
-    {
-      name: 'Гори, костёр!',
-    },
+    EnumSongs.goriKostyor,
     EnumSongs.rezinovieDebri,
     {
       name: 'Язва на душе',
@@ -35,9 +33,12 @@ const album: TypeAlbum = {
     },
     EnumSongs.ikona,
     EnumSongs.otkroveniya,
-    [EnumSongs.misiats, {
-      name: ['Мiсяцъ з неба геть'],
-    }],
+    [
+      EnumSongs.misiats,
+      {
+        name: ['Мiсяцъ з неба геть'],
+      },
+    ],
     EnumSongs.dorogaya,
     {
       name: 'Руйнется мозок',

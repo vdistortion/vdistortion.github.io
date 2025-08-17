@@ -15,9 +15,7 @@ const album: TypeAlbum = {
     EnumSongs.lakaiOtravu,
     EnumSongs.iskushenie,
     EnumSongs.tenNeizvestnoiZvezdi,
-    {
-      name: 'Невесёлая сказка',
-    },
+    EnumSongs.nevesyolayaSkazka,
     {
       name: 'Виртуальный самолёт',
     },

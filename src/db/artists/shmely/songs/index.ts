@@ -363,6 +363,24 @@ import dyvo from './dyvo';
 import tsvyntar from './tsvyntar';
 import uHaiu from './u-haiu';
 import bisovKutUla from './bisov-kut-ula';
+import goriKostyor from './gori-kostyor';
+import sheikSheikChaChaCha from './sheik-sheik-cha-cha-cha';
+import tsvetDozhdya from './tsvet-dozhdya';
+import sizoblyudov from './sizoblyudov';
+import prostitutkaVampir from './prostitutka-vampir';
+import nevesyolayaSkazka from './nevesyolaya-skazka';
+import narisovanniiPyos from './narisovannii-pyos';
+import vesnaPokoinitsa from './vesna-pokoinitsa';
+import vesnaPobeda from './vesna-pobeda';
+import son from './son';
+import dzhagiMertveeVsekhMyortvikh from './dzhagi-mertvee-vsekh-myortvikh';
+import zhaloBeiSavalyai from './zhalo-bei-savalyai';
+import kusai from './kusai';
+import ognenniiZmei from './ognennii-zmei';
+import yaKhochuBachytyTebe from './ya-khochu-bachyty-tebe';
+import shukai from './shukai';
+import chovenStrakhu from './choven-strakhu';
+import klycheNaOzera from './klyche-na-ozera';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -730,4 +748,22 @@ export default {
   [tsvyntar.id]: tsvyntar,
   [uHaiu.id]: uHaiu,
   [bisovKutUla.id]: bisovKutUla,
+  [goriKostyor.id]: goriKostyor,
+  [sheikSheikChaChaCha.id]: sheikSheikChaChaCha,
+  [tsvetDozhdya.id]: tsvetDozhdya,
+  [sizoblyudov.id]: sizoblyudov,
+  [prostitutkaVampir.id]: prostitutkaVampir,
+  [nevesyolayaSkazka.id]: nevesyolayaSkazka,
+  [narisovanniiPyos.id]: narisovanniiPyos,
+  [vesnaPokoinitsa.id]: vesnaPokoinitsa,
+  [vesnaPobeda.id]: vesnaPobeda,
+  [son.id]: son,
+  [dzhagiMertveeVsekhMyortvikh.id]: dzhagiMertveeVsekhMyortvikh,
+  [zhaloBeiSavalyai.id]: zhaloBeiSavalyai,
+  [kusai.id]: kusai,
+  [ognenniiZmei.id]: ognenniiZmei,
+  [yaKhochuBachytyTebe.id]: yaKhochuBachytyTebe,
+  [shukai.id]: shukai,
+  [chovenStrakhu.id]: chovenStrakhu,
+  [klycheNaOzera.id]: klycheNaOzera,
 };

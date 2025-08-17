@@ -10,9 +10,7 @@ const album: TypeAlbum = {
     EnumSongs.vyuga,
     EnumSongs.psikhoz,
     EnumSongs.solnishkoViidet,
-    {
-      name: 'Весна покойница',
-    },
+    EnumSongs.vesnaPokoinitsa,
     EnumSongs.kakNaPlakheSvyatoi,
     {
       name: 'Ганьба',
