@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['В живых играют мертвецы'],
   albums: [EnumAlbums.karamelnyyeStrahi],
   authors: 'Шмель',
+  clipYouTubeId: 'z8clvhMpeks',
   text: `
 Что-то смотрит изнутри,
 Что-то прячется в душе,

@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Аель-Ауа'],
   albums: [EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
   authors: 'Шмель, Лёс - Шмель',
+  clipYouTubeId: 'PgCD-Yzcrgc',
   text: `
 В объятиях туч черна гора
 Сухие ветви даже по весне,

@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Снова про любовь, блин'],
   albums: [EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
   authors: 'Шмель, Лёс - Шмель',
+  clipYouTubeId: 'aJuyVyg7ZDA',
   text: `
 Я давно твоя тень
 Параллельная жизнь

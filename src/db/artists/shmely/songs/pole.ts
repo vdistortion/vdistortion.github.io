@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Поле'],
   albums: [EnumAlbums.poshmelye],
   authors: 'Шмель - О.Гастелло',
+  clipYouTubeId: 'S7H8BOHFns8',
   text: `
 Брошенному в поле негде прикоснуться,
 Нечем затянуться, свечкой не сгореть.

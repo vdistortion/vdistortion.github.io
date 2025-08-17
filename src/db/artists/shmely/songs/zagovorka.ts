@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Заговорка'],
   albums: [EnumAlbums.cekhPoReabilitaciiParanoikov],
   authors: '',
+  clipYouTubeId: '4KFmyjNF9hA',
   text: `
 Сказка сказкой, былью небыль
 Ангел в маске был и не был

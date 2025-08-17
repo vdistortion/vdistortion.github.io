@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Прёт? Так при!'],
   albums: [EnumAlbums.sbornik, EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
   authors: 'Шмель, Лёс - Шмель',
+  clipYouTubeId: '3osOR7QvH5c',
   text: `
 Прет? так при!
 Прет? так при!

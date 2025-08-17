@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Пантомима'],
   albums: [EnumAlbums.koshkinyObidy],
   authors: 'Шмель, Лёс - Шмель',
+  clipYouTubeId: 'AzLTvtcfxv4',
   text: `
 Фонари погасли умницы
 Бесшумны стали улицы

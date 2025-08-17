@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Женщина летучая мышь'],
   albums: [EnumAlbums.koshkinyObidy],
   authors: 'Шмель, Лёс - Шмель',
+  clipYouTubeId: 'OC4ky-bfo4I',
   text: `
 Небо за ночью спрячет грехи
 В чёрную тень с убивающим взглядом.

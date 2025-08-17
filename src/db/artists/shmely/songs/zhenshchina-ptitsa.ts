@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Женщина-птица'],
   albums: [EnumAlbums.lyod],
   authors: 'Шмель, Лёс - Шмель',
+  clipYouTubeId: 'ZhryU4R_4XA',
   text: `
 Ты все брел из ниоткуда - дальше в никуда,
 Ты мечтал: небесное чудо - невесту без греха,
