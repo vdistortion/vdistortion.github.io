@@ -19,7 +19,7 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['', Validators.required],
+    id: ['neboProtiv', Validators.required],
     authors: [''],
     languages: this.formBuilder.group({
       ru: [
@@ -27,7 +27,11 @@ export class CreateDbPage {
 
     `,
       ],
-      uk: [''],
+      uk: [
+        `
+Бісов Кут (ULA)
+    `,
+      ],
     }),
   });
   files: string[] = [];
