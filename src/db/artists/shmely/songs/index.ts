@@ -351,6 +351,18 @@ import vMoreNaMeli from './v-more-na-meli';
 import rasprodazha from './rasprodazha';
 import ptitsegadanie from './ptitsegadanie';
 import avtomobilyzm from './avtomobilyzm';
+import kryhaPalas from './kryha-palas';
+import neKhody from './ne-khody';
+import orhiia from './orhiia';
+import lykhomaneMeneNich from './lykhomane-mene-nich';
+import dunia from './dunia';
+import lahidno from './lahidno';
+import misiats from './misiats';
+import chornaDoba from './chorna-doba';
+import dyvo from './dyvo';
+import tsvyntar from './tsvyntar';
+import uHaiu from './u-haiu';
+import bisovKutUla from './bisov-kut-ula';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -706,4 +718,16 @@ export default {
   [rasprodazha.id]: rasprodazha,
   [ptitsegadanie.id]: ptitsegadanie,
   [avtomobilyzm.id]: avtomobilyzm,
+  [kryhaPalas.id]: kryhaPalas,
+  [neKhody.id]: neKhody,
+  [orhiia.id]: orhiia,
+  [lykhomaneMeneNich.id]: lykhomaneMeneNich,
+  [dunia.id]: dunia,
+  [lahidno.id]: lahidno,
+  [misiats.id]: misiats,
+  [chornaDoba.id]: chornaDoba,
+  [dyvo.id]: dyvo,
+  [tsvyntar.id]: tsvyntar,
+  [uHaiu.id]: uHaiu,
+  [bisovKutUla.id]: bisovKutUla,
 };

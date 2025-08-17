@@ -24,9 +24,7 @@ const album: TypeAlbum = {
     {
       name: 'Жало бей саваляй',
     },
-    {
-      name: 'Лагiдно',
-    },
+    EnumSongs.lahidno,
     EnumSongs.raspyatie,
     {
       name: 'Кораблики',

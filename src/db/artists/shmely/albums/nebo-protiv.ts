@@ -17,7 +17,7 @@ const album: TypeAlbum = {
     [EnumSongs.kolibelnaya, { name: ['Колыбельная++'] }],
     EnumSongs.aelAua,
     { name: 'В 2009 году!' },
-    EnumSongs.bisovKut,
+    EnumSongs.bisovKutUla,
     { name: 'Доители изнурённых жаб (кавер на песню А.Лаэртского)' },
   ],
 };
