@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Колыбельная+'],
   albums: [EnumAlbums.karamelnyyeStrahi, EnumAlbums.neboProtiv, EnumAlbums.mekhanicheskayaBalerina],
   authors: 'Шмель, Лёс - Шмель',
+  clipYouTubeId: 'EzMeAaq4Es4',
   text: `
 Утоплю тебя в постель, закую в кровать,
 Несмотря, что ты метель - придется спать.

@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Улёт'],
   albums: [EnumAlbums.teatrUrodov],
   authors: '',
+  clipYouTubeId: 'zIg55YD4Fvw',
   text: `
 Вот и улетаю,
 Я открыл на солнце тень

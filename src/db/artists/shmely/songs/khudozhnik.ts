@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Художник'],
   albums: [EnumAlbums.vosemZhenshchinNaRaduge],
   authors: 'Шмель - Лёс',
+  clipYouTubeId: 'hSOgRsT8a6A',
   text: `
 Молчание седое тишины срезая,
 В холодном воздухе пылая,

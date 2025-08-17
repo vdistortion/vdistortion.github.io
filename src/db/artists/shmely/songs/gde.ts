@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Где?'],
   albums: [EnumAlbums.moskovskayaYarmarkaUdovolstvij],
   authors: 'Шмель, Лёс - Шмель',
+  clipYouTubeId: 'i-vcC_0ti60',
   text: `
 Чёрная роса на твоей груди,
 Острая коса - погоди!

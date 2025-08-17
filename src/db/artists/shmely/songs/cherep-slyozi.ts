@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Череп. Слёзы.'],
   albums: [EnumAlbums.koshkinyObidy],
   authors: 'Шмель, Лёс - Шмель',
+  clipYouTubeId: 'I-SvMUpBwEQ',
   text: `
 Я пью и курю
 Я гуляю в себе

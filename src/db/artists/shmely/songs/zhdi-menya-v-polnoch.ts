@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Жди меня в полночь'],
   albums: [EnumAlbums.yaVernusKTebe],
   authors: '',
+  clipYouTubeId: 'hGSjmGzce10',
   text: `
 Стонет в углу моя бледная тень,
 Стёкла в часах дрожат.

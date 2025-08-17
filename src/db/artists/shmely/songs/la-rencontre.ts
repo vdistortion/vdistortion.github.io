@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['La Rencontre'],
   albums: [EnumAlbums.koshkinyObidy],
   authors: 'Шмель - Шмель, Steve Love',
+  clipYouTubeId: 'cvZqR9-o1C0',
   text: `
 И золотой пылью станут острые камни
 Жизнь светом манит, когда сердце жжёт

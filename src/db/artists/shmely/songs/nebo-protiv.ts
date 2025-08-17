@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Небо против'],
   albums: [EnumAlbums.neboProtiv, EnumSongs.mekhanicheskayaBalerina],
   authors: '',
+  clipYouTubeId: 'e4jWVkPPuJ4',
   text: `
 Разве ли не вы рисовали бога,
 Разве ли не вспять приводила дорога,
