@@ -26,7 +26,7 @@ const album: TypeAlbum = {
     EnumSongs.yaBuduZhit,
     EnumSongs.nervi,
     { name: 'Лирика' },
-    { name: 'Цвет дождя (bonus track)' },
+    [EnumSongs.tsvetDozhdya, { name: ['Цвет дождя (bonus track)'] }],
     [EnumSongs.vZhivikhIgrayutMertvetsi, { name: ['В живых играют мертвецы (bonus track)'] }],
   ],
 };

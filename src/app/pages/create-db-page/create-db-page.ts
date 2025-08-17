@@ -19,17 +19,33 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['neboProtiv', Validators.required],
+    id: [''],
     authors: [''],
     languages: this.formBuilder.group({
       ru: [
         `
-
+Гори, костёр!
+Шейк шейк ча ча ча
+Цвет дождя
+Сизоблюдов
+Проститутка-вампир
+Невесёлая сказка
+Нарисованный пёс
+Весна покойница
+Весна-Победа
+Сон
+Джаги мертвее всех мёртвых
+Жало бей саваляй
+Кусай
+Огненный змей
     `,
       ],
       uk: [
         `
-Бісов Кут (ULA)
+Я хочу бачити тебе
+Шукай
+Човен страху
+Кличе на озера
     `,
       ],
     }),
@@ -123,7 +139,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.${name},
   name: ['${item}'],
-  albums: [EnumAlbums.${form.id}],
+  albums: [${form.id ? ('EnumAlbums.'+form.id) : ''}],
   authors: '${form.authors}',
   text: \`
 

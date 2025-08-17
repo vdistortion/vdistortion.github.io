@@ -30,7 +30,7 @@ const album: TypeAlbum = {
     { name: 'Хули пули праху' },
     { name: 'Бюро волшебных услуг' },
     { name: 'Игра голова' },
-    { name: 'Кусай' },
+    EnumSongs.kusai,
     { name: 'Лафа' },
     { name: 'Я увольняюсь' },
   ],

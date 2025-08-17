@@ -22,7 +22,7 @@ const album: TypeAlbum = {
     { name: 'Череп и подснежник' },
     EnumSongs.agoniya,
     { name: 'Крыша горит' },
-    { name: 'Сизоблюдов' },
+    EnumSongs.sizoblyudov,
   ],
 };
 

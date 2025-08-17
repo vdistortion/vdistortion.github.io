@@ -3,7 +3,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
   id: EnumSongs.bisovKut,
-  name: ['Бісов Кут'],
+  name: ['БісОв Кут'],
   albums: [EnumAlbums.chornyiLis],
   text: `
 Не літають птахи над цим місцем,

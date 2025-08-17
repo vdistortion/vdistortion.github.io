@@ -15,11 +15,11 @@ const album: TypeAlbum = {
   },
   songs: [
     { name: 'Крыша горит' },
-    { name: 'Сизоблюдов' },
+    EnumSongs.sizoblyudov,
     { name: 'Эпидемия Ха' },
     EnumSongs.laboratoriyaAltruizma,
     EnumSongs.ivolga,
-    { name: 'Проститутка-вампир' },
+    EnumSongs.prostitutkaVampir,
     EnumSongs.vMyasnomTsekhuPrazdnikDushi,
     { name: 'Клякса' },
     EnumSongs.fabrikaFekalii,

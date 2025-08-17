@@ -23,7 +23,7 @@ const album: TypeAlbum = {
     EnumSongs.novayaReligiya,
     EnumSongs.zhdat,
     EnumSongs.moyaLyubimaya,
-    { name: 'Невесёлая сказка' },
+    EnumSongs.nevesyolayaSkazka,
     EnumSongs.saprofag,
     EnumSongs.spazmiRoka,
     [EnumSongs.volosy, { name: ['На солнце волосы'] }],

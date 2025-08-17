@@ -21,7 +21,7 @@ const album: TypeAlbum = {
     { name: 'Поздно планировать жизнь' },
     EnumSongs.metalevyiSvit,
     EnumSongs.mekhaniki,
-    { name: 'Човен Страху' },
+    EnumSongs.chovenStrakhu,
     { name: 'Мизантропия' },
     EnumSongs.avtomobilyzm,
     EnumSongs.adskayaMashina,
