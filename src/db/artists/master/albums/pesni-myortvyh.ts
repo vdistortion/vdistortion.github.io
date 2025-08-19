@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.pesniMyortvyh,
@@ -7,16 +7,16 @@ const album: TypeAlbum = {
   year: 1996,
   folder: '/artist/master/albums/pesni_mertvix_1996.jpg',
   songs: [
-    { name: 'Песни мёртвых' },
-    { name: 'Дикие гуси' },
-    { name: 'Дайте свет' },
-    { name: 'Пепел на ветру' },
-    { name: 'Надоело' },
-    { name: 'Только ты сам' },
-    { name: 'Я не хочу войны' },
-    { name: 'Тату' },
+    EnumSongs.pesniMyortvikh,
+    EnumSongs.dikieGusi,
+    EnumSongs.daiteSvet,
+    EnumSongs.pepelNaVetru,
+    EnumSongs.nadoelo,
+    EnumSongs.tolkoTiSam,
+    EnumSongs.yaNeKhochuVoini,
+    EnumSongs.tatu,
     { name: 'Ночь' },
-    { name: 'Корабль дураков' },
+    EnumSongs.korablDurakov,
   ],
   info: `
 Альбом "Песни мертвых" записан на студии "Ария Records" в марте 1996 года. Звукорежиссеры - В.Холстинин и Д.Калинин. Выпущен фирмой "Flam Records" в 1996 году. В песне Тату в записи хора принимали участие: А.Трофимов, А.Гирнык (ZZ-Top), Юрий Васин (артист ансамбля Игоря Моисеева).
