@@ -37,4 +37,13 @@ export const enum EnumSongs {
   vremyaVarvarov = 'vremya-varvarov',
   mramorniiAngel = 'mramornii-angel',
   poTuStoronuSna2 = 'po-tu-storonu-sna-2',
+  pesniMyortvikh = 'pesni-myortvikh',
+  dikieGusi = 'dikie-gusi',
+  daiteSvet = 'daite-svet',
+  pepelNaVetru = 'pepel-na-vetru',
+  nadoelo = 'nadoelo',
+  tolkoTiSam = 'tolko-ti-sam',
+  yaNeKhochuVoini = 'ya-ne-khochu-voini',
+  tatu = 'tatu',
+  korablDurakov = 'korabl-durakov',
 }
