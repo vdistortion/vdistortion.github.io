@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Кресты'],
   albums: [EnumAlbums.labirint, EnumAlbums.klassika, EnumAlbums.akustika],
   authors: 'Алик Грановский — Маргарита Пушкина',
+  clipYouTubeId: '59XPGPtZO2Y',
   text: `
 За спиной крик совы,
 Детский смех в зимней чаще,
