@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.klassika,
@@ -11,14 +11,14 @@ const album: TypeAlbum = {
     { name: 'Лабиринт' },
     { name: 'С кем ты?' },
     { name: 'Еще раз ночь' },
-    { name: 'Только ты сам' },
+    EnumSongs.tolkoTiSam,
     { name: 'Кресты' },
     { name: '2000 лет (Иуда)' },
     { name: 'Амстердам (бас-соло)' },
     { name: 'Тореро' },
     { name: 'Небо в глазах' },
     { name: 'Встань, страх преодолей' },
-    { name: 'Тату' },
+    EnumSongs.tatu,
     { name: 'Воля и разум' },
     { name: 'Четырнадцатая' },
   ],

@@ -13,7 +13,7 @@ const album: TypeAlbum = {
     { name: '33 жизни' },
     { name: 'Палачи' },
     { name: 'Heavy-ламбада' },
-    { name: 'Пепел на ветру' },
+    EnumSongs.pepelNaVetru,
     { name: 'Игра' },
     { name: 'Кресты' },
     { name: 'Здесь куют металл' },

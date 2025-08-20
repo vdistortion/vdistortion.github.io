@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.rideToLiveLiveToRide,
   name: ['Ride To Live, Live To Ride'],
   albums: [],
-  authors: 'музыка: Dee Snider, русский текст: М.Пушкина',
+  authors: 'Dee Snider, русский текст: Маргарита Пушкина',
   text: `
 Когда нет сил - молчи,
 Кулак сожми,

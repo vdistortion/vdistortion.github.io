@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.tatu,
   name: ['Тату'],
-  albums: [EnumAlbums.pesniMyortvyh],
+  albums: [EnumAlbums.pesniMyortvyh, EnumAlbums.klassika],
   authors: 'Алик Грановский — Маргарита Пушкина',
   text: `
 У царя России Николая

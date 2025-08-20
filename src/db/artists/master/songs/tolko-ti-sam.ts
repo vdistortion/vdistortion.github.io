@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.tolkoTiSam,
   name: ['Только ты сам'],
-  albums: [EnumAlbums.pesniMyortvyh],
+  albums: [EnumAlbums.pesniMyortvyh, EnumAlbums.klassika],
   authors: 'Алик Грановский — Сергей Попов',
   text: `
 Им неведом закон,

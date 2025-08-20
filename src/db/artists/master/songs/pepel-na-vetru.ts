@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.pepelNaVetru,
   name: ['Пепел на ветру'],
-  albums: [EnumAlbums.pesniMyortvyh],
+  albums: [EnumAlbums.pesniMyortvyh, EnumAlbums.akustika],
   authors: 'Алик Грановский — Маргарита Пушкина',
   text: `
 Проплыл над полем звон,
