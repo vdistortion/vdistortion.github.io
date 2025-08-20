@@ -8,7 +8,7 @@ const album: TypeAlbum = {
   folder: '/artist/master/albums/akystika_2005.jpg',
   songs: [
     EnumSongs.plachSvireli,
-    { name: 'Тореро' },
+    EnumSongs.torero,
     EnumSongs.visokosniiVek,
     { name: '33 жизни' },
     EnumSongs.palachi,
@@ -16,7 +16,7 @@ const album: TypeAlbum = {
     EnumSongs.pepelNaVetru,
     { name: 'Игра' },
     EnumSongs.kresti,
-    { name: 'Здесь куют металл' },
+    EnumSongs.zdesKuyutMetall,
     EnumSongs.veter,
   ],
   info: `

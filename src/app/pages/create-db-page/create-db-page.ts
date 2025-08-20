@@ -19,19 +19,15 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['labirint'],
-    authors: ['Алик Грановский — Маргарита Пушкина'],
+    id: ['klassika'],
+    authors: [''],
     languages: this.formBuilder.group({
       ru: [
         `
-Места хватит всем
-Лабиринт
-Високосный век
-Кресты
-Сон
-Metal-доктор
-Охотники за счастьем
-Таран
+Интродукция
+С кем ты?
+Тореро
+Небо в глазах
     `,
       ],
       uk: [

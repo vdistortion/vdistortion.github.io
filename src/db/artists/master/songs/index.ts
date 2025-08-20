@@ -51,6 +51,11 @@ import son from './son';
 import metalDoktor from './metal-doktor';
 import okhotnikiZaSchastem from './okhotniki-za-schastem';
 import taran from './taran';
+import introduktsiya from './introduktsiya';
+import sKemTi from './s-kem-ti';
+import torero from './torero';
+import neboVGlazakh from './nebo-v-glazakh';
+import zdesKuyutMetall from './zdes-kuyut-metall';
 
 export default {
   [zaGranyu.id]: zaGranyu,
@@ -106,4 +111,9 @@ export default {
   [metalDoktor.id]: metalDoktor,
   [okhotnikiZaSchastem.id]: okhotnikiZaSchastem,
   [taran.id]: taran,
+  [introduktsiya.id]: introduktsiya,
+  [sKemTi.id]: sKemTi,
+  [torero.id]: torero,
+  [neboVGlazakh.id]: neboVGlazakh,
+  [zdesKuyutMetall.id]: zdesKuyutMetall,
 };

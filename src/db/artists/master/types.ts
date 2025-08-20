@@ -72,4 +72,9 @@ export const enum EnumSongs {
   metalDoktor = 'metal-doktor',
   okhotnikiZaSchastem = 'okhotniki-za-schastem',
   taran = 'taran',
+  introduktsiya = 'introduktsiya',
+  sKemTi = 's-kem-ti',
+  torero = 'torero',
+  neboVGlazakh = 'nebo-v-glazakh',
+  zdesKuyutMetall = 'zdes-kuyut-metall',
 }
