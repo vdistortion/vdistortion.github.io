@@ -64,4 +64,12 @@ export const enum EnumSongs {
   voina = 'voina',
   semKrugovAda = 'sem-krugov-ada',
   sPetlyoiNaShee = 's-petlyoi-na-shee',
+  mestaKhvatitVsem = 'mesta-khvatit-vsem',
+  labirint = 'labirint',
+  visokosniiVek = 'visokosnii-vek',
+  kresti = 'kresti',
+  son = 'son',
+  metalDoktor = 'metal-doktor',
+  okhotnikiZaSchastem = 'okhotniki-za-schastem',
+  taran = 'taran',
 }

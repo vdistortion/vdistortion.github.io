@@ -8,11 +8,11 @@ const album: TypeAlbum = {
   folder: '/artist/master/albums/klassika_1987_2002.jpg',
   songs: [
     { name: 'Интродукция' },
-    { name: 'Лабиринт' },
+    EnumSongs.labirint,
     { name: 'С кем ты?' },
     EnumSongs.yeshcheRazNoch,
     EnumSongs.tolkoTiSam,
-    { name: 'Кресты' },
+    EnumSongs.kresti,
     EnumSongs.iuda,
     { name: 'Амстердам (бас-соло)' },
     { name: 'Тореро' },
