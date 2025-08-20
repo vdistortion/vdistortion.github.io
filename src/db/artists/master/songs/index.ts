@@ -25,6 +25,15 @@ import tolkoTiSam from './tolko-ti-sam';
 import yaNeKhochuVoini from './ya-ne-khochu-voini';
 import tatu from './tatu';
 import korablDurakov from './korabl-durakov';
+import master from './master';
+import beregis from './beregis';
+import rukiProch from './ruki-proch';
+import shchitIMech from './shchit-i-mech';
+import yeshcheRazNoch from './yeshche-raz-noch';
+import volyaIRazum from './volya-i-razum';
+import vstanStrakhPreodolei from './vstan-strakh-preodolei';
+import khraniMenya from './khrani-menya';
+import ktoKogo from './kto-kogo';
 
 export default {
   [zaGranyu.id]: zaGranyu,
@@ -54,4 +63,13 @@ export default {
   [yaNeKhochuVoini.id]: yaNeKhochuVoini,
   [tatu.id]: tatu,
   [korablDurakov.id]: korablDurakov,
+  [master.id]: master,
+  [beregis.id]: beregis,
+  [rukiProch.id]: rukiProch,
+  [shchitIMech.id]: shchitIMech,
+  [yeshcheRazNoch.id]: yeshcheRazNoch,
+  [volyaIRazum.id]: volyaIRazum,
+  [vstanStrakhPreodolei.id]: vstanStrakhPreodolei,
+  [khraniMenya.id]: khraniMenya,
+  [ktoKogo.id]: ktoKogo,
 };
