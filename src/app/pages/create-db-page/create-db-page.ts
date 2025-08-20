@@ -19,12 +19,20 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['pesniMyortvyh'],
-    authors: ['Алик Грановский — Маргарита Пушкина'],
+    id: ['master'],
+    authors: ['Андрей Большаков — Александр Елин'],
     languages: this.formBuilder.group({
       ru: [
         `
-
+Мастер
+Берегись
+Руки прочь
+Щит и меч
+Еще раз ночь
+Воля и разум
+Встань, страх преодолей
+Храни меня
+Кто кого
     `,
       ],
       uk: [
