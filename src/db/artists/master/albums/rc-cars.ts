@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.rcCars,
@@ -7,17 +7,17 @@ const album: TypeAlbum = {
   year: 2003,
   folder: '/artist/master/albums/rc_cars.jpg',
   songs: [
-    { name: 'Руки прочь' },
-    { name: 'Места хватит всем' },
-    { name: 'Кто кого?' },
-    { name: 'Берегись' },
-    { name: 'Високосный век' },
-    { name: 'Лабиринт' },
-    { name: 'Metal-доктор' },
-    { name: 'Мастер' },
-    { name: 'Палачи' },
-    { name: 'Сон' },
-    { name: 'Таран' },
+    EnumSongs.rukiProch,
+    EnumSongs.mestaKhvatitVsem,
+    EnumSongs.ktoKogo,
+    EnumSongs.beregis,
+    EnumSongs.visokosniiVek,
+    EnumSongs.labirint,
+    EnumSongs.metalDoktor,
+    EnumSongs.master,
+    EnumSongs.palachi,
+    EnumSongs.son,
+    EnumSongs.taran,
   ],
   info: `
 Запись 2002 г., саундтрек к компьтерной игре

@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.ktoKogo,
   name: ['Кто кого?'],
-  albums: [EnumAlbums.master],
+  albums: [EnumAlbums.master, EnumAlbums.rcCars],
   authors: 'Андрей Большаков — Алексей Сидоров',
   text: `
 Hе выйдет ли тaк, что ветры в ночи

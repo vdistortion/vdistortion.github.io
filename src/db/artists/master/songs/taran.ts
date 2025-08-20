@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.taran,
   name: ['Таран'],
-  albums: [EnumAlbums.labirint],
+  albums: [EnumAlbums.labirint, EnumAlbums.rcCars],
   authors: 'Андрей Лебедев, Алик Грановский — Андрей Лебедев',
   text: `
 Земли больше нет,

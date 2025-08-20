@@ -56,6 +56,15 @@ import sKemTi from './s-kem-ti';
 import torero from './torero';
 import neboVGlazakh from './nebo-v-glazakh';
 import zdesKuyutMetall from './zdes-kuyut-metall';
+import igra from './igra';
+import masterSkorbnikhDel from './master-skorbnikh-del';
+import veraGoritNaKostrakh from './vera-gorit-na-kostrakh';
+import zhizni from './33-zhizni';
+import ekspress from './ekspress';
+import glotokOgnya from './glotok-ognya';
+import heavyLambada from './heavy-lambada';
+import snezhniiOkhotnik from './snezhnii-okhotnik';
+import stikhiya from './stikhiya';
 
 export default {
   [zaGranyu.id]: zaGranyu,
@@ -116,4 +125,13 @@ export default {
   [torero.id]: torero,
   [neboVGlazakh.id]: neboVGlazakh,
   [zdesKuyutMetall.id]: zdesKuyutMetall,
+  [igra.id]: igra,
+  [masterSkorbnikhDel.id]: masterSkorbnikhDel,
+  [veraGoritNaKostrakh.id]: veraGoritNaKostrakh,
+  [zhizni.id]: zhizni,
+  [ekspress.id]: ekspress,
+  [glotokOgnya.id]: glotokOgnya,
+  [heavyLambada.id]: heavyLambada,
+  [snezhniiOkhotnik.id]: snezhniiOkhotnik,
+  [stikhiya.id]: stikhiya,
 };

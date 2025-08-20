@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.rukiProch,
   name: ['Руки прочь'],
-  albums: [EnumAlbums.master],
+  albums: [EnumAlbums.master, EnumAlbums.rcCars],
   authors: 'Алик Грановский — Александр Елин',
   text: `
 Идет о нем молвa,

@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.labirint,
   name: ['Лабиринт'],
-  albums: [EnumAlbums.labirint, EnumAlbums.klassika],
+  albums: [EnumAlbums.labirint, EnumAlbums.klassika, EnumAlbums.rcCars],
   authors: 'Олег Милованов, Алик Грановский, Леонид Фомин — Маргарита Пушкина',
   text: `
 Тиран для одних,

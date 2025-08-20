@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.visokosniiVek,
   name: ['Високосный век'],
-  albums: [EnumAlbums.labirint, EnumAlbums.akustika],
+  albums: [EnumAlbums.labirint, EnumAlbums.rcCars, EnumAlbums.akustika],
   authors: 'Леонид Фомин, Алик Грановский — Нина Кокорева',
   text: `
 Твой девиз - "не верь!"

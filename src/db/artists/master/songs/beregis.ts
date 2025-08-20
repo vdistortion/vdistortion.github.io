@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.beregis,
   name: ['Берегись'],
-  albums: [EnumAlbums.master],
+  albums: [EnumAlbums.master, EnumAlbums.rcCars],
   authors: 'Андрей Большаков — Нина Кокорева',
   text: `
 Содрогнись, провинившийся Рим
