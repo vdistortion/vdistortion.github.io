@@ -34,6 +34,15 @@ import volyaIRazum from './volya-i-razum';
 import vstanStrakhPreodolei from './vstan-strakh-preodolei';
 import khraniMenya from './khrani-menya';
 import ktoKogo from './kto-kogo';
+import neKhotim from './ne-khotim';
+import palachi from './palachi';
+import miNeRabi from './mi-ne-rabi';
+import bozheKhraniNashuZlost from './bozhe-khrani-nashu-zlost';
+import naplevat from './naplevat';
+import iuda from './iuda';
+import voina from './voina';
+import semKrugovAda from './sem-krugov-ada';
+import sPetlyoiNaShee from './s-petlyoi-na-shee';
 
 export default {
   [zaGranyu.id]: zaGranyu,
@@ -72,4 +81,13 @@ export default {
   [vstanStrakhPreodolei.id]: vstanStrakhPreodolei,
   [khraniMenya.id]: khraniMenya,
   [ktoKogo.id]: ktoKogo,
+  [neKhotim.id]: neKhotim,
+  [palachi.id]: palachi,
+  [miNeRabi.id]: miNeRabi,
+  [bozheKhraniNashuZlost.id]: bozheKhraniNashuZlost,
+  [naplevat.id]: naplevat,
+  [iuda.id]: iuda,
+  [voina.id]: voina,
+  [semKrugovAda.id]: semKrugovAda,
+  [sPetlyoiNaShee.id]: sPetlyoiNaShee,
 };

@@ -55,4 +55,13 @@ export const enum EnumSongs {
   vstanStrakhPreodolei = 'vstan-strakh-preodolei',
   khraniMenya = 'khrani-menya',
   ktoKogo = 'kto-kogo',
+  neKhotim = 'ne-khotim',
+  palachi = 'palachi',
+  miNeRabi = 'mi-ne-rabi',
+  bozheKhraniNashuZlost = 'bozhe-khrani-nashu-zlost',
+  naplevat = 'naplevat',
+  iuda = 'iuda',
+  voina = 'voina',
+  semKrugovAda = 'sem-krugov-ada',
+  sPetlyoiNaShee = 's-petlyoi-na-shee',
 }

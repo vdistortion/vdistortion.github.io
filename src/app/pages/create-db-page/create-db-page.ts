@@ -19,20 +19,20 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['master'],
-    authors: ['Андрей Большаков — Александр Елин'],
+    id: ['sPetlyojNaShee'],
+    authors: ['Андрей Большаков — Нина Кокорева'],
     languages: this.formBuilder.group({
       ru: [
         `
-Мастер
-Берегись
-Руки прочь
-Щит и меч
-Еще раз ночь
-Воля и разум
-Встань, страх преодолей
-Храни меня
-Кто кого
+Не хотим!
+Палачи
+Мы не рабы?
+Боже, храни нашу злость
+Наплевать!
+Иуда
+Война
+Семь кругов ада
+С петлёй на шее
     `,
       ],
       uk: [

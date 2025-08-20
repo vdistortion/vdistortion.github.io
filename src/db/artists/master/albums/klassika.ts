@@ -13,7 +13,7 @@ const album: TypeAlbum = {
     EnumSongs.yeshcheRazNoch,
     EnumSongs.tolkoTiSam,
     { name: 'Кресты' },
-    { name: '2000 лет (Иуда)' },
+    EnumSongs.iuda,
     { name: 'Амстердам (бас-соло)' },
     { name: 'Тореро' },
     { name: 'Небо в глазах' },

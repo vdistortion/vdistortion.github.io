@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.sPetlyojNaShee,
@@ -7,17 +7,17 @@ const album: TypeAlbum = {
   year: 1989,
   folder: '/artist/master/albums/spnsh_1989.jpg',
   songs: [
-    { name: 'Не хотим!' },
-    { name: 'Палачи' },
-    { name: 'Мы не рабы?' },
+    EnumSongs.neKhotim,
+    EnumSongs.palachi,
+    EnumSongs.miNeRabi,
     { name: 'Когда я умру...' },
-    { name: 'Боже, храни нашу злость' },
-    { name: 'Наплевать!' },
+    EnumSongs.bozheKhraniNashuZlost,
+    EnumSongs.naplevat,
     { name: 'Амстердам (бас-соло)' },
-    { name: '2000 лет (Иуда)' },
-    { name: 'Война' },
-    { name: 'Семь кругов ада' },
-    { name: 'С петлёй на шее' },
+    EnumSongs.iuda,
+    EnumSongs.voina,
+    EnumSongs.semKrugovAda,
+    EnumSongs.sPetlyoiNaShee,
   ],
   info: `
 Альбом "С Петлей На Шее" записан на квартире звукорежиссера Ю.Соколова в городе Новые Мытищи. В трехкомнатную квартиру Ю.Соколова была привезена аппаратура и двенадцатиканальный цифровой магнитофон. Это был первый опыт записи альбома собственными силами. Альбом выпущен в 1989 году на виниле фирмой "Мелодия", и был продан тиражом более двух миллионов экземпляров. Альбом был признан лучшим металлическим альбомом года. В 1995 году был переиздан на CD студией СОЮЗ

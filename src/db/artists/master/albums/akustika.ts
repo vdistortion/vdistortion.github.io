@@ -11,7 +11,7 @@ const album: TypeAlbum = {
     { name: 'Тореро' },
     { name: 'Високосный век' },
     { name: '33 жизни' },
-    { name: 'Палачи' },
+    EnumSongs.palachi,
     { name: 'Heavy-ламбада' },
     EnumSongs.pepelNaVetru,
     { name: 'Игра' },
