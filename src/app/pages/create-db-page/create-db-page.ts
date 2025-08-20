@@ -19,20 +19,18 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['klassika'],
-    authors: ['Алик Грановский — Маргарита Пушкина'],
+    id: ['maniacParty'],
+    authors: ['Алик Грановский — Олег Горбунов'],
     languages: this.formBuilder.group({
       ru: [
         `
-Игра
-Мастер скорбных дел
-Вера горит на кострах
-33 жизни
-Экспресс
-Глоток огня
-Heavy-ламбада
-Снежный охотник
-Стихия
+Beastie Generation
+Maniac Party
+Lock Them In Graves
+Civil War Disaster
+Screams Of Pain
+They Are Just Like Us
+Punk Guys
     `,
       ],
       uk: [

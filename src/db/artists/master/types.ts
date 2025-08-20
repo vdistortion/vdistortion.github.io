@@ -86,4 +86,11 @@ export const enum EnumSongs {
   heavyLambada = 'heavy-lambada',
   snezhniiOkhotnik = 'snezhnii-okhotnik',
   stikhiya = 'stikhiya',
+  beastieGeneration = 'beastie-generation',
+  maniacParty = 'maniac-party',
+  lockThemInGraves = 'lock-them-in-graves',
+  civilWarDisaster = 'civil-war-disaster',
+  screamsOfPain = 'screams-of-pain',
+  theyAreJustLikeUs = 'they-are-just-like-us',
+  punkGuys = 'punk-guys',
 }

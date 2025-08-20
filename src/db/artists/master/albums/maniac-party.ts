@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.maniacParty,
@@ -7,14 +7,14 @@ const album: TypeAlbum = {
   year: 1994,
   folder: '/artist/master/albums/maniac_party_1994.jpg',
   songs: [
-    { name: 'Beastie Generation' },
-    { name: 'Maniac Party' },
-    { name: 'Lock Them In Graves' },
-    { name: 'Burning In Hell (Civil War Disaster)' },
-    { name: 'Screams Of Pain' },
+    EnumSongs.beastieGeneration,
+    EnumSongs.maniacParty,
+    EnumSongs.lockThemInGraves,
+    EnumSongs.civilWarDisaster,
+    EnumSongs.screamsOfPain,
     { name: 'Time X (bass-solo)' },
-    { name: 'They Are Just Like Us' },
-    { name: 'Punk Guys' },
+    EnumSongs.theyAreJustLikeUs,
+    EnumSongs.punkGuys,
     { name: 'Go!' },
   ],
   info: `

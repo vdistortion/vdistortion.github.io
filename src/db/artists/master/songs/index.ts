@@ -65,6 +65,13 @@ import glotokOgnya from './glotok-ognya';
 import heavyLambada from './heavy-lambada';
 import snezhniiOkhotnik from './snezhnii-okhotnik';
 import stikhiya from './stikhiya';
+import beastieGeneration from './beastie-generation';
+import maniacParty from './maniac-party';
+import lockThemInGraves from './lock-them-in-graves';
+import civilWarDisaster from './civil-war-disaster';
+import screamsOfPain from './screams-of-pain';
+import theyAreJustLikeUs from './they-are-just-like-us';
+import punkGuys from './punk-guys';
 
 export default {
   [zaGranyu.id]: zaGranyu,
@@ -134,4 +141,11 @@ export default {
   [heavyLambada.id]: heavyLambada,
   [snezhniiOkhotnik.id]: snezhniiOkhotnik,
   [stikhiya.id]: stikhiya,
+  [beastieGeneration.id]: beastieGeneration,
+  [maniacParty.id]: maniacParty,
+  [lockThemInGraves.id]: lockThemInGraves,
+  [civilWarDisaster.id]: civilWarDisaster,
+  [screamsOfPain.id]: screamsOfPain,
+  [theyAreJustLikeUs.id]: theyAreJustLikeUs,
+  [punkGuys.id]: punkGuys,
 };
