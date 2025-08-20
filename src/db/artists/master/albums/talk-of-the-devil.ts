@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.talkOfTheDevil,
@@ -8,14 +8,14 @@ const album: TypeAlbum = {
   folder: '/artist/master/albums/talk_of_the_devil_1992.jpg',
   songs: [
     { name: 'Intro Golgotha' },
-    { name: 'Talk Of The Devil' },
-    { name: 'Danger' },
-    { name: 'Fallen Angel' },
-    { name: 'Live To Die' },
-    { name: 'Tsar' },
-    { name: 'Heroes' },
+    EnumSongs.talkOfTheDevil,
+    EnumSongs.danger,
+    EnumSongs.fallenAngel,
+    EnumSongs.liveToDie,
+    EnumSongs.tsar,
+    EnumSongs.heroes,
     { name: 'Romance (bass-solo)' },
-    { name: 'I Hate Your Sex' },
+    EnumSongs.iHateYourSex,
     { name: 'Paranoid' },
   ],
   info: `

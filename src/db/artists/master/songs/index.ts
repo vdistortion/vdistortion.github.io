@@ -72,6 +72,13 @@ import civilWarDisaster from './civil-war-disaster';
 import screamsOfPain from './screams-of-pain';
 import theyAreJustLikeUs from './they-are-just-like-us';
 import punkGuys from './punk-guys';
+import talkOfTheDevil from './talk-of-the-devil';
+import danger from './danger';
+import fallenAngel from './fallen-angel';
+import liveToDie from './live-to-die';
+import tsar from './tsar';
+import heroes from './heroes';
+import iHateYourSex from './i-hate-your-sex';
 
 export default {
   [zaGranyu.id]: zaGranyu,
@@ -148,4 +155,11 @@ export default {
   [screamsOfPain.id]: screamsOfPain,
   [theyAreJustLikeUs.id]: theyAreJustLikeUs,
   [punkGuys.id]: punkGuys,
+  [talkOfTheDevil.id]: talkOfTheDevil,
+  [danger.id]: danger,
+  [fallenAngel.id]: fallenAngel,
+  [liveToDie.id]: liveToDie,
+  [tsar.id]: tsar,
+  [heroes.id]: heroes,
+  [iHateYourSex.id]: iHateYourSex,
 };
