@@ -43,6 +43,14 @@ import iuda from './iuda';
 import voina from './voina';
 import semKrugovAda from './sem-krugov-ada';
 import sPetlyoiNaShee from './s-petlyoi-na-shee';
+import mestaKhvatitVsem from './mesta-khvatit-vsem';
+import labirint from './labirint';
+import visokosniiVek from './visokosnii-vek';
+import kresti from './kresti';
+import son from './son';
+import metalDoktor from './metal-doktor';
+import okhotnikiZaSchastem from './okhotniki-za-schastem';
+import taran from './taran';
 
 export default {
   [zaGranyu.id]: zaGranyu,
@@ -90,4 +98,12 @@ export default {
   [voina.id]: voina,
   [semKrugovAda.id]: semKrugovAda,
   [sPetlyoiNaShee.id]: sPetlyoiNaShee,
+  [mestaKhvatitVsem.id]: mestaKhvatitVsem,
+  [labirint.id]: labirint,
+  [visokosniiVek.id]: visokosniiVek,
+  [kresti.id]: kresti,
+  [son.id]: son,
+  [metalDoktor.id]: metalDoktor,
+  [okhotnikiZaSchastem.id]: okhotnikiZaSchastem,
+  [taran.id]: taran,
 };

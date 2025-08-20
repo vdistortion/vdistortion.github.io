@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.labirint,
@@ -7,16 +7,16 @@ const album: TypeAlbum = {
   year: 1999,
   folder: '/artist/master/albums/labirint_2000.jpg',
   songs: [
-    { name: 'Места хватит всем' },
-    { name: 'Лабиринт' },
-    { name: 'Високосный век' },
-    { name: 'Кресты' },
-    { name: 'Сон' },
+    EnumSongs.mestaKhvatitVsem,
+    EnumSongs.labirint,
+    EnumSongs.visokosniiVek,
+    EnumSongs.kresti,
+    EnumSongs.son,
     { name: 'Комета 2000' },
-    { name: 'Metal-доктор' },
-    { name: 'Охотники за счастьем' },
+    EnumSongs.metalDoktor,
+    EnumSongs.okhotnikiZaSchastem,
     { name: 'Никто не забыт, ничто не забыто (бас-соло)' },
-    { name: 'Таран' },
+    EnumSongs.taran,
   ],
   info: `
 Альбом "Лабиринт" записан на студии группы Мастер в конце 1999 года. Музыканты приобрели звукозаписывающую аппаратуру и решили все записывать у себя на базе. Альбом "Лабиринт" был выпущен только в 2001 фирмой "CD-Land" на CD

@@ -19,20 +19,19 @@ export class CreateDbPage {
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
-    id: ['sPetlyojNaShee'],
-    authors: ['Андрей Большаков — Нина Кокорева'],
+    id: ['labirint'],
+    authors: ['Алик Грановский — Маргарита Пушкина'],
     languages: this.formBuilder.group({
       ru: [
         `
-Не хотим!
-Палачи
-Мы не рабы?
-Боже, храни нашу злость
-Наплевать!
-Иуда
-Война
-Семь кругов ада
-С петлёй на шее
+Места хватит всем
+Лабиринт
+Високосный век
+Кресты
+Сон
+Metal-доктор
+Охотники за счастьем
+Таран
     `,
       ],
       uk: [
