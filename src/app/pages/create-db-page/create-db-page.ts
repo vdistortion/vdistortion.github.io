@@ -20,14 +20,19 @@ export class CreateDbPage {
     type: [this.defaultValues.type, Validators.required],
     artist: [this.defaultValues.artist],
     id: ['klassika'],
-    authors: [''],
+    authors: ['Алик Грановский — Маргарита Пушкина'],
     languages: this.formBuilder.group({
       ru: [
         `
-Интродукция
-С кем ты?
-Тореро
-Небо в глазах
+Игра
+Мастер скорбных дел
+Вера горит на кострах
+33 жизни
+Экспресс
+Глоток огня
+Heavy-ламбада
+Снежный охотник
+Стихия
     `,
       ],
       uk: [

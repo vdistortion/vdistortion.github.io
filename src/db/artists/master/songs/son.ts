@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.son,
   name: ['Сон'],
-  albums: [EnumAlbums.labirint],
+  albums: [EnumAlbums.labirint, EnumAlbums.rcCars],
   authors: 'Алик Грановский — П.Морозов',
   text: `
 Говорят, что у человека две души:

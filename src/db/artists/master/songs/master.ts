@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.master,
   name: ['Мастер'],
-  albums: [EnumAlbums.master],
+  albums: [EnumAlbums.master, EnumAlbums.rcCars],
   authors: 'Андрей Большаков — Андрей Якушин',
   text: `
 Сновa словa стреляют в песок,

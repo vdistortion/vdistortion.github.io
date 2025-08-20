@@ -77,4 +77,13 @@ export const enum EnumSongs {
   torero = 'torero',
   neboVGlazakh = 'nebo-v-glazakh',
   zdesKuyutMetall = 'zdes-kuyut-metall',
+  igra = 'igra',
+  masterSkorbnikhDel = 'master-skorbnikh-del',
+  veraGoritNaKostrakh = 'vera-gorit-na-kostrakh',
+  zhizni = '33-zhizni',
+  ekspress = 'ekspress',
+  glotokOgnya = 'glotok-ognya',
+  heavyLambada = 'heavy-lambada',
+  snezhniiOkhotnik = 'snezhnii-okhotnik',
+  stikhiya = 'stikhiya',
 }

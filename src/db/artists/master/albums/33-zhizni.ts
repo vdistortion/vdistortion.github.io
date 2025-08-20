@@ -1,5 +1,5 @@
 import { TypeAlbum } from '../../../types';
-import { EnumAlbums } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const album: TypeAlbum = {
   id: EnumAlbums.zhizni33,
@@ -7,16 +7,16 @@ const album: TypeAlbum = {
   year: 2004,
   folder: '/artist/master/albums/33zizni_2004.jpg',
   songs: [
-    { name: 'Игра' },
-    { name: 'Мастер скорбных дел' },
-    { name: 'Вера горит на кострах' },
-    { name: '33 жизни' },
-    { name: 'Экспресс' },
-    { name: 'Глоток огня' },
+    EnumSongs.igra,
+    EnumSongs.masterSkorbnikhDel,
+    EnumSongs.veraGoritNaKostrakh,
+    EnumSongs.zhizni,
+    EnumSongs.ekspress,
+    EnumSongs.glotokOgnya,
     { name: 'Война миров' },
-    { name: 'Heavy-ламбада' },
-    { name: 'Снежный охотник' },
-    { name: 'Стихия' },
+    EnumSongs.heavyLambada,
+    EnumSongs.snezhniiOkhotnik,
+    EnumSongs.stikhiya,
     { name: 'Дети подземелья' },
   ],
   info: `

@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.palachi,
   name: ['Палачи'],
-  albums: [EnumAlbums.sPetlyojNaShee, EnumAlbums.akustika],
+  albums: [EnumAlbums.sPetlyojNaShee, EnumAlbums.rcCars, EnumAlbums.akustika],
   authors: 'Андрей Большаков — Нина Кокорева',
   text: `
  Один зaбыл о нервaх,

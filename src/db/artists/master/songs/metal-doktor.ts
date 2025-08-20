@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.metalDoktor,
   name: ['Metal-доктор'],
-  albums: [EnumAlbums.labirint],
+  albums: [EnumAlbums.labirint, EnumAlbums.rcCars],
   authors: 'Алик Грановский — Маргарита Пушкина',
   text: `
 Хей! Он приходит сам,

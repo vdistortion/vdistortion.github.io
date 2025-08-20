@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.mestaKhvatitVsem,
   name: ['Места хватит всем'],
-  albums: [EnumAlbums.labirint],
+  albums: [EnumAlbums.labirint, EnumAlbums.rcCars],
   authors: 'Леонид Фомин, Алик Грановский — Маргарита Пушкина',
   text: `
 Лето сушит день, лето сушит ночь-
