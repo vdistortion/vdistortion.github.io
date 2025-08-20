@@ -93,4 +93,11 @@ export const enum EnumSongs {
   screamsOfPain = 'screams-of-pain',
   theyAreJustLikeUs = 'they-are-just-like-us',
   punkGuys = 'punk-guys',
+  talkOfTheDevil = 'talk-of-the-devil',
+  danger = 'danger',
+  fallenAngel = 'fallen-angel',
+  liveToDie = 'live-to-die',
+  tsar = 'tsar',
+  heroes = 'heroes',
+  iHateYourSex = 'i-hate-your-sex',
 }
