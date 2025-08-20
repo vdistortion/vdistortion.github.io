@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.veter,
   name: ['Ветер'],
   albums: [EnumAlbums.akustika],
+  authors: 'Алексей Кравченко',
   duration: 117,
   text: `
 Здравствуй, брат, рано нас хоронят,

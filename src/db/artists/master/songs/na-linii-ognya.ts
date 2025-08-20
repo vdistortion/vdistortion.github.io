@@ -5,6 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.naLiniiOgnya,
   name: ['На линии огня'],
   albums: [],
+  authors: 'Андрей Ковалёв',
   clipYouTubeId: 'sdAZuPTbFtE',
   text: `
 Каменные джунгли, город грехов,
