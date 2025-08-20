@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Лабиринт'],
   albums: [EnumAlbums.labirint, EnumAlbums.klassika, EnumAlbums.rcCars],
   authors: 'Олег Милованов, Алик Грановский, Леонид Фомин — Маргарита Пушкина',
+  clipYouTubeId: 'jvYeX1humkc',
   text: `
 Тиран для одних,
 Герой для других -

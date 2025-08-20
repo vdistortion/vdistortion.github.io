@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Игра'],
   albums: [EnumAlbums.zhizni33, EnumAlbums.akustika],
   authors: 'Алексей Страйк',
+  clipYouTubeId: 'D2h4ibl50yk',
   text: `
 То шёпот, то крик - простая игра,
 Расплавленный лёд, сырая земля.

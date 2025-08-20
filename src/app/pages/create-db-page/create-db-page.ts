@@ -123,7 +123,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.${name},
   name: ['${item}'],
-  albums: [${form.id ? ('EnumAlbums.'+form.id) : ''}],
+  albums: [${form.id ? 'EnumAlbums.' + form.id : ''}],
   authors: '${form.authors}',
   text: \`
 
