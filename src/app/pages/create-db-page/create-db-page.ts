@@ -14,7 +14,7 @@ export class CreateDbPage {
   private formBuilder = inject(FormBuilder);
   private defaultValues = {
     type: 'songs',
-    artist: 'master',
+    artist: 'shmely',
   };
   form = this.formBuilder.group({
     type: [this.defaultValues.type, Validators.required],
@@ -24,7 +24,23 @@ export class CreateDbPage {
     languages: this.formBuilder.group({
       ru: [
         `
-
+Ай да!
+Аниматоры
+Барыня
+Вода
+Гимноподобная
+Гнилое озеро
+Губы — яд
+Железный бог
+Кораблики
+Лирика
+Логово
+Молодая
+Один раз в жизнь
+Понедельник
+Светится мгла
+Считалка
+Тишина и покой
     `,
       ],
       uk: [

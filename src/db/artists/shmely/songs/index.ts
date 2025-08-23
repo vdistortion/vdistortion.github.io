@@ -1,4 +1,4 @@
-import dajGarri from './daj-garri';
+import dajGari from './daj-gari';
 import yaVselennaya from './ya-vselennaya';
 import naLadoniPlaneta from './na-ladoni-planeta';
 import poshmelye from './poshmelye';
@@ -388,7 +388,7 @@ export default {
   [blagodat.id]: blagodat,
   [bol.id]: bol,
   [britogolovyeMoskvichki.id]: britogolovyeMoskvichki,
-  [dajGarri.id]: dajGarri,
+  [dajGari.id]: dajGari,
   [divchinaKulya.id]: divchinaKulya,
   [fokusnik.id]: fokusnik,
   [gilotina.id]: gilotina,
