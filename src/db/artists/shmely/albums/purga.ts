@@ -7,9 +7,7 @@ const album: TypeAlbum = {
   year: 1999,
   folder: '/artist/shmely/albums/1998_purga.jpg',
   songs: [
-    {
-      name: 'Ай да!',
-    },
+    EnumSongs.aiDa,
     EnumSongs.groza,
     EnumSongs.toska,
     EnumSongs.lakaiOtravu,
@@ -19,24 +17,14 @@ const album: TypeAlbum = {
     {
       name: 'Виртуальный самолёт',
     },
-    {
-      name: 'Барыня',
-    },
-    {
-      name: 'Молодая',
-    },
+    EnumSongs.barinya,
+    EnumSongs.molodaya,
     EnumSongs.lyutijSnig,
-    {
-      name: 'Логово',
-    },
+    EnumSongs.logovo,
     EnumSongs.braga,
     EnumSongs.zamokIzTuch,
-    {
-      name: 'Вода',
-    },
-    {
-      name: 'Губы — яд',
-    },
+    EnumSongs.voda,
+    EnumSongs.gubiYad,
     {
       name: 'Будто сказка',
     },

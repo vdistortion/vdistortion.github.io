@@ -8,9 +8,7 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/1998_tulovishe.jpg',
   songs: [
     EnumSongs.neboStikh,
-    {
-      name: 'Железный бог',
-    },
+    EnumSongs.zhelezniiBog,
     EnumSongs.laiIllyuzii,
     EnumSongs.travi,
     EnumSongs.pervayaLyubovStikh,
@@ -18,15 +16,11 @@ const album: TypeAlbum = {
     {
       name: 'Экзотика',
     },
-    {
-      name: 'Гнилое озеро',
-    },
+    EnumSongs.gniloeOzero,
     EnumSongs.zhaloBeiSavalyai,
     EnumSongs.lahidno,
     EnumSongs.raspyatie,
-    {
-      name: 'Кораблики',
-    },
+    EnumSongs.korabliki,
     {
       name: 'Ветер и гром',
     },
@@ -34,9 +28,7 @@ const album: TypeAlbum = {
     {
       name: 'Мясной вопрос',
     },
-    {
-      name: 'Гимноподобная',
-    },
+    EnumSongs.gimnopodobnaya,
   ],
 };
 

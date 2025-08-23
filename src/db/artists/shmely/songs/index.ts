@@ -381,6 +381,22 @@ import yaKhochuBachytyTebe from './ya-khochu-bachyty-tebe';
 import shukai from './shukai';
 import chovenStrakhu from './choven-strakhu';
 import klycheNaOzera from './klyche-na-ozera';
+import aiDa from './ai-da';
+import animatori from './animatori';
+import barinya from './barinya';
+import voda from './voda';
+import gimnopodobnaya from './gimnopodobnaya';
+import gniloeOzero from './gniloe-ozero';
+import gubiYad from './gubi-yad';
+import zhelezniiBog from './zheleznii-bog';
+import korabliki from './korabliki';
+import lirika from './lirika';
+import logovo from './logovo';
+import molodaya from './molodaya';
+import odinRazVZhizn from './odin-raz-v-zhizn';
+import ponedelnik from './ponedelnik';
+import svetitsyaMgla from './svetitsya-mgla';
+import tishinaIPokoi from './tishina-i-pokoi';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -766,4 +782,20 @@ export default {
   [shukai.id]: shukai,
   [chovenStrakhu.id]: chovenStrakhu,
   [klycheNaOzera.id]: klycheNaOzera,
+  [aiDa.id]: aiDa,
+  [animatori.id]: animatori,
+  [barinya.id]: barinya,
+  [voda.id]: voda,
+  [gimnopodobnaya.id]: gimnopodobnaya,
+  [gniloeOzero.id]: gniloeOzero,
+  [gubiYad.id]: gubiYad,
+  [zhelezniiBog.id]: zhelezniiBog,
+  [korabliki.id]: korabliki,
+  [lirika.id]: lirika,
+  [logovo.id]: logovo,
+  [molodaya.id]: molodaya,
+  [odinRazVZhizn.id]: odinRazVZhizn,
+  [ponedelnik.id]: ponedelnik,
+  [svetitsyaMgla.id]: svetitsyaMgla,
+  [tishinaIPokoi.id]: tishinaIPokoi,
 };
