@@ -17,7 +17,7 @@ const album: TypeAlbum = {
     EnumSongs.neKhody,
     EnumSongs.tsvyntar,
     EnumSongs.orhiia,
-    EnumSongs.dajGarri,
+    EnumSongs.dajGari,
   ],
 };
 

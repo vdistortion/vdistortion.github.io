@@ -81,7 +81,7 @@ export const enum EnumSongs {
   tulovishchej = 'tulovishchej',
   fokusnik = 'fokusnik',
   yaNeAngel = 'ya-ne-angel',
-  dajGarri = 'daj-garri',
+  dajGari = 'daj-gari',
   yaVselennaya = 'ya-vselennaya',
   naLadoniPlaneta = 'na-ladoni-planeta',
   poshmelye = 'poshmelye',

@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.vKlochya,
   name: ['В клочья'],
-  albums: [EnumAlbums.ostanoviteChelovechestvo],
+  albums: [EnumAlbums.ostanoviteChelovechestvo, EnumAlbums.vosstanoviteChelovechestvo],
   authors: 'Шмель',
   text: `
 Самая страшная в жизни минута,
@@ -22,14 +22,14 @@ const song: TypeSong = {
 Сам придумал, сам страдай,
 Любовь - уничтожение друг друга,
 Сила – одиночество, безразличье – рай!!!
-Самое страшное в жизни лишенье,
+Самое страшное в жизни - лишенье
 Великого смысла последней мечты,
 Опустошенье и отрешенье,
 Жёлтое счастье, так рвутся мосты…
 
 В КЛОЧЬЯ!!!
 
-А самое главное, будет в бесстишье,
+А самое главное, будет в бесстишьи,
 А самое лучшее, будет в молчанье,
 Всё так и должно было быть…
 Как жаль, что я не умею любить
