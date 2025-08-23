@@ -27,9 +27,7 @@ const album: TypeAlbum = {
       name: 'Чёрная исповедь',
     },
     EnumSongs.fashistskiiMototsikl,
-    {
-      name: 'Понедельник',
-    },
+    EnumSongs.ponedelnik,
     {
       name: 'Могилагила',
     },

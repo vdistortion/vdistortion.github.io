@@ -16,9 +16,9 @@ const album: TypeAlbum = {
   songs: [
     EnumSongs.shukai,
     { name: 'Душа не ладит с сердцем' },
-    { name: 'Светится мгла' },
+    EnumSongs.svetitsyaMgla,
     EnumSongs.klycheNaOzera,
-    { name: 'Аниматоры' },
+    EnumSongs.animatori,
     { name: 'Хаос чорноти' },
     EnumSongs.yaKhochuBachytyTebe,
     { name: 'Барды Чернобыля' },
