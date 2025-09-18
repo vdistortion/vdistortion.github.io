@@ -15,6 +15,7 @@ We're constructing rock-'n'-roll
 Banging like a wretched ball
 We must run at slipping fast
 Life is just a real funking gas
+
 They are just like us
 Hide behind the doors
 It's a same old chat
@@ -25,6 +26,7 @@ But it's all the same
 Fallen democrats
 Same old chat of us
 Shall we stand right where we stood before?
+
 And we stand right where we stood
 What would be done - it's no good
 But anyway it's all the same

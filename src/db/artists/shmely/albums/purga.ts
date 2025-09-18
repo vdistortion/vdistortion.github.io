@@ -25,9 +25,7 @@ const album: TypeAlbum = {
     EnumSongs.zamokIzTuch,
     EnumSongs.voda,
     EnumSongs.gubiYad,
-    {
-      name: 'Будто сказка',
-    },
+    EnumSongs.budtoSkazka,
   ],
 };
 

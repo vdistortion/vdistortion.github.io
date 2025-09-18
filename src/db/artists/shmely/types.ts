@@ -456,4 +456,6 @@ export const enum EnumSongs {
   ponedelnik = 'ponedelnik',
   svetitsyaMgla = 'svetitsya-mgla',
   tishinaIPokoi = 'tishina-i-pokoi',
+  budtoSkazka = 'budto-skazka',
+  chastushka = 'chastushka',
 }

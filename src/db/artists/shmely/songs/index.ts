@@ -397,6 +397,8 @@ import odinRazVZhizn from './odin-raz-v-zhizn';
 import ponedelnik from './ponedelnik';
 import svetitsyaMgla from './svetitsya-mgla';
 import tishinaIPokoi from './tishina-i-pokoi';
+import budtoSkazka from './budto-skazka';
+import chastushka from './chastushka';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -798,4 +800,6 @@ export default {
   [ponedelnik.id]: ponedelnik,
   [svetitsyaMgla.id]: svetitsyaMgla,
   [tishinaIPokoi.id]: tishinaIPokoi,
+  [budtoSkazka.id]: budtoSkazka,
+  [chastushka.id]: chastushka,
 };
