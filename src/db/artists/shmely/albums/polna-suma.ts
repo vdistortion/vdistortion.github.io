@@ -8,7 +8,7 @@ const album: TypeAlbum = {
   folder: '/artist/shmely/albums/2003_suma.jpg',
   streaming: { yandexMusic: 'https://music.yandex.ru/album/79309' },
   songs: [
-    { name: 'Зверь' },
+    [EnumSongs.budtoSkazka, { name: ['Зверь'] }],
     EnumSongs.yaObernusOgnyom,
     EnumSongs.toska,
     EnumSongs.agoniya,

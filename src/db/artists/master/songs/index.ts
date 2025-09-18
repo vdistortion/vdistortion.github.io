@@ -79,6 +79,7 @@ import liveToDie from './live-to-die';
 import tsar from './tsar';
 import heroes from './heroes';
 import iHateYourSex from './i-hate-your-sex';
+import stalnayaDver from './stalnaya-dver';
 
 export default {
   [zaGranyu.id]: zaGranyu,
@@ -162,4 +163,5 @@ export default {
   [tsar.id]: tsar,
   [heroes.id]: heroes,
   [iHateYourSex.id]: iHateYourSex,
+  [stalnayaDver.id]: stalnayaDver,
 };

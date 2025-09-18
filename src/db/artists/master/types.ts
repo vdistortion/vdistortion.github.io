@@ -100,4 +100,5 @@ export const enum EnumSongs {
   tsar = 'tsar',
   heroes = 'heroes',
   iHateYourSex = 'i-hate-your-sex',
+  stalnayaDver = 'stalnaya-dver',
 }

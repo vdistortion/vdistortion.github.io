@@ -22,7 +22,7 @@ const album: TypeAlbum = {
     { name: 'Тринадцать' },
     { name: 'Женщина-река' },
     { name: 'Холод моря' },
-    { name: 'Частушка' },
+    EnumSongs.chastushka,
     { name: 'Сон из меня вон' },
     { name: 'Хаос желаний' },
     { name: 'На Веселцi' },

@@ -6,6 +6,7 @@ const song: TypeSong = {
   name: ['Zастольная', 'Далеко от себя'],
   albums: [EnumAlbums.bombaVUbezhishche],
   authors: 'Шмель, Лёс',
+  clipYouTubeId: 'u0DVz8OK3-s',
   text: `
 По теплой коже от любви
 Проходился наждачный холод
