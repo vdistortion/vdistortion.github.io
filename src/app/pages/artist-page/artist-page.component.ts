@@ -1,9 +1,10 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { AlbumCardComponent } from '../../components/ui/album-card/album-card.component';
 import { StreamingListComponent } from '../../components/ui/streaming-list/streaming-list.component';
 import { ArtistService } from '../../services/artist.service';
+import { Analytics } from '../../services/analytics.service';
 import artists from '../../../db';
 import type { TypeAlbum, TypeItem, TypeItems, TypeStreaming } from '../../../db/types';
 
@@ -15,6 +16,7 @@ import type { TypeAlbum, TypeItem, TypeItems, TypeStreaming } from '../../../db/
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ArtistPageComponent implements OnInit {
+  private analytics = inject(Analytics);
   public artists: TypeItems = artists;
   public artistName: string = '';
   public artistId: string | null = null;
@@ -42,5 +44,9 @@ export class ArtistPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.titleService.setTitle(`${this.artistName} | Дискография`);
+  }
+
+  onClick(event: string) {
+    this.analytics.sendEvent(event, { category: 'UI' });
   }
 }

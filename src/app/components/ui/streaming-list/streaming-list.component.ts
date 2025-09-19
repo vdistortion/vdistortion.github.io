@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import type { TypeStreaming, TypeStreamingList } from '../../../../db/types';
 
 type TypeStreamingItem = {
@@ -15,6 +15,7 @@ type TypeStreamingItem = {
 })
 export class StreamingListComponent {
   @Input({ required: true }) public streaming: TypeStreaming | undefined;
+  @Output() public clickStreaming = new EventEmitter<string>();
 
   protected readonly streamingList: Record<TypeStreamingList, TypeStreamingItem> = {
     spotify: {

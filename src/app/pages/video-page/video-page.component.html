@@ -10,7 +10,11 @@
             (stateChange)="stateChange($event)"
           ></youtube-player>
         </div>
-        <a class="video-page__title" [routerLink]="'/artist/' + artistId + '/song/' + song.id">
+        <a
+          class="video-page__title"
+          [routerLink]="'/artist/' + artistId + '/song/' + song.id"
+          (click)="onClick(`click_video_song_${song.id}_artist_${artistId}`)"
+        >
           {{ song.name }}
           @if (artist.yearOfSong(song)) {
             <span class="video-page__year">{{ artist.yearOfSong(song) }}</span>

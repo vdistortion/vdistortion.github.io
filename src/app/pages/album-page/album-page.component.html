@@ -16,7 +16,10 @@
         <div class="album-page__song">
           @if (song.id && song.isText) {
             {{ i + 1 }}.
-            <a [routerLink]="'/artist/' + artistId + '/song/' + song.id">
+            <a
+              [routerLink]="'/artist/' + artistId + '/song/' + song.id"
+              (click)="onClick(`click_song_${song.id}_album_${album?.id}_artist_${artistId}`)"
+            >
               {{ song.name }}
             </a>
             @if (song.duration) {
@@ -32,7 +35,10 @@
         <pre>{{ album?.info | trim }}</pre>
       }
 
-      <app-streaming-list [streaming]="album?.streaming"></app-streaming-list>
+      <app-streaming-list
+        [streaming]="album?.streaming"
+        (clickStreaming)="onClick(`click_streaming_${$event}_album_${album?.id}_artist_${artistId}`)"
+      ></app-streaming-list>
     </div>
   </div>
 }

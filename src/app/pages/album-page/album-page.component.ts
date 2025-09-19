@@ -1,8 +1,9 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { StreamingListComponent } from '../../components/ui/streaming-list/streaming-list.component';
 import { ArtistService } from '../../services/artist.service';
+import { Analytics } from '../../services/analytics.service';
 import { TrimPipe } from '../../trim.pipe';
 import artists from '../../../db';
 import type { TypeAlbum, TypeItem, TypeItems } from '../../../db/types';
@@ -15,6 +16,7 @@ import type { TypeAlbum, TypeItem, TypeItems } from '../../../db/types';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AlbumPageComponent implements OnInit {
+  private analytics = inject(Analytics);
   public artists: TypeItems = artists;
   public artistName: string = '';
   public artistId: string | null = null;
@@ -68,5 +70,9 @@ export class AlbumPageComponent implements OnInit {
     const m = duration / 60;
     const s = duration % 60;
     return [Math.trunc(m), ('0' + s).slice(-2)].join(':');
+  }
+
+  onClick(event: string) {
+    this.analytics.sendEvent(event, { category: 'UI' });
   }
 }

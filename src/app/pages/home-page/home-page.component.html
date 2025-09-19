@@ -1,7 +1,11 @@
 <div class="home-page">
   @for (artist of artists; track artist.id) {
     <div class="home-page__item">
-      <a class="home-page__link" [routerLink]="'artist/' + artist.id">
+      <a
+        class="home-page__link"
+        [routerLink]="'artist/' + artist.id"
+        (click)="onClick(`click_artist_${artist.id}`)"
+      >
         <img [src]="'.' + artist.image" [alt]="artist.name" />
         <div class="home-page__name">{{ artist.name }}</div>
         @if (artist.country) {

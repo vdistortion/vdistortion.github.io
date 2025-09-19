@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { ArtistService } from '../../services/artist.service';
+import { Analytics } from '../../services/analytics.service';
 import artists from '../../../db';
 
 @Component({
@@ -12,6 +13,7 @@ import artists from '../../../db';
 })
 export class HeaderComponent {
   private cdr = inject(ChangeDetectorRef);
+  private analytics = inject(Analytics);
   artistId: string = '';
   artistName: string = '';
   isImages: boolean = false;
@@ -31,5 +33,9 @@ export class HeaderComponent {
 
       this.cdr.markForCheck();
     });
+  }
+
+  onClick(event: string) {
+    this.analytics.sendEvent(event, { category: 'UI' });
   }
 }

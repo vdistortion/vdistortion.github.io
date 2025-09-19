@@ -7,6 +7,7 @@
         [photoGallery]="'./artist/' + id + '/images/' + path + '/' + picture"
         [src]="'./artist/' + id + '/images/' + path + '/' + picture"
         [alt]="picture"
+        (click)="onClick(`click_image_${path}/${picture}_artist_${id}`)"
       />
     }
   </div>
