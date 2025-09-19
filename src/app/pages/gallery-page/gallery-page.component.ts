@@ -1,8 +1,9 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { PhotoGalleryModule } from '@twogate/ngx-photo-gallery';
 import { ArtistService } from '../../services/artist.service';
+import { Analytics } from '../../services/analytics.service';
 import artists from '../../../db';
 import type { TypeItems } from '../../../db/types';
 
@@ -14,6 +15,7 @@ import type { TypeItems } from '../../../db/types';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class GalleryPageComponent implements OnInit {
+  private analytics = inject(Analytics);
   public artists: TypeItems = artists;
   protected pictures!: string[];
   protected path!: string;
@@ -43,5 +45,9 @@ export class GalleryPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.titleService.setTitle(`${this.artistName} | Фото | ${this.galleryName}`);
+  }
+
+  onClick(event: string) {
+    this.analytics.sendEvent(event, { category: 'UI' });
   }
 }

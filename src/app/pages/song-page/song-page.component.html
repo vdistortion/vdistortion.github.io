@@ -38,6 +38,7 @@
                 [year]="album.year"
                 [image]="album.folder"
                 [thumbnail]="true"
+                (click)="onClick(`click_album_${album.id}_from_${song?.id}_artist_${artistId}`)"
               ></app-album-card>
             </div>
           }
@@ -47,6 +48,7 @@
               [link]="'/artist/' + artistId + '/songs/other'"
               [name]="'Песни, не вошедшие в альбомы'"
               [thumbnail]="true"
+              (click)="onClick(`click_album_other_from_${song?.id}_artist_${artistId}`)"
             ></app-album-card>
           </div>
         }

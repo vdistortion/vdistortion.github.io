@@ -17,6 +17,7 @@
             <a
               [class.error]="!song.text.trim()"
               [routerLink]="'/artist/' + artistId + '/song/' + song.id"
+              (click)="onClick(`click_song_${song.id}_page_songs_artist_${artistId}`)"
             >
               {{ song.name[0] }}
             </a>

@@ -6,11 +6,13 @@
         [name]="album.name"
         [year]="album.year"
         [image]="album.folder"
+        (click)="onClick(`click_album_${album.id}_artist_${artistId}`)"
       ></app-album-card>
     }
     <app-streaming-list
       class="artist-page__streaming-list"
       [streaming]="streaming"
+      (clickStreaming)="onClick(`click_streaming_${$event}_artist_${artistId}`)"
     ></app-streaming-list>
   </div>
 }

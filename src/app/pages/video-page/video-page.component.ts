@@ -1,8 +1,9 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { YouTubePlayer } from '@angular/youtube-player';
 import { ArtistService } from '../../services/artist.service';
+import { Analytics } from '../../services/analytics.service';
 import artists from '../../../db';
 import type { TypeItem, TypeItems, TypeSong } from '../../../db/types';
 
@@ -14,6 +15,7 @@ import type { TypeItem, TypeItems, TypeSong } from '../../../db/types';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class VideoPageComponent implements OnInit {
+  private analytics = inject(Analytics);
   public artists: TypeItems = artists;
   public artist!: TypeItem;
   public artistName: string = '';
@@ -43,5 +45,9 @@ export class VideoPageComponent implements OnInit {
   stateChange(e: unknown) {
     // ToDo
     console.log(e);
+  }
+
+  onClick(event: string) {
+    this.analytics.sendEvent(event, { category: 'UI' });
   }
 }

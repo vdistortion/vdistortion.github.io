@@ -1,7 +1,8 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { ArtistService } from '../../services/artist.service';
+import { Analytics } from '../../services/analytics.service';
 import { artistList } from '../../../db';
 import type { TypeArtist } from '../../../db/types';
 
@@ -13,6 +14,7 @@ import type { TypeArtist } from '../../../db/types';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomePageComponent {
+  private analytics = inject(Analytics);
   public artists: TypeArtist[] = artistList;
 
   constructor(
@@ -21,5 +23,9 @@ export class HomePageComponent {
   ) {
     this.titleService.setTitle('Каталог исполнителей');
     this.artistService.setArtist();
+  }
+
+  onClick(event: string) {
+    this.analytics.sendEvent(event, { category: 'UI' });
   }
 }

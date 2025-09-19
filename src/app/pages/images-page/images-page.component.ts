@@ -1,8 +1,9 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { GalleryCardComponent } from '../../components/ui/gallery-card/gallery-card.component';
 import { ArtistService } from '../../services/artist.service';
+import { Analytics } from '../../services/analytics.service';
 import artists from '../../../db';
 import type { TypeItems, TypeStructurePictures } from '../../../db/types';
 
@@ -14,6 +15,7 @@ import type { TypeItems, TypeStructurePictures } from '../../../db/types';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ImagesPageComponent implements OnInit {
+  private analytics = inject(Analytics);
   public artists: TypeItems = artists;
   public images: TypeStructurePictures[] = [];
   public artistName: string = '';
@@ -38,5 +40,9 @@ export class ImagesPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.titleService.setTitle(`${this.artistName} | Фото`);
+  }
+
+  onClick(event: string) {
+    this.analytics.sendEvent(event, { category: 'UI' });
   }
 }
