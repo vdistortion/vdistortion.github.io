@@ -458,4 +458,7 @@ export const enum EnumSongs {
   tishinaIPokoi = 'tishina-i-pokoi',
   budtoSkazka = 'budto-skazka',
   chastushka = 'chastushka',
+  plyashushchiiKarlik = 'plyashushchii-karlik',
+  klyukvenniiSok = 'klyukvennii-sok',
+  daiteSveta = 'daite-sveta',
 }
