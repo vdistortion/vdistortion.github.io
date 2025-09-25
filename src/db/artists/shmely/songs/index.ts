@@ -399,6 +399,9 @@ import svetitsyaMgla from './svetitsya-mgla';
 import tishinaIPokoi from './tishina-i-pokoi';
 import budtoSkazka from './budto-skazka';
 import chastushka from './chastushka';
+import plyashushchiiKarlik from './plyashushchii-karlik';
+import klyukvenniiSok from './klyukvennii-sok';
+import daiteSveta from './daite-sveta';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -802,4 +805,7 @@ export default {
   [tishinaIPokoi.id]: tishinaIPokoi,
   [budtoSkazka.id]: budtoSkazka,
   [chastushka.id]: chastushka,
+  [plyashushchiiKarlik.id]: plyashushchiiKarlik,
+  [klyukvenniiSok.id]: klyukvenniiSok,
+  [daiteSveta.id]: daiteSveta,
 };
