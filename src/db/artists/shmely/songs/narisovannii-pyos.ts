@@ -1,10 +1,10 @@
 import { TypeSong } from '../../../types';
-import { EnumSongs } from '../types';
+import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
   id: EnumSongs.narisovanniiPyos,
   name: ['Нарисованный пёс'],
-  albums: [],
+  albums: [EnumAlbums.paraTrupov],
   authors: '',
   text: `
 Не стану терпеть я горе, разлуку,
