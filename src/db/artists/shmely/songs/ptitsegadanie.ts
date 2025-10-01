@@ -5,7 +5,7 @@ const song: TypeSong = {
   id: EnumSongs.ptitsegadanie,
   name: ['Птицегадание'],
   albums: [EnumAlbums.khaosZhelanii],
-  authors: '',
+  authors: 'Шмель, Лёс - Шмель, Таня Лиходеева',
   text: `
 Издавна предки гадали на долюшку
 Что предначертано — лес али полюшко

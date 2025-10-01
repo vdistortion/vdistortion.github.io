@@ -26,6 +26,9 @@ const album: TypeAlbum = {
     EnumSongs.ekskursiyaPoAdu,
     EnumSongs.ansambl,
     EnumSongs.grobovshchik,
+    EnumSongs.vMoreNaMeli,
+    EnumSongs.rasprodazha,
+    EnumSongs.narisovanniiPyos,
   ],
 };
 

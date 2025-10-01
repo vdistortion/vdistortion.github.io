@@ -402,6 +402,36 @@ import chastushka from './chastushka';
 import plyashushchiiKarlik from './plyashushchii-karlik';
 import klyukvenniiSok from './klyukvennii-sok';
 import daiteSveta from './daite-sveta';
+import odnookiiSiniiZayats from './odnookii-sinii-zayats';
+import yevaFranki from './yeva-franki';
+import trinadtsat from './trinadtsat';
+import zhenshchinaReka from './zhenshchina-reka';
+import kholodMorya from './kholod-morya';
+import sonIzMenyaVon from './son-iz-menya-von';
+import khaosZhelanii from './khaos-zhelanii';
+import bezImyon from './bez-imyon';
+import banitZhizn from './banit-zhizn';
+import kukolniiDomik from './kukolnii-domik';
+import territoriyaNol from './territoriya-nol';
+import solnechniiChyortik from './solnechnii-chyortik';
+import khozyainNePridyot from './khozyain-ne-pridyot';
+import transmissiya from './transmissiya';
+import vDele from './v-dele';
+import seishnVudu from './seishn-vudu';
+import nezvidanyiOstrivBazhan from './nezvidanyi-ostriv-bazhan';
+import tvarynoiuPoruch from './tvarynoiu-poruch';
+import mriiaZrada from './mriia-zrada';
+import chortPuzar from './chort-puzar';
+import troiandy from './troiandy';
+import shchodennyk from './shchodennyk';
+import zaKrai from './za-krai';
+import ochiVorohiv from './ochi-vorohiv';
+import nalyvai from './nalyvai';
+import stohneYanholiatko from './stohne-yanholiatko';
+import naikrashchaSyla from './naikrashcha-syla';
+import naVeseltsi from './na-veseltsi';
+import shkiraYeLeiba from './shkira-ye-leiba';
+import liut from './liut';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -808,4 +838,34 @@ export default {
   [plyashushchiiKarlik.id]: plyashushchiiKarlik,
   [klyukvenniiSok.id]: klyukvenniiSok,
   [daiteSveta.id]: daiteSveta,
+  [odnookiiSiniiZayats.id]: odnookiiSiniiZayats,
+  [yevaFranki.id]: yevaFranki,
+  [trinadtsat.id]: trinadtsat,
+  [zhenshchinaReka.id]: zhenshchinaReka,
+  [kholodMorya.id]: kholodMorya,
+  [sonIzMenyaVon.id]: sonIzMenyaVon,
+  [khaosZhelanii.id]: khaosZhelanii,
+  [bezImyon.id]: bezImyon,
+  [banitZhizn.id]: banitZhizn,
+  [kukolniiDomik.id]: kukolniiDomik,
+  [territoriyaNol.id]: territoriyaNol,
+  [solnechniiChyortik.id]: solnechniiChyortik,
+  [khozyainNePridyot.id]: khozyainNePridyot,
+  [transmissiya.id]: transmissiya,
+  [vDele.id]: vDele,
+  [seishnVudu.id]: seishnVudu,
+  [nezvidanyiOstrivBazhan.id]: nezvidanyiOstrivBazhan,
+  [tvarynoiuPoruch.id]: tvarynoiuPoruch,
+  [mriiaZrada.id]: mriiaZrada,
+  [chortPuzar.id]: chortPuzar,
+  [troiandy.id]: troiandy,
+  [shchodennyk.id]: shchodennyk,
+  [zaKrai.id]: zaKrai,
+  [ochiVorohiv.id]: ochiVorohiv,
+  [nalyvai.id]: nalyvai,
+  [stohneYanholiatko.id]: stohneYanholiatko,
+  [naikrashchaSyla.id]: naikrashchaSyla,
+  [naVeseltsi.id]: naVeseltsi,
+  [shkiraYeLeiba.id]: shkiraYeLeiba,
+  [liut.id]: liut,
 };
