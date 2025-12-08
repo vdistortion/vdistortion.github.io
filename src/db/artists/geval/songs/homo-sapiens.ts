@@ -10,7 +10,7 @@ export const song: TypeSong = {
 Господь не давал тебе имя
 Чтоб назвал тебя тот, кто зачал
 Не давал так же имя твоей эпохе
-Чтобы сам ты ее назвал
+Чтобы сам ты её назвал
 Господь не давал тебе знамя
 Чтобы сам ты его поднял
 Он всегда давал тебе выбор
@@ -21,16 +21,22 @@ export const song: TypeSong = {
 Homo Homo Homo Sapiens
 Homo Homo Homo Sapiens
 Homo Homo Homo Sapiens
+Homo Homo Homo Sapiens
+Homo Homo Homo Sapiens
+Homo Homo Homo Sapiens
 
-Господь не делил по часам твое время
-Ты сам все так рассчитал
+Господь не делил по часам твоё время
+Ты сам всё так рассчитал
 Не видел ни разу ты его лика
 Чтоб потом ты его не узнал
 Он дал тебе всего одно слово
-Чтоб дальше ты сам все назвал
+Чтоб дальше ты сам всё назвал
 По образу и подобию бога
 Не зря он тебя создавал
 
+Homo Homo Homo Sapiens
+Homo Homo Homo Sapiens
+Homo Homo Homo Sapiens
 Homo Homo Homo Sapiens
 Homo Homo Homo Sapiens
 Homo Homo Homo Sapiens
@@ -44,6 +50,9 @@ Homo Homo Homo Sapiens
 По образу и подобию бога
 Не зря он тебя создавал
 
+Homo Homo Homo Sapiens
+Homo Homo Homo Sapiens
+Homo Homo Homo Sapiens
 Homo Homo Homo Sapiens
 Homo Homo Homo Sapiens
 Homo Homo Homo Sapiens
