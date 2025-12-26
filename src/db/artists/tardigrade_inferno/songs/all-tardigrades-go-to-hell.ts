@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.allTardigradesGoToHell,
   name: ['All Tardigrades go to Hell'],
-  albums: [EnumAlbums.mastermind],
+  albums: [EnumAlbums.mastermind, EnumAlbums.madeInHell],
   duration: 178,
   text: `
 Hello, hello, my darlings

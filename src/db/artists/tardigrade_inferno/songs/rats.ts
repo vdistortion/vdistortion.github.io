@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.rats,
   name: ['Rats'],
-  albums: [EnumAlbums.burnTheCircus],
+  albums: [EnumAlbums.burnTheCircus, EnumAlbums.madeInHell],
   duration: 193,
   text: `
 Big Rat City is in fear

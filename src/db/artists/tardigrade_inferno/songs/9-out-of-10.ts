@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.outOf,
   name: ['9 out of 10'],
-  albums: [EnumAlbums.burnTheCircus],
+  albums: [EnumAlbums.burnTheCircus, EnumAlbums.madeInHell],
   clipYouTubeId: 'JoEULDNPL9s',
   duration: 232,
   text: `

@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.mastermind,
   name: ['Mastermind'],
-  albums: [EnumAlbums.mastermind],
+  albums: [EnumAlbums.mastermind, EnumAlbums.madeInHell],
   duration: 238,
   text: `
 The crazy scientist AKA Genius

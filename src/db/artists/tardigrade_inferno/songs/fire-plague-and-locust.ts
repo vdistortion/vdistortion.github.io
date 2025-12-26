@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.firePlagueAndLocust,
   name: ['Fire, Plague and Locust'],
-  albums: [EnumAlbums.firePlagueAndLocust, EnumAlbums.arrivalOfATrain],
+  albums: [EnumAlbums.firePlagueAndLocust, EnumAlbums.arrivalOfATrain, EnumAlbums.madeInHell],
   clipYouTubeId: 'hacScKtrqbQ',
   duration: 215,
   text: `

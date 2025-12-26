@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.dreadfulSong,
   name: ['Dreadful Song'],
-  albums: [EnumAlbums.mastermind],
+  albums: [EnumAlbums.mastermind, EnumAlbums.madeInHell],
   duration: 187,
   text: `
 Life is not fair

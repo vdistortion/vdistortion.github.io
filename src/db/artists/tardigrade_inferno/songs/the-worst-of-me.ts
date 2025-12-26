@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.theWorstOfMe,
   name: ['The Worst of Me'],
-  albums: [EnumAlbums.theWorstOfMe],
+  albums: [EnumAlbums.theWorstOfMe, EnumAlbums.madeInHell],
   clipYouTubeId: '-ZmFGFufDDE',
   duration: 205,
   text: `

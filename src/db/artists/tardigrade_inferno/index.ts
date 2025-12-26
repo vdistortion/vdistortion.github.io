@@ -30,6 +30,9 @@ const artist: TypeArtist = {
     EnumAlbums.ringmasterHasToDie,
     EnumAlbums.clockworkGod,
     EnumAlbums.burnTheCircus,
+    EnumAlbums.madeInHell,
+    EnumAlbums.hideNSeek,
+    EnumAlbums.hush,
   ],
 };
 

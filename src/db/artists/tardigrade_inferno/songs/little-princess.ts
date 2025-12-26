@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.littlePrincess,
   name: ['Little Princess'],
-  albums: [EnumAlbums.burnTheCircus],
+  albums: [EnumAlbums.burnTheCircus, EnumAlbums.madeInHell],
   duration: 284,
   text: `
 Little princess in the forest

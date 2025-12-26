@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.arrivalOfATrain,
   name: ['Arrival of a Train'],
-  albums: [EnumAlbums.arrivalOfATrainSingle, EnumAlbums.arrivalOfATrain],
+  albums: [EnumAlbums.arrivalOfATrainSingle, EnumAlbums.arrivalOfATrain, EnumAlbums.madeInHell],
   clipYouTubeId: 'LAKEQqJ7FKk',
   duration: 235,
   text: `
