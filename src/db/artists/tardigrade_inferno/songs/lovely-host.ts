@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.lovelyHost,
   name: ['Lovely Host'],
-  albums: [EnumAlbums.tardigradeInferno],
+  albums: [EnumAlbums.tardigradeInferno, EnumAlbums.madeInHell],
   duration: 237,
   text: `
 Please, please, please, please, please don't kill me

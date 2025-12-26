@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.tickTock,
   name: ['Tick-Tock'],
-  albums: [EnumAlbums.burnTheCircus],
+  albums: [EnumAlbums.burnTheCircus, EnumAlbums.madeInHell],
   duration: 271,
   text: `
 Tick-tock, tick-tock

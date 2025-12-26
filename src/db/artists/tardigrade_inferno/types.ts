@@ -16,6 +16,9 @@ export const enum EnumAlbums {
   ringmasterHasToDie = 'ringmaster-has-to-die',
   clockworkGod = 'clockwork-god',
   burnTheCircus = 'burn-the-circus',
+  madeInHell = 'made-in-hell',
+  hideNSeek = 'hide-n-seek',
+  hush = 'hush',
 }
 
 export const enum EnumSongs {
@@ -35,6 +38,7 @@ export const enum EnumSongs {
   evoke = 'evoke',
   executionIsFun = 'execution-is-fun',
   firePlagueAndLocust = 'fire-plague-and-locust',
+  hideNSeek = 'hide-n-seek',
   howNightmaresDie = 'how-nightmares-die',
   hypnosis = 'hypnosis',
   imComingForYourSoul = 'im-coming-for-your-soul',

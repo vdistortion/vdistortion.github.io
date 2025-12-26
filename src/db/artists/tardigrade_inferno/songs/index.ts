@@ -14,6 +14,7 @@ import engineOfSkin from './engine-of-skin';
 import evoke from './evoke';
 import executionIsFun from './execution-is-fun';
 import firePlagueAndLocust from './fire-plague-and-locust';
+import hideNSeek from './hide-n-seek';
 import howNightmaresDie from './how-nightmares-die';
 import hypnosis from './hypnosis';
 import imComingForYourSoul from './im-coming-for-your-soul';
@@ -51,6 +52,7 @@ export default {
   [evoke.id]: evoke,
   [executionIsFun.id]: executionIsFun,
   [firePlagueAndLocust.id]: firePlagueAndLocust,
+  [hideNSeek.id]: hideNSeek,
   [howNightmaresDie.id]: howNightmaresDie,
   [hypnosis.id]: hypnosis,
   [imComingForYourSoul.id]: imComingForYourSoul,

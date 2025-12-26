@@ -10,6 +10,9 @@ import arrivalOfATrain from './arrival-of-a-train';
 import ringmasterHasToDie from './ringmaster-has-to-die';
 import clockworkGod from './clockwork-god';
 import burnTheCircus from './burn-the-circus';
+import madeInHell from './made-in-hell';
+import hideNSeek from './hide-n-seek';
+import hush from './hush';
 
 export default {
   [tardigradeInferno.id]: tardigradeInferno,
@@ -24,4 +27,7 @@ export default {
   [ringmasterHasToDie.id]: ringmasterHasToDie,
   [clockworkGod.id]: clockworkGod,
   [burnTheCircus.id]: burnTheCircus,
+  [madeInHell.id]: madeInHell,
+  [hideNSeek.id]: hideNSeek,
+  [hush.id]: hush,
 };

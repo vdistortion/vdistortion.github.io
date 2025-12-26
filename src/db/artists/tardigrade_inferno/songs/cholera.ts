@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.cholera,
   name: ['Cholera'],
-  albums: [EnumAlbums.burnTheCircus],
+  albums: [EnumAlbums.burnTheCircus, EnumAlbums.madeInHell],
   duration: 246,
   text: `
 Is this help sign big enough?

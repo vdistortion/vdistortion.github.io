@@ -4,7 +4,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.evoke,
   name: ['Evoke'],
-  albums: [EnumAlbums.arrivalOfATrain],
+  albums: [EnumAlbums.arrivalOfATrain, EnumAlbums.madeInHell],
   duration: 257,
   text: `
 I’m dealing with a devil
