@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Geval",
+    "type": "folder",
+    "children": [
+      {
+        "type": "file",
+        "name": "Geval.jpg"
+      },
+      {
+        "type": "file",
+        "name": "Logo.png"
+      },
+      {
+        "type": "file",
+        "name": "Longin.jpg"
+      }
+    ]
+  }
+]
