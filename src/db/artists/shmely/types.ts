@@ -491,4 +491,5 @@ export const enum EnumSongs {
   naVeseltsi = 'na-veseltsi',
   shkiraYeLeiba = 'shkira-ye-leiba',
   liut = 'liut',
+  theFirstLove = 'the-first-love',
 }

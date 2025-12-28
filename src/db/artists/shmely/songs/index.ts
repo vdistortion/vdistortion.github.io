@@ -432,6 +432,7 @@ import naikrashchaSyla from './naikrashcha-syla';
 import naVeseltsi from './na-veseltsi';
 import shkiraYeLeiba from './shkira-ye-leiba';
 import liut from './liut';
+import theFirstLove from './the-first-love';
 
 export default {
   [antiromantika.id]: antiromantika,
@@ -868,4 +869,5 @@ export default {
   [naVeseltsi.id]: naVeseltsi,
   [shkiraYeLeiba.id]: shkiraYeLeiba,
   [liut.id]: liut,
+  [theFirstLove.id]: theFirstLove,
 };

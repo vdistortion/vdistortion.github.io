@@ -11,7 +11,7 @@ const album: TypeAlbum = {
     EnumSongs.bol,
     EnumSongs.tiSnegVMoeiPreispodnei,
     EnumSongs.agressivniiPokoi,
-    { name: 'The First Love' },
+    EnumSongs.theFirstLove,
     [EnumSongs.pogadai, { name: ['Погадай (new version)'] }],
     [EnumSongs.risunkiNaDushe, { name: ['Рисунки на душе (new version)'] }],
     [EnumSongs.iskushenie, { name: ['Искушение (1999)'] }],
