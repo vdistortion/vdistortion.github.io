@@ -4,7 +4,12 @@ import { EnumAlbums, EnumSongs } from '../types';
 const song: TypeSong = {
   id: EnumSongs.ringmasterHasToDie,
   name: ['Ringmaster has to Die'],
-  albums: [EnumAlbums.ringmasterHasToDie, EnumAlbums.clockworkGod, EnumAlbums.burnTheCircus, EnumAlbums.madeInHell],
+  albums: [
+    EnumAlbums.ringmasterHasToDie,
+    EnumAlbums.clockworkGod,
+    EnumAlbums.burnTheCircus,
+    EnumAlbums.madeInHell,
+  ],
   clipYouTubeId: 'hh3kZP4kNsE',
   duration: 278,
   text: `

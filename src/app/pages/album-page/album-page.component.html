@@ -37,7 +37,9 @@
 
       <app-streaming-list
         [streaming]="album?.streaming"
-        (clickStreaming)="onClick(`click_streaming_${$event}_album_${album?.id}_artist_${artistId}`)"
+        (clickStreaming)="
+          onClick(`click_streaming_${$event}_album_${album?.id}_artist_${artistId}`)
+        "
       ></app-streaming-list>
     </div>
   </div>

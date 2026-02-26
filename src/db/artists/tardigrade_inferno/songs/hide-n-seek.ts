@@ -3,7 +3,7 @@ import { EnumAlbums, EnumSongs } from '../types';
 
 const song: TypeSong = {
   id: EnumSongs.hideNSeek,
-  name: ['Hide\'n\'Seek'],
+  name: ["Hide'n'Seek"],
   albums: [EnumAlbums.hideNSeek, EnumAlbums.hush],
   clipYouTubeId: 'fscAHuASUoo',
   duration: 220,
