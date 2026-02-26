@@ -35,27 +35,33 @@
 </form>
 
 @if (isResult) {
-<div>
-  <pre
-    class="result-item"
-    (click)="copy($event, `cd src/db/artists/${form.value.artist}/${form.value.type}`)"
-  >
-cd src/db/artists/{{ form.value.artist }}/{{ form.value.type }}</pre
-  >
-  <pre class="result-item" (click)="copy($event, `touch ${files.join(' ')}`)">
-touch {{ files.join(' ') }}</pre
-  >
-  <pre class="result-item" (click)="copy($event, types.join('\n'))">{{ types.join('\n') }}</pre>
-  <pre class="result-item" (click)="copy($event, index.join('\n'))">{{ index.join('\n') }}</pre>
-  <pre class="result-item" (click)="copy($event, imports.join('\n'))">{{ imports.join('\n') }}</pre>
-  @if (form.value.type === 'albums') {
-  <pre class="result-item" (click)="copy($event, enums.join('\n'))">{{ enums.join('\n') }}</pre>
-  @for (album of albums; track album) {
-  <pre class="result-item" (click)="copy($event, album)">{{ album }}</pre>
-  } } @else {
-  <pre class="result-item" (click)="copy($event, tracks.join('\n'))">{{ tracks.join('\n') }}</pre>
-  @for (song of songs; track song) {
-  <pre class="result-item" (click)="copy($event, song)">{{ song }}</pre>
-  } }
-</div>
+  <div>
+    <pre
+      class="result-item"
+      (click)="copy($event, `cd src/db/artists/${form.value.artist}/${form.value.type}`)"
+    >
+cd src/db/artists/{{ form.value.artist }}/{{ form.value.type }}
+    </pre>
+    <pre class="result-item" (click)="copy($event, `touch ${files.join(' ')}`)">
+touch {{ files.join(' ') }}
+    </pre>
+    <pre class="result-item" (click)="copy($event, types.join('\n'))">{{ types.join('\n') }}</pre>
+    <pre class="result-item" (click)="copy($event, index.join('\n'))">{{ index.join('\n') }}</pre>
+    <pre class="result-item" (click)="copy($event, imports.join('\n'))">
+      {{ imports.join('\n') }}
+    </pre>
+    @if (form.value.type === 'albums') {
+      <pre class="result-item" (click)="copy($event, enums.join('\n'))">{{ enums.join('\n') }}</pre>
+      @for (album of albums; track album) {
+        <pre class="result-item" (click)="copy($event, album)">{{ album }}</pre>
+      }
+    } @else {
+      <pre class="result-item" (click)="copy($event, tracks.join('\n'))">
+        {{ tracks.join('\n') }}
+      </pre>
+      @for (song of songs; track song) {
+        <pre class="result-item" (click)="copy($event, song)">{{ song }}</pre>
+      }
+    }
+  </div>
 }
