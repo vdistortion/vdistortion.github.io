@@ -37,7 +37,7 @@ function transformStructure(
   return result;
 }
 
-const artist: TypeArtist = {
+export const artist: TypeArtist = {
   id: EnumArtist.id,
   name: EnumArtist.name,
   image: '/artist/shmely/artist.webp',

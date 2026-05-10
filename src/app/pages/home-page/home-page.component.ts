@@ -3,8 +3,8 @@ import { RouterLink } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { ArtistService } from '../../services/artist.service';
 import { Analytics } from '../../services/analytics.service';
-import { artistList } from '../../../db';
-import type { TypeArtist } from '../../../db/types';
+import { artistSummaries } from '../../../db/artist-summaries';
+import type { TypeArtistSummary } from '../../../db/types';
 
 @Component({
   selector: 'app-home-page',
@@ -15,7 +15,7 @@ import type { TypeArtist } from '../../../db/types';
 })
 export class HomePageComponent {
   private analytics = inject(Analytics);
-  public artists: TypeArtist[] = artistList;
+  public artists: TypeArtistSummary[] = artistSummaries;
 
   constructor(
     private titleService: Title,

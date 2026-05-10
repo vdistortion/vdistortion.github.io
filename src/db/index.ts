@@ -4,7 +4,7 @@ import master from './artists/master';
 import shmely from './artists/shmely';
 import geval from './artists/geval';
 import mc18 from './artists/mc18';
-import { TypeArtist, TypeItems } from './types';
+import { TypeItems } from './types';
 
 const artists: TypeItems = {
   [schwarzerEngel.artist.id]: schwarzerEngel,
@@ -16,14 +16,3 @@ const artists: TypeItems = {
 };
 
 export default artists;
-
-console.log(artists);
-
-export const artistList: TypeArtist[] = [
-  tardigradeInferno.artist,
-  master.artist,
-  shmely.artist,
-  mc18.artist,
-  schwarzerEngel.artist,
-  geval.artist,
-];

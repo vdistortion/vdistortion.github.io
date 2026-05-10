@@ -37,7 +37,14 @@ export type TypeArtist = {
   image: string;
   images?: TypeStructurePictures[];
   streaming?: TypeStreaming;
-  country?: string[];
+  country: string[];
+};
+
+export type TypeArtistSummary = {
+  id: TypeId;
+  name: string;
+  image: string;
+  country: string[];
 };
 
 export type TypeAlbum = {

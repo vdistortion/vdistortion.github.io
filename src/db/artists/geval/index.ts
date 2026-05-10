@@ -4,7 +4,7 @@ import albums from './albums';
 import songs from './songs';
 import { EnumArtist, EnumAlbums } from './types';
 
-const artist: TypeArtist = {
+export const artist: TypeArtist = {
   id: EnumArtist.id,
   name: EnumArtist.name,
   image: '/artist/geval/artist.webp',

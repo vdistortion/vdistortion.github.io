@@ -42,11 +42,6 @@ export class VideoPageComponent implements OnInit {
     this.titleService.setTitle(`${this.artistName} | Клипы`);
   }
 
-  stateChange(e: unknown) {
-    // ToDo
-    console.log(e);
-  }
-
   onClick(event: string) {
     this.analytics.sendEvent(event, { category: 'UI' });
   }

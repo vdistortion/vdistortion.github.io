@@ -1,55 +1,52 @@
 import { Routes } from '@angular/router';
-import { HomePageComponent } from './pages/home-page/home-page.component';
-import { ArtistPageComponent } from './pages/artist-page/artist-page.component';
-import { AlbumPageComponent } from './pages/album-page/album-page.component';
-import { SongPageComponent } from './pages/song-page/song-page.component';
-import { SongsPageComponent } from './pages/songs-page/songs-page.component';
-import { OtherSongsPageComponent } from './pages/other-songs-page/other-songs-page.component';
-import { VideoPageComponent } from './pages/video-page/video-page.component';
-import { ImagesPageComponent } from './pages/images-page/images-page.component';
-import { GalleryPageComponent } from './pages/gallery-page/gallery-page.component';
-import { CreateDbPage } from './pages/create-db-page/create-db-page';
 
 export const routes: Routes = [
   {
     path: '',
-    component: HomePageComponent,
+    loadComponent: () =>
+      import('./pages/home-page/home-page.component').then((m) => m.HomePageComponent),
   },
   {
     path: 'artist/:artist',
-    component: ArtistPageComponent,
+    loadComponent: () =>
+      import('./pages/artist-page/artist-page.component').then((m) => m.ArtistPageComponent),
   },
   {
     path: 'artist/:artist/video',
-    component: VideoPageComponent,
+    loadComponent: () =>
+      import('./pages/video-page/video-page.component').then((m) => m.VideoPageComponent),
   },
   {
     path: 'artist/:artist/images',
-    component: ImagesPageComponent,
+    loadComponent: () =>
+      import('./pages/images-page/images-page.component').then((m) => m.ImagesPageComponent),
   },
   {
     path: 'artist/:artist/images/:gallery',
-    component: GalleryPageComponent,
+    loadComponent: () =>
+      import('./pages/gallery-page/gallery-page.component').then((m) => m.GalleryPageComponent),
   },
   {
     path: 'artist/:artist/songs',
-    component: SongsPageComponent,
+    loadComponent: () =>
+      import('./pages/songs-page/songs-page.component').then((m) => m.SongsPageComponent),
   },
   {
     path: 'artist/:artist/songs/other',
-    component: OtherSongsPageComponent,
+    loadComponent: () =>
+      import('./pages/other-songs-page/other-songs-page.component').then(
+        (m) => m.OtherSongsPageComponent,
+      ),
   },
   {
     path: 'artist/:artist/song/:song',
-    component: SongPageComponent,
+    loadComponent: () =>
+      import('./pages/song-page/song-page.component').then((m) => m.SongPageComponent),
   },
   {
     path: 'artist/:artist/album/:album',
-    component: AlbumPageComponent,
-  },
-  {
-    path: 'create-db',
-    component: CreateDbPage,
+    loadComponent: () =>
+      import('./pages/album-page/album-page.component').then((m) => m.AlbumPageComponent),
   },
   {
     path: '**',
