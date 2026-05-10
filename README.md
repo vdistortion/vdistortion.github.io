@@ -1,8 +1,8 @@
-# nebuloud
+# Nebuloud
 
 [![logo](./public/logo.webp)](https://nebuloud.zvalentin.ru)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.10.
 
 ## Development server
 
